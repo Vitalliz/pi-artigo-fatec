@@ -1,0 +1,601 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{ResultadoNDVISite}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c16383134479e6c52687aa35894cf7e}{%
+           family={Aegro},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Porto Alegre, RS}%
+      }
+      \strng{namehash}{5c16383134479e6c52687aa35894cf7e}
+      \strng{fullhash}{5c16383134479e6c52687aa35894cf7e}
+      \strng{fullhashraw}{5c16383134479e6c52687aa35894cf7e}
+      \strng{bibnamehash}{5c16383134479e6c52687aa35894cf7e}
+      \strng{authorbibnamehash}{5c16383134479e6c52687aa35894cf7e}
+      \strng{authornamehash}{5c16383134479e6c52687aa35894cf7e}
+      \strng{authorfullhash}{5c16383134479e6c52687aa35894cf7e}
+      \strng{authorfullhashraw}{5c16383134479e6c52687aa35894cf7e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Blog aegro}
+      \field{title}{O que são mapas NDVI e como utilizá-los na fazenda}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.aegro.com.br/ndvi/
+      \endverb
+      \verb{url}
+      \verb https://blog.aegro.com.br/ndvi/
+      \endverb
+    \endentry
+    \entry{IntroduçãoEUAProblemas}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=177472f29f78605ca4ebfcd23cb91650}{%
+           family={Aregbe},
+           familyi={A\bibinitperiod},
+           given={Ikeoluwa},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22111635ff4e53a27d2f5c1e11a9d0b9}{%
+           family={Farnsworth},
+           familyi={F\bibinitperiod},
+           given={Derek},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68b66091d6105466c8cd835d1114309a}{%
+           family={Simnitt},
+           familyi={S\bibinitperiod},
+           given={Skyler},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76b103dca1c8ec2576fdaafe004f1d7f}
+      \strng{fullhash}{76b103dca1c8ec2576fdaafe004f1d7f}
+      \strng{fullhashraw}{76b103dca1c8ec2576fdaafe004f1d7f}
+      \strng{bibnamehash}{76b103dca1c8ec2576fdaafe004f1d7f}
+      \strng{authorbibnamehash}{76b103dca1c8ec2576fdaafe004f1d7f}
+      \strng{authornamehash}{76b103dca1c8ec2576fdaafe004f1d7f}
+      \strng{authorfullhash}{76b103dca1c8ec2576fdaafe004f1d7f}
+      \strng{authorfullhashraw}{76b103dca1c8ec2576fdaafe004f1d7f}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Southern Ag Today}
+      \field{title}{Citrus Greening, Hurricanes, and the Decline of the Florida Citrus Industry}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://southernagtoday.org/2024/01/05/citrus-greening-hurricanes-and-the-decline-of-the-florida-citrus-industry/
+      \endverb
+      \verb{url}
+      \verb https://southernagtoday.org/2024/01/05/citrus-greening-hurricanes-and-the-decline-of-the-florida-citrus-industry/
+      \endverb
+    \endentry
+    \entry{ConclusãoMicroN}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a42bada6a7858927d9aa821d8a04c731}{%
+           family={Bruna},
+           familyi={B\bibinitperiod},
+           given={Jackellyne},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Porto Alegre, RS}%
+      }
+      \strng{namehash}{a42bada6a7858927d9aa821d8a04c731}
+      \strng{fullhash}{a42bada6a7858927d9aa821d8a04c731}
+      \strng{fullhashraw}{a42bada6a7858927d9aa821d8a04c731}
+      \strng{bibnamehash}{a42bada6a7858927d9aa821d8a04c731}
+      \strng{authorbibnamehash}{a42bada6a7858927d9aa821d8a04c731}
+      \strng{authornamehash}{a42bada6a7858927d9aa821d8a04c731}
+      \strng{authorfullhash}{a42bada6a7858927d9aa821d8a04c731}
+      \strng{authorfullhashraw}{a42bada6a7858927d9aa821d8a04c731}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Blog aegro}
+      \field{title}{9 micronutrientes das plantas: como e quando utilizá-los}
+      \field{urlday}{30}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://blog.aegro.com.br/micronutrientes/#:~:text=Os%20sintomas%20de%20deficiência%20de%20manganês%20podem%20frequentemente%20ser%20confundidos,do%20solo%20é%20tão%20crítico.&text=O%20pH%20do%20solo%20mais,folhas%20amareladas%20na%20sua%20lavoura.
+      \endverb
+      \verb{url}
+      \verb https://blog.aegro.com.br/micronutrientes/#:~:text=Os%20sintomas%20de%20defici%C3%AAncia%20de%20mangan%C3%AAs%20podem%20frequentemente%20ser%20confundidos,do%20solo%20%C3%A9%20t%C3%A3o%20cr%C3%ADtico.&text=O%20pH%20do%20solo%20mais,folhas%20amareladas%20na%20sua%20lavoura.
+      \endverb
+    \endentry
+    \entry{IntroduçãoDeficiencias}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=48f4a0dcda8bd65090cc0a5bb64d2b0e}{%
+           family={Bueno},
+           familyi={B\bibinitperiod},
+           given={Newton},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33b99edd384f01c700ca3f780320149a}{%
+           family={Gasparotto},
+           familyi={G\bibinitperiod},
+           given={Luadir},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Embrapa Amazônia Ocidental}%
+      }
+      \strng{namehash}{426f274eb754de31841d5409ecba43cf}
+      \strng{fullhash}{426f274eb754de31841d5409ecba43cf}
+      \strng{fullhashraw}{426f274eb754de31841d5409ecba43cf}
+      \strng{bibnamehash}{426f274eb754de31841d5409ecba43cf}
+      \strng{authorbibnamehash}{426f274eb754de31841d5409ecba43cf}
+      \strng{authornamehash}{426f274eb754de31841d5409ecba43cf}
+      \strng{authorfullhash}{426f274eb754de31841d5409ecba43cf}
+      \strng{authorfullhashraw}{426f274eb754de31841d5409ecba43cf}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1517-2449}
+      \field{journaltitle}{Embrapa}
+      \field{month}{12}
+      \field{title}{Sintomas de deficiências nutricionais em citros}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{19}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://ainfo.cnptia.embrapa.br/digital/bitstream/item/64450/1/CircTec-06-1999.pdf
+      \endverb
+      \verb{url}
+      \verb https://ainfo.cnptia.embrapa.br/digital/bitstream/item/64450/1/CircTec-06-1999.pdf
+      \endverb
+    \endentry
+    \entry{IntroduçãoDeepLearning}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cd924f887ac71b2964943a571b6a24f5}{%
+           family={Christin},
+           familyi={C\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1eebfb074869ca5e6a33f59c0242ddc}{%
+           family={Hervet},
+           familyi={H\bibinitperiod},
+           given={Éric},
+           giveni={É\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0cdb4181942a28c3ac4069de6f9fde82}{%
+           family={Lecomte},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {British Ecological Society(BES)}%
+      }
+      \strng{namehash}{8aa4387610d54b513d74e088ceae6656}
+      \strng{fullhash}{8aa4387610d54b513d74e088ceae6656}
+      \strng{fullhashraw}{8aa4387610d54b513d74e088ceae6656}
+      \strng{bibnamehash}{8aa4387610d54b513d74e088ceae6656}
+      \strng{authorbibnamehash}{8aa4387610d54b513d74e088ceae6656}
+      \strng{authornamehash}{8aa4387610d54b513d74e088ceae6656}
+      \strng{authorfullhash}{8aa4387610d54b513d74e088ceae6656}
+      \strng{authorfullhashraw}{8aa4387610d54b513d74e088ceae6656}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods in Ecology and Evolution}
+      \field{month}{10}
+      \field{title}{Applications for deep learning in ecology}
+      \field{urlday}{5}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1632\bibrangedash 1644}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/2041-210X.13256
+      \endverb
+    \endentry
+    \entry{EstadoArte1}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08324350cbcc60a85f9d2010a5a6afd8}{%
+           family={Eliel},
+           familyi={E\bibinitperiod},
+           given={Regiani},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=352f2af02b6fc08b350899e596391c21}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={Gustavo\bibnamedelima Valentim},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Escola Poltécnica da Universidade de São Paulo}%
+      }
+      \list{location}{1}{%
+        {São Paulo, SP}%
+      }
+      \strng{namehash}{d4d41f497643c52691fac82d12c0c6cc}
+      \strng{fullhash}{d4d41f497643c52691fac82d12c0c6cc}
+      \strng{fullhashraw}{d4d41f497643c52691fac82d12c0c6cc}
+      \strng{bibnamehash}{d4d41f497643c52691fac82d12c0c6cc}
+      \strng{authorbibnamehash}{d4d41f497643c52691fac82d12c0c6cc}
+      \strng{authornamehash}{d4d41f497643c52691fac82d12c0c6cc}
+      \strng{authorfullhash}{d4d41f497643c52691fac82d12c0c6cc}
+      \strng{authorfullhashraw}{d4d41f497643c52691fac82d12c0c6cc}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventmonth}{12}
+      \field{eventyear}{2021}
+      \field{pagetotal}{58}
+      \field{title}{Identificador de doenças em plantas por rede neural convolucional}
+      \field{type}{Monografia (Graduação em Engenharia Eletricista com Ênfase em Computação)}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{eventdateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://pcs.usp.br/pcspf/wp-content/uploads/sites/8/2021/12/Monografia_PCS3560_SEM_2021_Grupo_S15.pdf
+      \endverb
+      \verb{url}
+      \verb https://pcs.usp.br/pcspf/wp-content/uploads/sites/8/2021/12/Monografia_PCS3560_SEM_2021_Grupo_S15.pdf
+      \endverb
+    \endentry
+    \entry{IntroduçãoGreening}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f246a88e09cbdff3f663c1e8067e4978}{%
+           family={Fundecitrus},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Araraquara, SP}%
+      }
+      \strng{namehash}{f246a88e09cbdff3f663c1e8067e4978}
+      \strng{fullhash}{f246a88e09cbdff3f663c1e8067e4978}
+      \strng{fullhashraw}{f246a88e09cbdff3f663c1e8067e4978}
+      \strng{bibnamehash}{f246a88e09cbdff3f663c1e8067e4978}
+      \strng{authorbibnamehash}{f246a88e09cbdff3f663c1e8067e4978}
+      \strng{authornamehash}{f246a88e09cbdff3f663c1e8067e4978}
+      \strng{authorfullhash}{f246a88e09cbdff3f663c1e8067e4978}
+      \strng{authorfullhashraw}{f246a88e09cbdff3f663c1e8067e4978}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Fundecitrus, ciência e sustentabilidade para a citrucultura}
+      \field{title}{Greening}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.fundecitrus.com.br/doencas/greening
+      \endverb
+      \verb{url}
+      \verb https://www.fundecitrus.com.br/doencas/greening
+      \endverb
+    \endentry
+    \entry{ConclusãoCobre}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a5918a28f528433d5a29908b69c8979a}{%
+           family={Machado},
+           familyi={M\bibinitperiod},
+           given={Anderson\bibnamedelima Wolf},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a5918a28f528433d5a29908b69c8979a}
+      \strng{fullhash}{a5918a28f528433d5a29908b69c8979a}
+      \strng{fullhashraw}{a5918a28f528433d5a29908b69c8979a}
+      \strng{bibnamehash}{a5918a28f528433d5a29908b69c8979a}
+      \strng{authorbibnamehash}{a5918a28f528433d5a29908b69c8979a}
+      \strng{authornamehash}{a5918a28f528433d5a29908b69c8979a}
+      \strng{authorfullhash}{a5918a28f528433d5a29908b69c8979a}
+      \strng{authorfullhashraw}{a5918a28f528433d5a29908b69c8979a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Agrolink}
+      \field{title}{Cobre - tudo o que você precisa saber sobre este adubo}
+      \field{urlday}{30}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.agrolink.com.br/fertilizantes/nutrientes/cobre---tudo-o-que-voce-precisa-saber-sobre-este-adubo_468470.html
+      \endverb
+      \verb{url}
+      \verb https://www.agrolink.com.br/fertilizantes/nutrientes/cobre---tudo-o-que-voce-precisa-saber-sobre-este-adubo_468470.html
+      \endverb
+    \endentry
+    \entry{EstadoArte3}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3861dcf8ca1400d6592060f09db01db3}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={Janne\bibnamedelimb Kelly\bibnamedelima Oliveira},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Federal do Ceará Campus de Russas}%
+      }
+      \list{location}{1}{%
+        {Russas, CE}%
+      }
+      \strng{namehash}{3861dcf8ca1400d6592060f09db01db3}
+      \strng{fullhash}{3861dcf8ca1400d6592060f09db01db3}
+      \strng{fullhashraw}{3861dcf8ca1400d6592060f09db01db3}
+      \strng{bibnamehash}{3861dcf8ca1400d6592060f09db01db3}
+      \strng{authorbibnamehash}{3861dcf8ca1400d6592060f09db01db3}
+      \strng{authornamehash}{3861dcf8ca1400d6592060f09db01db3}
+      \strng{authorfullhash}{3861dcf8ca1400d6592060f09db01db3}
+      \strng{authorfullhashraw}{3861dcf8ca1400d6592060f09db01db3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eventyear}{2021}
+      \field{pagetotal}{34}
+      \field{title}{Uso de visão computacional para reconhecimento de imagens de frutas em imagens RGB}
+      \field{type}{TCC (Graduação em Ciência da Computação)}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{eventdateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://repositorio.ufc.br/bitstream/riufc/64490/1/2022_tcc_jkopereira.pdf
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ufc.br/bitstream/riufc/64490/1/2022_tcc_jkopereira.pdf
+      \endverb
+    \endentry
+    \entry{IntroduçãoRedeNeural}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9ac9bfaa693fa9e6a207d3833e22d820}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Zhuwei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=68f7529c732c5e0e5bb00b4804a40ed3}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Fuxun},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b54ba2d722419c42451d757a2faecbb}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chenchen},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c475071538366636655ccf385c755e7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xiang},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Mathematical Sciences}%
+      }
+      \strng{namehash}{9b7008d4385e1405ad30af94108214b9}
+      \strng{fullhash}{e7e24a4ef437a81c5a7a826ee05fe93d}
+      \strng{fullhashraw}{e7e24a4ef437a81c5a7a826ee05fe93d}
+      \strng{bibnamehash}{9b7008d4385e1405ad30af94108214b9}
+      \strng{authorbibnamehash}{9b7008d4385e1405ad30af94108214b9}
+      \strng{authornamehash}{9b7008d4385e1405ad30af94108214b9}
+      \strng{authorfullhash}{e7e24a4ef437a81c5a7a826ee05fe93d}
+      \strng{authorfullhashraw}{e7e24a4ef437a81c5a7a826ee05fe93d}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Foundations of Computing}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{How convolutional neural networks see the world --- A survey of convolutional neural network visualization methods}
+      \field{volume}{1}
+      \field{year}{2018}
+      \field{pages}{149\bibrangedash 180}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.3934/mfc.2018008
+      \endverb
+    \endentry
+    \entry{EstadoArte2}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5e20845a2b3d54332f26efb7c8ea3045}{%
+           family={Santiago},
+           familyi={S\bibinitperiod},
+           given={Wesley\bibnamedelima Esdras},
+           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02baeec3bbfdb2d4d3583d2754cf6e7f}{%
+           family={Lopes},
+           familyi={L\bibinitperiod},
+           given={Gustavo\bibnamedelima Dias},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6399436d213829f00958c44d3b18aec}{%
+           family={Faceto},
+           familyi={F\bibinitperiod},
+           given={Angelo\bibnamedelima Danilo},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70f7f91cac0bc6045c96ed4a2a6ef99f}{%
+           family={Júnior},
+           familyi={J\bibinitperiod},
+           given={Adalfredo\bibnamedelimb Rocha\bibnamedelima Lobo},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7101372802b4d44ce95aac6714455e91}{%
+           family={Caldeira},
+           familyi={C\bibinitperiod},
+           given={Rafael\bibnamedelima Faria},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universidade Estadual do Oeste do Paraná Programa de Mestrado em Energia na Agricultura(UNIOESTE)}%
+      }
+      \strng{namehash}{ef05ef5e5b713ecd8cd46dc4d329bff2}
+      \strng{fullhash}{5439dfec36f65b5c6872f74e341d1460}
+      \strng{fullhashraw}{5439dfec36f65b5c6872f74e341d1460}
+      \strng{bibnamehash}{ef05ef5e5b713ecd8cd46dc4d329bff2}
+      \strng{authorbibnamehash}{ef05ef5e5b713ecd8cd46dc4d329bff2}
+      \strng{authornamehash}{ef05ef5e5b713ecd8cd46dc4d329bff2}
+      \strng{authorfullhash}{5439dfec36f65b5c6872f74e341d1460}
+      \strng{authorfullhashraw}{5439dfec36f65b5c6872f74e341d1460}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2316-4093}
+      \field{journaltitle}{Acta Iguazu}
+      \field{month}{7}
+      \field{number}{2}
+      \field{title}{Classificação de laranjas por meio de processamento digital de imagens}
+      \field{volume}{8}
+      \field{year}{2019}
+      \field{pages}{49\bibrangedash 58}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.48075/actaiguaz.v8i2.19227
+      \endverb
+    \endentry
+    \entry{ResultadoNDVIArtigo}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4c3c305f168eeff3a54cdc74d2c8a98b}{%
+           family={Trindade},
+           familyi={T\bibinitperiod},
+           given={José\bibnamedelimb Pedro\bibnamedelima Pereira},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=230eaef38939fe49935f517605c40256}{%
+           family={Volk},
+           familyi={V\bibinitperiod},
+           given={Leandro\bibnamedelimb Bochi\bibnamedelimb da\bibnamedelima Silva},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02ba8c73b6d379cddfddbd2f0c3ad70b}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={Danilo\bibnamedelimb Serra\bibnamedelima da},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Embrapa Pecuária Sul}%
+      }
+      \strng{namehash}{4b2174ea627f909741f05829e9f5218f}
+      \strng{fullhash}{4b2174ea627f909741f05829e9f5218f}
+      \strng{fullhashraw}{4b2174ea627f909741f05829e9f5218f}
+      \strng{bibnamehash}{4b2174ea627f909741f05829e9f5218f}
+      \strng{authorbibnamehash}{4b2174ea627f909741f05829e9f5218f}
+      \strng{authornamehash}{4b2174ea627f909741f05829e9f5218f}
+      \strng{authorfullhash}{4b2174ea627f909741f05829e9f5218f}
+      \strng{authorfullhashraw}{4b2174ea627f909741f05829e9f5218f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1983-0467}
+      \field{journaltitle}{Bagé}
+      \field{month}{5}
+      \field{title}{Avaliação do índice normalizado de vegetação no monitoramento de sistema de unidades de manejo.}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{31}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://ainfo.cnptia.embrapa.br/digital/bitstream/item/223511/1/BPD-47-online.pdf
+      \endverb
+      \verb{url}
+      \verb https://ainfo.cnptia.embrapa.br/digital/bitstream/item/223511/1/BPD-47-online.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
