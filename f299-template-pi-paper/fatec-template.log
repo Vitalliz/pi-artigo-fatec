@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  23 SEP 2024 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  25 SEP 2024 17:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/luizr/Desktop/class-09-latex/f299-template-pi-paper/fatec-template.tex
-(c:/Users/luizr/Desktop/class-09-latex/f299-template-pi-paper/fatec-template.tex
+**c:/Users/luizr/Desktop/PIArtigo/f299-template-pi-paper/fatec-template.tex
+(c:/Users/luizr/Desktop/PIArtigo/f299-template-pi-paper/fatec-template.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -990,7 +990,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks40
 \@floatcapt=\box61
 )
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 40.
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1001,44 +1001,44 @@ Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
  (fatec-template.aux)
 \openout1 = `fatec-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 40.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 40.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 43.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 40.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 40.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 43.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 40.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 40.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 43.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 40.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 40.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 43.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count469
@@ -1060,19 +1060,19 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@mv@tabular=\count475
 \c@mv@boldtabular=\count476
-LaTeX Info: Command `\dddot' is already robust on input line 40.
-LaTeX Info: Command `\ddddot' is already robust on input line 40.
-LaTeX Info: Redefining \microtypecontext on input line 40.
-Package microtype Info: Applying patch `item' on input line 40.
-Package microtype Info: Applying patch `toc' on input line 40.
-Package microtype Info: Applying patch `verbatim' on input line 40.
+LaTeX Info: Command `\dddot' is already robust on input line 43.
+LaTeX Info: Command `\ddddot' is already robust on input line 43.
+LaTeX Info: Redefining \microtypecontext on input line 43.
+Package microtype Info: Applying patch `item' on input line 43.
+Package microtype Info: Applying patch `toc' on input line 43.
+Package microtype Info: Applying patch `verbatim' on input line 43.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 40.
+LaTeX Info: Redefining \showhyphens on input line 43.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1170,95 +1170,95 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'fatec-template.bbl' found.
  (fatec-template.bbl)
-Package biblatex Info: Reference section=0 on input line 40.
-Package biblatex Info: Reference segment=0 on input line 40.
-Package hyperref Info: Link coloring ON on input line 40.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
+Package hyperref Info: Link coloring ON on input line 43.
  (fatec-template.out) (fatec-template.out)
 \@outlinefile=\write4
 \openout4 = `fatec-template.out'.
 
-Package cleveref Info: loaded `brazilian' language definitions on input line 40.
-Package cleveref Info: loaded `brazilian' language definitions on input line 40.
-Package cleveref Info: loaded `english' language definitions on input line 40.
-Package cleveref Info: loaded `brazilian' language definitions on input line 40.
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 40.
+Package cleveref Info: loaded `brazilian' language definitions on input line 43.
+Package cleveref Info: loaded `brazilian' language definitions on input line 43.
+Package cleveref Info: loaded `english' language definitions on input line 43.
+Package cleveref Info: loaded `brazilian' language definitions on input line 43.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 43.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `minntx' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 40.
+(Font)              scaled to size 8.8pt on input line 43.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 40.
+(Font)              scaled to size 6.6pt on input line 43.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 40.
+(Font)              scaled to size 8.8pt on input line 43.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 40.
+(Font)              scaled to size 6.6pt on input line 43.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 40.
+(Font)              scaled to size 8.8pt on input line 43.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 40.
+(Font)              scaled to size 6.6pt on input line 43.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 40.
+(Font)              scaled to size 8.8pt on input line 43.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 40.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 40.
+(Font)              scaled to size 6.6pt on input line 43.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 40.
+(Font)              scaled to size 8.8pt on input line 43.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 40.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 40.
+(Font)              scaled to size 6.6pt on input line 43.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 40.
+(Font)              scaled to size 8.8pt on input line 43.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 40.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 40.
+(Font)              scaled to size 6.6pt on input line 43.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 43.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 40.
+(Font)              scaled to size 8.8pt on input line 43.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 40.
+(Font)              scaled to size 6.6pt on input line 43.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
+(Font)              scaled to size 12.0pt on input line 43.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 40.
+(Font)              scaled to size 8.8pt on input line 43.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 40.
-Package cleveref Info: loaded `brazilian' language definitions on input line 40.
-Package cleveref Info: loaded `brazilian' language definitions on input line 40.
-Package cleveref Info: loaded `english' language definitions on input line 40.
-Package cleveref Info: loaded `brazilian' language definitions on input line 40.
+(Font)              scaled to size 6.6pt on input line 43.
+Package cleveref Info: loaded `brazilian' language definitions on input line 43.
+Package cleveref Info: loaded `brazilian' language definitions on input line 43.
+Package cleveref Info: loaded `english' language definitions on input line 43.
+Package cleveref Info: loaded `brazilian' language definitions on input line 43.
  (Topicos/introducao.tex
 
-<./Illustrations/fatec.jpg, id=17, 401.5pt x 401.5pt>
+<./Illustrations/fatec.jpg, id=19, 401.5pt x 401.5pt>
 File: ./Illustrations/fatec.jpg Graphic file (type jpg)
 <use ./Illustrations/fatec.jpg>
-Package pdftex.def Info: ./Illustrations/fatec.jpg  used on input line 6.
+Package pdftex.def Info: ./Illustrations/fatec.jpg  used on input line 4.
 (pdftex.def)             Requested size: 99.58444pt x 99.58464pt.
 [1{C:/Users/luizr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
@@ -1271,15 +1271,15 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 
 [3]) (Topicos/metodologia.tex
 
-[4]) (Topicos/resultados.tex
+[4])
 
-[5]
-<Illustrations/Splash-Screen.png, id=85, 1198.4775pt x 837.1275pt>
+[5] (Topicos/resultados.tex
+<Illustrations/Splash-Screen.png, id=89, 1198.4775pt x 837.1275pt>
 File: Illustrations/Splash-Screen.png Graphic file (type png)
 <use Illustrations/Splash-Screen.png>
 Package pdftex.def Info: Illustrations/Splash-Screen.png  used on input line 11.
 (pdftex.def)             Requested size: 386.95897pt x 270.28769pt.
-<Illustrations/tela-inicio.png, id=87, 1198.4775pt x 837.1275pt>
+<Illustrations/tela-inicio.png, id=91, 1198.4775pt x 837.1275pt>
 File: Illustrations/tela-inicio.png Graphic file (type png)
 <use Illustrations/tela-inicio.png>
 Package pdftex.def Info: Illustrations/tela-inicio.png  used on input line 21.
@@ -1287,7 +1287,7 @@ Package pdftex.def Info: Illustrations/tela-inicio.png  used on input line 21.
 
 
 [6 <./Illustrations/Splash-Screen.png>]
-<Illustrations/Tela-Escaneamento.png, id=97, 1198.4775pt x 837.1275pt>
+<Illustrations/Tela-Escaneamento.png, id=101, 1198.4775pt x 837.1275pt>
 File: Illustrations/Tela-Escaneamento.png Graphic file (type png)
 <use Illustrations/Tela-Escaneamento.png>
 Package pdftex.def Info: Illustrations/Tela-Escaneamento.png  used on input line 32.
@@ -1295,7 +1295,7 @@ Package pdftex.def Info: Illustrations/Tela-Escaneamento.png  used on input line
 
 
 [7 <./Illustrations/tela-inicio.png> <./Illustrations/Tela-Escaneamento.png>]
-<Illustrations/Cadastro-diagnostico.png, id=107, 1198.4775pt x 837.1275pt>
+<Illustrations/Cadastro-diagnostico.png, id=111, 1198.4775pt x 837.1275pt>
 File: Illustrations/Cadastro-diagnostico.png Graphic file (type png)
 <use Illustrations/Cadastro-diagnostico.png>
 Package pdftex.def Info: Illustrations/Cadastro-diagnostico.png  used on input line 42.
@@ -1303,12 +1303,12 @@ Package pdftex.def Info: Illustrations/Cadastro-diagnostico.png  used on input l
 
 
 [8 <./Illustrations/Cadastro-diagnostico.png>]
-<Illustrations/tela-drone.png, id=125, 1198.4775pt x 837.1275pt>
+<Illustrations/tela-drone.png, id=129, 1198.4775pt x 837.1275pt>
 File: Illustrations/tela-drone.png Graphic file (type png)
 <use Illustrations/tela-drone.png>
 Package pdftex.def Info: Illustrations/tela-drone.png  used on input line 56.
 (pdftex.def)             Requested size: 386.95897pt x 270.28769pt.
-<Illustrations/tela-relatorios.png, id=127, 1198.4775pt x 837.1275pt>
+<Illustrations/tela-relatorios.png, id=131, 1198.4775pt x 837.1275pt>
 File: Illustrations/tela-relatorios.png Graphic file (type png)
 <use Illustrations/tela-relatorios.png>
 Package pdftex.def Info: Illustrations/tela-relatorios.png  used on input line 66.
@@ -1316,7 +1316,7 @@ Package pdftex.def Info: Illustrations/tela-relatorios.png  used on input line 6
 
 
 [9 <./Illustrations/tela-drone.png>]
-<Illustrations/mapa.png, id=135, 554.07pt x 422.32782pt>
+<Illustrations/mapa.png, id=139, 554.07pt x 422.32782pt>
 File: Illustrations/mapa.png Graphic file (type png)
 <use Illustrations/mapa.png>
 Package pdftex.def Info: Illustrations/mapa.png  used on input line 78.
@@ -1324,7 +1324,7 @@ Package pdftex.def Info: Illustrations/mapa.png  used on input line 78.
 
 
 [10 <./Illustrations/tela-relatorios.png>]
-<Illustrations/mapadecalor.png, id=143, 554.07pt x 420.82219pt>
+<Illustrations/mapadecalor.png, id=147, 554.07pt x 420.82219pt>
 File: Illustrations/mapadecalor.png Graphic file (type png)
 <use Illustrations/mapadecalor.png>
 Package pdftex.def Info: Illustrations/mapadecalor.png  used on input line 88.
@@ -1332,7 +1332,7 @@ Package pdftex.def Info: Illustrations/mapadecalor.png  used on input line 88.
 
 
 [11 <./Illustrations/mapa.png>]
-<Illustrations/grafico.png, id=151, 648.17157pt x 570.63188pt>
+<Illustrations/grafico.png, id=155, 648.17157pt x 570.63188pt>
 File: Illustrations/grafico.png Graphic file (type png)
 <use Illustrations/grafico.png>
 Package pdftex.def Info: Illustrations/grafico.png  used on input line 98.
@@ -1340,7 +1340,7 @@ Package pdftex.def Info: Illustrations/grafico.png  used on input line 98.
 
 
 [12 <./Illustrations/mapadecalor.png>]
-<Illustrations/dcu.jpeg, id=159, 1345.025pt x 1362.08875pt>
+<Illustrations/dcu.jpeg, id=163, 1345.025pt x 1362.08875pt>
 File: Illustrations/dcu.jpeg Graphic file (type jpg)
 <use Illustrations/dcu.jpeg>
 Package pdftex.def Info: Illustrations/dcu.jpeg  used on input line 112.
@@ -1348,7 +1348,7 @@ Package pdftex.def Info: Illustrations/dcu.jpeg  used on input line 112.
 
 
 [13 <./Illustrations/grafico.png>]
-<Illustrations/escopoderedes.png, id=168, 1339.25343pt x 593.21625pt>
+<Illustrations/escopoderedes.png, id=172, 1339.25343pt x 593.21625pt>
 File: Illustrations/escopoderedes.png Graphic file (type png)
 <use Illustrations/escopoderedes.png>
 Package pdftex.def Info: Illustrations/escopoderedes.png  used on input line 128.
@@ -1358,12 +1358,12 @@ Package pdftex.def Info: Illustrations/escopoderedes.png  used on input line 128
 [14 <./Illustrations/dcu.jpeg>]
 
 [15 <./Illustrations/escopoderedes.png>]
-<Illustrations/mbdrelacional.png, id=184, 674.52pt x 361.35pt>
+<Illustrations/mbdrelacional.png, id=188, 674.52pt x 361.35pt>
 File: Illustrations/mbdrelacional.png Graphic file (type png)
 <use Illustrations/mbdrelacional.png>
 Package pdftex.def Info: Illustrations/mbdrelacional.png  used on input line 151.
 (pdftex.def)             Requested size: 386.95897pt x 207.30045pt.
-<Illustrations/mbdlógico.png, id=185, 593.96906pt x 478.78876pt>
+<Illustrations/mbdlógico.png, id=189, 593.96906pt x 478.78876pt>
 File: Illustrations/mbdlógico.png Graphic file (type png)
 <use Illustrations/mbdlógico.png>
 Package pdftex.def Info: Illustrations/mbdlógico.png  used on input line 159.
@@ -1372,14 +1372,10 @@ Package pdftex.def Info: Illustrations/mbdlógico.png  used on input line 159.
 
 [16 <./Illustrations/mbdrelacional.png>]
 
-LaTeX Warning: Reference `fig:canvaspi' on page 1 undefined on input line 165.
-
-
-
 [17 <./Illustrations/mbdlógico.png>]) (Topicos/conclusao.tex)
 
 [18]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 77.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 80.
  (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1389,45 +1385,54 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 
-[19]
+[19] (Extras/post-textual.tex
+<Illustrations/canvaspi1.png, id=238, 797.22844pt x 706.89093pt>
+File: Illustrations/canvaspi1.png Graphic file (type png)
+<use Illustrations/canvaspi1.png>
+Package pdftex.def Info: Illustrations/canvaspi1.png  used on input line 15.
+(pdftex.def)             Requested size: 386.95897pt x 343.11134pt.
+<Illustrations/canvaspi2.png, id=239, 702.37407pt x 246.1697pt>
+File: Illustrations/canvaspi2.png Graphic file (type png)
+<use Illustrations/canvaspi2.png>
+Package pdftex.def Info: Illustrations/canvaspi2.png  used on input line 16.
+(pdftex.def)             Requested size: 386.95897pt x 135.62663pt.
 
-[20] (fatec-template.aux
+
+[20])
+
+[21 <./Illustrations/canvaspi1.png> <./Illustrations/canvaspi2.png>] (fatec-template.aux
+Package cleveref Info: loaded `brazilian' language definitions on input line 13.
+Package cleveref Info: loaded `brazilian' language definitions on input line 14.
 Package cleveref Info: loaded `brazilian' language definitions on input line 15.
-Package cleveref Info: loaded `brazilian' language definitions on input line 16.
+Package cleveref Info: loaded `english' language definitions on input line 16.
 Package cleveref Info: loaded `brazilian' language definitions on input line 17.
-Package cleveref Info: loaded `english' language definitions on input line 18.
+Package cleveref Info: loaded `brazilian' language definitions on input line 18.
 Package cleveref Info: loaded `brazilian' language definitions on input line 19.
-Package cleveref Info: loaded `brazilian' language definitions on input line 20.
+Package cleveref Info: loaded `english' language definitions on input line 20.
 Package cleveref Info: loaded `brazilian' language definitions on input line 21.
-Package cleveref Info: loaded `english' language definitions on input line 22.
-Package cleveref Info: loaded `brazilian' language definitions on input line 23.
 )
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `fatec-template.out' has not changed.
-(rerunfilecheck)             Checksum: 94B07808BB6231AB145B6F98B5CC4434;236.
+(rerunfilecheck)             Checksum: 5CDF75D5A20F8A3FB47D00E5AB01C2FC;498.
 Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 \openout1 = `fatec-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34239 strings out of 473899
- 620726 string characters out of 5726500
- 1622632 words of memory out of 5000000
- 56431 multiletter control sequences out of 15000+600000
- 610832 words of font info for 160 fonts, out of 8000000 for 9000
+ 34272 strings out of 473899
+ 621592 string characters out of 5726500
+ 1624113 words of memory out of 5000000
+ 56460 multiletter control sequences out of 15000+600000
+ 610529 words of font info for 157 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,19n,131p,1772b,4560s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,19n,131p,1766b,4568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on fatec-template.pdf (20 pages, 3247088 bytes).
+Output written on fatec-template.pdf (21 pages, 3371912 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 23639 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 308 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 23657 words of extra memory for PDF output out of 24883 (max. 10000000)
 

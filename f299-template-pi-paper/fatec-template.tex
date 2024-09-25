@@ -11,23 +11,26 @@
 %% Pacotes utilizados
 \usepackage[]{fatec-article}
 \usepackage{float}
-\Author{1}{Name={Autor 1\\ Autor 2 \\ Autor 3\\ Autor 4}}
 
-\Author{2}{Name={\{ autor1@fatec.sp.gov.br \}\\ \{ autor2@fatec.sp.gov.br \} \\ \{ autor3@fatec.sp.gov.br\} \\ \{ autor4@fatec.sp.gov.br \}}}
+\Author{1}{Name={ Fagundes. L \\ Freitas. A \\ Freitas. V\\ Medina. L}}
+
+\Author{2}{Name={\{ lucas.fagundes3@fatec.sp.gov.br \}\\ \{ amanda.freitas14@fatec.sp.gov.br \} \\ \{ valeria.freitas@fatec.sp.gov.br \} \\ \{ luiz.medina@fatec.sp.gov.br \}}}
 
 %% Definição das palavras-chaves/keywords
-\Keyword{1}{Artigo}{Article}
-\Keyword{2}{Latex}{Latex}
-\Keyword{3}{Informática}{Informatic}
+\Keyword{1}{Citrus reticulata}{Citrus reticulata}
+\Keyword{2}{Deficiência nutricional}{Nutritional deficiency}
+\Keyword{3}{Visão computacional}{Computer Vision}
+\Keyword{4}{Manganês}{Manganese}
+\Keyword{5}{Cobre}{Copper}
 
 %%%% Resumo no idioma primário (brazilian)
 \begin{Abstract}[brazilian]%% Idioma (brazilian ou english)
-  O resumo FATEC Registro é uma descrição completa e concisa dos componentes-chave da metodologia do estudo e dos achados importantes da pesquisa. Normalmente, o resumo é o primeiro encontro do leitor com uma pesquisa ou relato, sendo algumas vezes o único elemento recuperado e/ou revisado nas bases de dados científicos. Esse elemento provê a primeira impressão, muitas vezes a mais importante, identificando o valor potencial ou a relevância do enfoque da pesquisa e dos resultados. Se o resumo for bem escrito, ele atrairá leitores para obter uma cópia do manuscrito completo que será incorporado aos que já foram encontrados, e seu trabalho será citado. Se o resumo for mal escrito, a pesquisa poderá ser ignorada ou, até mesmo, esquecida.
+  Este trabalho apresenta o desenvolvimento inicial do projeto NitrusLeaf, que utiliza técnicas de Inteligência Artificial (IA) para identificar deficiências nutricionais de cobre e manganês nas folhas da citrus reticulata (mexerica), alinhando-se com o Objetivo de Desenvolvimento Sustentável (ODS) 2 - Fome zero e agricultura sustentável da Agenda 2030 da ONU. O objetivo é reduzir as perdas na produção agrícola e promover a sustentabilidade. A aplicação visa facilitar aos agricultores a identificação desses problemas de forma rápida e precisa, utilizando visão computacional para analisar imagens das folhas, capturadas por drones ou enviadas pelos agricultores. A IA será treinada com o uso de redes neurais convolucionais (CNNs) utilizando um banco de dados de imagens de folhas com e sem deficiências. Espera-se que o NitrusLeaf se torne uma ferramenta eficaz para a agricultura sustentável após a conclusão desta pesquisa.  
 \end{Abstract}
 
 %%%% Resumo no idioma secundário (english)
 \begin{Abstract}[english]%% Idioma (brazilian ou english)
-The summary is a complete and concise description of the key components of the study methodology and important research findings. Typically, the summary is the reader's first encounter with a research report or paper, and sometimes it is the only element retrieved and/or reviewed in scientific databases. This element provides the first impression, often the most important one, identifying the potential value or relevance of the research approach and findings. If the summary is well-written, it will attract readers to obtain a copy of the full manuscript that will be incorporated into those already found, and your work will be cited. If the summary is poorly written, the research may be ignored or even forgotten.
+  This work presents the initial development of the NitrusLeaf project, which utilizes specific Artificial Intelligence (AI) techniques to identify copper and manganese nutritional deficiencies in citrus reticulata (tangerine) leaves, with the aim of following the UN's 2030 Agenda, specifically Sustainable Development Goal (SDG) 2 Zero Hunger and Sustainable Agriculture, seeking to reduce agricultural production losses and promote sustainability. This application aims to help farmers identify these problems more easily and quickly, reducing tangerine crop losses and increasing plant health. Through computer vision, the system analyzes images of leaves, taken by drones or sent by farmers, and provides an accurate diagnosis. Convolutional Neural Networks (CNNs) will be used to train the AI with a database of images of leaves with and without deficiencies. After further research, it is expected that NitrusLeaf will become an effective tool for sustainable agriculture.
 \end{Abstract}
 
 %% Processamento de entradas (itens) do índice remissivo (makeindex)
@@ -79,6 +82,8 @@ The summary is a complete and concise description of the key components of the s
 %% Elementos pós-textuais (opcionais): Apêndice e Anexo
 %Caso for utilizar, basta retirar o símbolo de % na frente do comando
 %\input{./Extras/post-textual}
+
+\input{./Extras/post-textual}
 
 %% Fim do documento
 \end{document}
