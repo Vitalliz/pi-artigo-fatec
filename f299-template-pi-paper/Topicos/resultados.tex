@@ -139,18 +139,15 @@ A entidade \textit{Drone} tem os atributos Id\_Drone, Visibilidade, Qualidade e 
 
 A entidade \textit{Imagem x Produtor} serve para relacionar a imagem com o produtor, possuindo os atributos Id\_ImgXProd, Fk\_Id\_Imagem e Fk\_Id\_Produtor. A entidade \textit{Produtor} tem os atributos Id\_Produtor e Nome, e interage com as entidades \textit{Email}, \textit{Telefone} e \textit{Login}. \textit{Email} possui os atributos Id\_Email, Fk\_Id\_Produtor e Correio\_eletrônico. \textit{Telefone} contém os atributos Id\_Telefone, Fk\_Id\_Produtor e Número, permitindo que o produtor tenha múltiplos números de contato. Por fim, a entidade \textit{Login} possui os atributos Id\_Login, Usuário e Senha.
 
-Esse modelo relacional detalha como o banco de dados é estruturado para garantir a gestão eficiente das informações no aplicativo NitrusLeaf. Ele permite a identificação precisa de deficiências nutricionais nas folhas de mexeriqueira, suportando as funcionalidades do aplicativo, desde a captura de fotos pelos drones até a geração de diagnósticos e armazenamento de históricos. A estrutura relacional assegura que as informações sejam bem organizadas e facilmente acessíveis, otimizando o processo de recuperação das plantas e ajudando os produtores a evitar a perda de frutos. Além do modelo relacional, também há o modelo lógico mostrado na \Cref{fig:mbdlogico}.
-
-
-Esse modelo relacional detalha como o banco de dados é estruturado para garantir a gestão eficiente das informações no aplicativo NitrusLeaf. Ele permite a identificação precisa de deficiências nutricionais nas folhas de mexeriqueira, suportando as funcionalidades do aplicativo, desde a captura de fotos pelos drones até a geração de diagnósticos e armazenamento de históricos. A estrutura relacional assegura que as informações sejam bem organizadas e facilmente acessíveis, otimizando o processo de recuperação das plantas e ajudando os produtores a evitar a perda de frutos. Além do modelo relacional, também há o modelo lógico mostrado na \Cref{fig:mbdlogico}.
-
 \begin{figure}[H]
-\centering
-\caption{Modelo Relacional do Banco de Dados}%
-\label{fig:mbdrelacional}
-\includegraphics[width=0.8\linewidth]{Illustrations/mbdrelacional.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
+    \centering
+    \caption{Modelo Relacional do Banco de Dados}%
+    \label{fig:mbdrelacional}
+    \includegraphics[width=0.8\linewidth]{Illustrations/mbdrelacional.png}
+    \SourceOrNote{Autoria Própria (2024)}
+    \end{figure}
+
+Esse modelo relacional detalha como o banco de dados é estruturado para garantir a gestão eficiente das informações no aplicativo NitrusLeaf. Ele permite a identificação precisa de deficiências nutricionais nas folhas de mexeriqueira, suportando as funcionalidades do aplicativo, desde a captura de fotos pelos drones até a geração de diagnósticos e armazenamento de históricos. A estrutura relacional assegura que as informações sejam bem organizadas e facilmente acessíveis, otimizando o processo de recuperação das plantas e ajudando os produtores a evitar a perda de frutos. Além do modelo relacional, também há o modelo lógico mostrado na \Cref{fig:mbdlogico}.
 
 \begin{figure}[H]
 \centering
