@@ -1,27 +1,18 @@
-O desenvolvimento de uma aplicação web ou mobile requer que requisitos sejam pré-definidos para a elaboração do projeto, desse modo o Figma permite a definição desses requisitos através da criação de interfaces, designs e protótipos que norteiam o projeto. A escolha do Figma ocorre pela sua alta disponibilidade de recursos e  sua plataforma intuitiva. 
+\section{Metodologia}
 
-HTML, uma linguagem de marcação de hipertexto, é utilizada na construção de páginas web. Com ela, é possível estruturar sites definindo elementos como imagens, links, palavras e outros componentes. HTML é a base e estrutura da página, sendo de suma importância no projeto.
+O desenvolvimento do projeto será conduzido em etapas que seguem a metodologia de desenvolvimento ágil (Scrum), permitindo uma adaptação flexível aos requisitos ao longo do processo. As etapas principais incluem:
 
-CSS é a linguagem que permite a criação de folhas de estilo, separando o conteúdo da decoração. Ela possibilita a edição de elementos como cor, fonte, tamanho e espaçamento. CSS é usado juntamente com HTML para a estilização de aplicações web.
+\subsection{Coleta de requisitos e design}
+Usaremos o Figma para desenvolver protótipos de baixa e alta fidelidade das interfaces da aplicação, garantindo uma visualização clara dos requisitos funcionais e de usabilidade.
 
-JavaScript, uma linguagem de programação, atende às demandas por sites interativos e dinâmicos. Ele permite o controle dos elementos de uma página em tempo real, sem necessidade de comunicação direta com o servidor, possibilitando a atualização do conteúdo sem recarregar a página completamente.
+\subsection{Desenvolvimento front-end}
+O código será estruturado com HTML e CSS para a definição de layout e estilo, enquanto o JavaScript será utilizado para proporcionar interatividade. O \textit{Node.js} será empregado para a criação de componentes reutilizáveis, melhorando a eficiência e a modularidade do código.
 
-Para a modelagem de bancos de dados, o brModelo é uma ferramenta eficaz, permitindo criar um croqui do banco de dados, estruturando e esboçando as ideias sobre a organização dos dados. Ele facilita a visualização e organização do projeto ao possibilitar a inserção de dados em tabelas e a atribuição de características a eles.
+\subsection{Desenvolvimento back-end e banco de dados}
+O banco de dados será modelado no \textit{brModelo} e implementado no \textit{HeidiSQL} para garantir a correta estruturação dos dados. A interação entre \textit{front-end} e \textit{back-end} será implementada usando \textit{Python} para a integração da visão computacional e \textit{Node.js} no computador, enquanto o \textit{React Native} será utilizado para criar uma API no \textit{mobile}, com foco na criação de uma API eficiente.
 
-HeidiSQL possibilita a criação de um banco de dados em formato de tabela que interage diretamente com o código, facilitando a edição de dados e permitindo que as aplicações sejam testadas.
+\subsection{Testes e validação}
+Após a implementação, serão realizados testes automatizados e manuais para validar o funcionamento correto de cada parte do sistema. Ferramentas como Selenium poderão ser utilizadas para automatizar os testes de interface.
 
-React JS, um conjunto de ferramentas e documentações com recursos pré-definidos, auxilia os desenvolvedores na criação de aplicações complexas e usadas em tempo real. Ele permite que o usuário utilize a interface de forma rápida e eficiente, além de facilitar o desenvolvimento coletivo das aplicações por meio da reutilização de componentes em diferentes partes do projeto.
-
-Python, uma linguagem de programação elaborada de forma simples e de fácil utilização devido à sua semelhança com o inglês, é amplamente utilizada para análise de dados e machine learning, ambos recursos essenciais para a elaboração do projeto.
-
-Kotlin, uma linguagem de programação orientada a objetos, é utilizada para desenvolver aplicações tanto para celulares quanto para computadores. Ela oferece uma variedade de recursos e funcionalidades que auxiliam na leitura do código.
-
-Draw.io é uma plataforma para confeccionar diversos diagramas ou desenhos. Ela oferece uma ampla variedade de recursos, necessários para a criação do Escopo de Redes.
-
-Lucidchart, semelhante ao Draw.io, é muito utilizada na confecção de diagramas e desenhos devido à sua grande diversidade de ferramentas e elementos. Será usada para desenhar o Diagrama de Caso de Uso (DCU) por conta de suas ferramentas específicas para essa finalidade.
-
-DaVinci Resolve é uma ferramenta para a edição de vídeos que possui uma grande disponibilidade de recursos, além de ser intuitiva tanto para novos usuários quanto para os mais experientes. Ela oferece efeitos que tornam a edição mais profissional e proporciona rapidez no trabalho, mantendo a qualidade ao possibilitar realizar todas as tarefas em uma única aplicação.
-
-O Oracle APEX (Application Express) é uma ferramenta low-code para criação rápida e eficiente de aplicações web e mobile. Ele oferece uma ampla gama de recursos para construir e configurar a aplicação, desde o HTML, CSS e o JavaScript até a gestão do banco de dados. Com o Oracle APEX, é possível criar aplicações escaláveis, seguras e responsivas, aproveitando a robustez do banco de dados Oracle.
-
-O Canvas é uma ferramenta voltada para a elaboração de negócios que auxilia empreendedores e empresas ao fornecer uma estrutura na qual são mostrados os componentes necessários para a criação de um negócio. A utilização desse modelo é popular devido à sua praticidade no processo de criação e visualização do modelo de negócios.
+\subsection{Publicação e acompanhamento}
+O sistema será implementado na plataforma Web, sendo feito com \textit{front-end} e \textit{back-end} primeiramente, e em uma versão futura, algumas das funções disponíveis na Web serão adaptadas para \textit{mobile}, com o objetivo inicial de permitir o uso do aplicativo no campo para escanear a folha em tempo real e receber o feedback instantâneo. A fácil escalabilidade e manutenção serão garantidas, e ajustes serão feitos com base no feedback dos usuários após a implantação.
