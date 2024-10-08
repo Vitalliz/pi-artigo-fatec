@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  27 SEP 2024 15:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  8 OCT 2024 17:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -963,23 +963,23 @@ Package hyperref Info: Option `unicode' set `true' on input line 251.
 \TopLine=\skip110
 \BottomLine=\skip111
 \HFRuleBox=\box59
-Package newfloat Info: New float `flowchart' with options `fileext = low, name = Fluxograma' on input line 845.
+Package newfloat Info: New float `flowchart' with options `fileext = low, name = Fluxograma' on input line 846.
 \c@flowchart=\count463
 \newfloat@ftype=\count464
-Package newfloat Info: float type `flowchart'=8 on input line 845.
-Package newfloat Info: \flowchartname is already defined on input line 845.
-Package newfloat Info: New float `photograph' with options `fileext = lop, name = Fotografia' on input line 846.
+Package newfloat Info: float type `flowchart'=8 on input line 846.
+Package newfloat Info: \flowchartname is already defined on input line 846.
+Package newfloat Info: New float `photograph' with options `fileext = lop, name = Fotografia' on input line 847.
 \c@photograph=\count465
-Package newfloat Info: float type `photograph'=16 on input line 846.
-Package newfloat Info: \photographname is already defined on input line 846.
-Package newfloat Info: New float `graph' with options `fileext = loh, name = Gráfico' on input line 847.
+Package newfloat Info: float type `photograph'=16 on input line 847.
+Package newfloat Info: \photographname is already defined on input line 847.
+Package newfloat Info: New float `graph' with options `fileext = loh, name = Gráfico' on input line 848.
 \c@graph=\count466
-Package newfloat Info: float type `graph'=32 on input line 847.
-Package newfloat Info: \graphname is already defined on input line 847.
-Package newfloat Info: New float `tabframed' with options `fileext = lod, name = Quadro' on input line 848.
+Package newfloat Info: float type `graph'=32 on input line 848.
+Package newfloat Info: \graphname is already defined on input line 848.
+Package newfloat Info: New float `tabframed' with options `fileext = lod, name = Quadro' on input line 849.
 \c@tabframed=\count467
-Package newfloat Info: float type `tabframed'=64 on input line 848.
-Package newfloat Info: \tabframedname is already defined on input line 848.
+Package newfloat Info: float type `tabframed'=64 on input line 849.
+Package newfloat Info: \tabframedname is already defined on input line 849.
 \CaptionWidth=\skip112
 \AbstractMargin=\skip113
 ) (C:\Users\luizr\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
@@ -1426,13 +1426,13 @@ Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 Here is how much of TeX's memory you used:
  34299 strings out of 473899
  621940 string characters out of 5726500
- 1624209 words of memory out of 5000000
+ 1624160 words of memory out of 5000000
  56472 multiletter control sequences out of 15000+600000
  610907 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,19n,131p,1766b,4568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on fatec-template.pdf (21 pages, 3375339 bytes).
+Output written on fatec-template.pdf (21 pages, 3375591 bytes).
 PDF statistics:
  336 PDF objects out of 1000 (max. 8388607)
  72 named destinations out of 1000 (max. 500000)
