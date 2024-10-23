@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  8 OCT 2024 17:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  23 OCT 2024 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1266,21 +1266,20 @@ Package pdftex.def Info: ./Illustrations/fatec.jpg  used on input line 4.
 
 [2]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 17.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 18.
 ) (Topicos/objetivo.tex
 
-[3]) (Topicos/estadodaarte.tex) (Topicos/metodologia.tex
+[3]) (Topicos/estadodaarte.tex
 
-[4]) (Topicos/resultados.tex
-<Illustrations/Splash-Screen.png, id=112, 1198.4775pt x 837.1275pt>
+[4]) (Topicos/metodologia.tex)
+
+[5] (Topicos/resultados.tex
+<Illustrations/Splash-Screen.png, id=123, 1198.4775pt x 837.1275pt>
 File: Illustrations/Splash-Screen.png Graphic file (type png)
 <use Illustrations/Splash-Screen.png>
 Package pdftex.def Info: Illustrations/Splash-Screen.png  used on input line 11.
 (pdftex.def)             Requested size: 386.95897pt x 270.28769pt.
-
-
-[5]
-<Illustrations/tela-inicio.png, id=121, 1198.4775pt x 837.1275pt>
+<Illustrations/tela-inicio.png, id=125, 1198.4775pt x 837.1275pt>
 File: Illustrations/tela-inicio.png Graphic file (type png)
 <use Illustrations/tela-inicio.png>
 Package pdftex.def Info: Illustrations/tela-inicio.png  used on input line 21.
@@ -1288,7 +1287,7 @@ Package pdftex.def Info: Illustrations/tela-inicio.png  used on input line 21.
 
 
 [6 <./Illustrations/Splash-Screen.png>]
-<Illustrations/Tela-Escaneamento.png, id=129, 1198.4775pt x 837.1275pt>
+<Illustrations/Tela-Escaneamento.png, id=135, 1198.4775pt x 837.1275pt>
 File: Illustrations/Tela-Escaneamento.png Graphic file (type png)
 <use Illustrations/Tela-Escaneamento.png>
 Package pdftex.def Info: Illustrations/Tela-Escaneamento.png  used on input line 32.
@@ -1296,7 +1295,7 @@ Package pdftex.def Info: Illustrations/Tela-Escaneamento.png  used on input line
 
 
 [7 <./Illustrations/tela-inicio.png> <./Illustrations/Tela-Escaneamento.png>]
-<Illustrations/Cadastro-diagnostico.png, id=139, 1198.4775pt x 837.1275pt>
+<Illustrations/Cadastro-diagnostico.png, id=145, 1198.4775pt x 837.1275pt>
 File: Illustrations/Cadastro-diagnostico.png Graphic file (type png)
 <use Illustrations/Cadastro-diagnostico.png>
 Package pdftex.def Info: Illustrations/Cadastro-diagnostico.png  used on input line 42.
@@ -1304,12 +1303,12 @@ Package pdftex.def Info: Illustrations/Cadastro-diagnostico.png  used on input l
 
 
 [8 <./Illustrations/Cadastro-diagnostico.png>]
-<Illustrations/tela-drone.png, id=157, 1198.4775pt x 837.1275pt>
+<Illustrations/tela-drone.png, id=163, 1198.4775pt x 837.1275pt>
 File: Illustrations/tela-drone.png Graphic file (type png)
 <use Illustrations/tela-drone.png>
 Package pdftex.def Info: Illustrations/tela-drone.png  used on input line 56.
 (pdftex.def)             Requested size: 386.95897pt x 270.28769pt.
-<Illustrations/tela-relatorios.png, id=159, 1198.4775pt x 837.1275pt>
+<Illustrations/tela-relatorios.png, id=165, 1198.4775pt x 837.1275pt>
 File: Illustrations/tela-relatorios.png Graphic file (type png)
 <use Illustrations/tela-relatorios.png>
 Package pdftex.def Info: Illustrations/tela-relatorios.png  used on input line 66.
@@ -1317,7 +1316,7 @@ Package pdftex.def Info: Illustrations/tela-relatorios.png  used on input line 6
 
 
 [9 <./Illustrations/tela-drone.png>]
-<Illustrations/mapa.png, id=167, 554.07pt x 422.32782pt>
+<Illustrations/mapa.png, id=173, 554.07pt x 422.32782pt>
 File: Illustrations/mapa.png Graphic file (type png)
 <use Illustrations/mapa.png>
 Package pdftex.def Info: Illustrations/mapa.png  used on input line 78.
@@ -1325,7 +1324,7 @@ Package pdftex.def Info: Illustrations/mapa.png  used on input line 78.
 
 
 [10 <./Illustrations/tela-relatorios.png>]
-<Illustrations/mapadecalor.png, id=175, 554.07pt x 420.82219pt>
+<Illustrations/mapadecalor.png, id=181, 554.07pt x 420.82219pt>
 File: Illustrations/mapadecalor.png Graphic file (type png)
 <use Illustrations/mapadecalor.png>
 Package pdftex.def Info: Illustrations/mapadecalor.png  used on input line 88.
@@ -1333,7 +1332,7 @@ Package pdftex.def Info: Illustrations/mapadecalor.png  used on input line 88.
 
 
 [11 <./Illustrations/mapa.png>]
-<Illustrations/grafico.png, id=183, 648.17157pt x 570.63188pt>
+<Illustrations/grafico.png, id=189, 648.17157pt x 570.63188pt>
 File: Illustrations/grafico.png Graphic file (type png)
 <use Illustrations/grafico.png>
 Package pdftex.def Info: Illustrations/grafico.png  used on input line 98.
@@ -1341,7 +1340,7 @@ Package pdftex.def Info: Illustrations/grafico.png  used on input line 98.
 
 
 [12 <./Illustrations/mapadecalor.png>]
-<Illustrations/dcu.jpeg, id=191, 1345.025pt x 1362.08875pt>
+<Illustrations/dcu.jpeg, id=197, 1345.025pt x 1362.08875pt>
 File: Illustrations/dcu.jpeg Graphic file (type jpg)
 <use Illustrations/dcu.jpeg>
 Package pdftex.def Info: Illustrations/dcu.jpeg  used on input line 112.
@@ -1349,7 +1348,7 @@ Package pdftex.def Info: Illustrations/dcu.jpeg  used on input line 112.
 
 
 [13 <./Illustrations/grafico.png>]
-<Illustrations/escopoderedes.png, id=200, 1339.25343pt x 593.21625pt>
+<Illustrations/escopoderedes.png, id=206, 1339.25343pt x 593.21625pt>
 File: Illustrations/escopoderedes.png Graphic file (type png)
 <use Illustrations/escopoderedes.png>
 Package pdftex.def Info: Illustrations/escopoderedes.png  used on input line 128.
@@ -1357,7 +1356,7 @@ Package pdftex.def Info: Illustrations/escopoderedes.png  used on input line 128
 
 
 [14 <./Illustrations/dcu.jpeg>]
-<Illustrations/mbdrelacional.png, id=207, 674.52pt x 361.35pt>
+<Illustrations/mbdrelacional.png, id=213, 674.52pt x 361.35pt>
 File: Illustrations/mbdrelacional.png Graphic file (type png)
 <use Illustrations/mbdrelacional.png>
 Package pdftex.def Info: Illustrations/mbdrelacional.png  used on input line 146.
@@ -1365,7 +1364,7 @@ Package pdftex.def Info: Illustrations/mbdrelacional.png  used on input line 146
 
 
 [15 <./Illustrations/escopoderedes.png>]
-<Illustrations/mbdlógico.png, id=215, 593.96906pt x 478.78876pt>
+<Illustrations/mbdlógico.png, id=221, 593.96906pt x 478.78876pt>
 File: Illustrations/mbdlógico.png Graphic file (type png)
 <use Illustrations/mbdlógico.png>
 Package pdftex.def Info: Illustrations/mbdlógico.png  used on input line 156.
@@ -1388,21 +1387,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 [19] (Extras/post-textual.tex
-<Illustrations/canvaspi1.png, id=265, 797.22844pt x 706.89093pt>
-File: Illustrations/canvaspi1.png Graphic file (type png)
-<use Illustrations/canvaspi1.png>
-Package pdftex.def Info: Illustrations/canvaspi1.png  used on input line 15.
-(pdftex.def)             Requested size: 386.95897pt x 343.11134pt.
-<Illustrations/canvaspi2.png, id=266, 702.37407pt x 246.1697pt>
-File: Illustrations/canvaspi2.png Graphic file (type png)
-<use Illustrations/canvaspi2.png>
-Package pdftex.def Info: Illustrations/canvaspi2.png  used on input line 16.
-(pdftex.def)             Requested size: 386.95897pt x 135.62663pt.
+<Illustrations/canvas.png, id=271, 702.37407pt x 865.73438pt>
+File: Illustrations/canvas.png Graphic file (type png)
+<use Illustrations/canvas.png>
+Package pdftex.def Info: Illustrations/canvas.png  used on input line 15.
+(pdftex.def)             Requested size: 386.95897pt x 476.97441pt.
 
 
 [20])
 
-[21 <./Illustrations/canvaspi1.png> <./Illustrations/canvaspi2.png>] (fatec-template.aux
+[21 <./Illustrations/canvas.png>] (fatec-template.aux
 Package cleveref Info: loaded `brazilian' language definitions on input line 13.
 Package cleveref Info: loaded `brazilian' language definitions on input line 14.
 Package cleveref Info: loaded `brazilian' language definitions on input line 15.
@@ -1424,17 +1418,17 @@ Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34299 strings out of 473899
- 621940 string characters out of 5726500
+ 34302 strings out of 473899
+ 621776 string characters out of 5726500
  1624160 words of memory out of 5000000
- 56472 multiletter control sequences out of 15000+600000
- 610907 words of font info for 160 fonts, out of 8000000 for 9000
+ 56465 multiletter control sequences out of 15000+600000
+ 611109 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,19n,131p,1766b,4568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on fatec-template.pdf (21 pages, 3375591 bytes).
+Output written on fatec-template.pdf (21 pages, 3363804 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
- 23705 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 342 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
+ 23700 words of extra memory for PDF output out of 24883 (max. 10000000)
 
