@@ -247,59 +247,6 @@
       \verb 10.1111/2041-210X.13256
       \endverb
     \endentry
-    \entry{EstadoArte1}{misc}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=08324350cbcc60a85f9d2010a5a6afd8}{%
-           family={Eliel},
-           familyi={E\bibinitperiod},
-           given={Regiani},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=352f2af02b6fc08b350899e596391c21}{%
-           family={Dias},
-           familyi={D\bibinitperiod},
-           given={Gustavo\bibnamedelima Valentim},
-           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Escola Poltécnica da Universidade de São Paulo}%
-      }
-      \list{location}{1}{%
-        {São Paulo, SP}%
-      }
-      \strng{namehash}{d4d41f497643c52691fac82d12c0c6cc}
-      \strng{fullhash}{d4d41f497643c52691fac82d12c0c6cc}
-      \strng{fullhashraw}{d4d41f497643c52691fac82d12c0c6cc}
-      \strng{bibnamehash}{d4d41f497643c52691fac82d12c0c6cc}
-      \strng{authorbibnamehash}{d4d41f497643c52691fac82d12c0c6cc}
-      \strng{authornamehash}{d4d41f497643c52691fac82d12c0c6cc}
-      \strng{authorfullhash}{d4d41f497643c52691fac82d12c0c6cc}
-      \strng{authorfullhashraw}{d4d41f497643c52691fac82d12c0c6cc}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eventmonth}{12}
-      \field{eventyear}{2021}
-      \field{pagetotal}{58}
-      \field{title}{Identificador de doenças em plantas por rede neural convolucional}
-      \field{type}{Monografia (Graduação em Engenharia Eletricista com Ênfase em Computação)}
-      \field{urlday}{26}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{year}{2021}
-      \field{eventdateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://pcs.usp.br/pcspf/wp-content/uploads/sites/8/2021/12/Monografia_PCS3560_SEM_2021_Grupo_S15.pdf
-      \endverb
-      \verb{url}
-      \verb https://pcs.usp.br/pcspf/wp-content/uploads/sites/8/2021/12/Monografia_PCS3560_SEM_2021_Grupo_S15.pdf
-      \endverb
-    \endentry
     \entry{IntroduçãoGreening}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f246a88e09cbdff3f663c1e8067e4978}{%
@@ -335,6 +282,89 @@
       \endverb
       \verb{url}
       \verb https://www.fundecitrus.com.br/doencas/greening
+      \endverb
+    \endentry
+    \entry{EstadoArte2}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=177b747273b028d0a5d91e0176c7eb9e}{%
+           family={Ghorai},
+           familyi={G\bibinitperiod},
+           given={Ankit\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f6ad0ae11ae4c581dd9ff476e3a1121}{%
+           family={Barman},
+           familyi={B\bibinitperiod},
+           given={Ashis\bibnamedelima Roy},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24f52f6dabf5573fdc80f060466668da}{%
+           family={Mukhopadhyay},
+           familyi={M\bibinitperiod},
+           given={Sabyasachi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1cdb3828fb29d809879eb1673db68379}{%
+           family={Jash},
+           familyi={J\bibinitperiod},
+           given={Subhendu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c6b700d6a281db092b63f8711e19609}{%
+           family={Dutta},
+           familyi={D\bibinitperiod},
+           given={Subrata},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43daf67e91cc307f0b633b408cfcbd1e}{%
+           family={Kundo},
+           familyi={K\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ea4ad8b9493805a4164f3f5c8fb103e}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={M\bibnamedelima De},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e961b2772021a494175e731c043929f}{%
+           family={Mandal},
+           familyi={M\bibinitperiod},
+           given={S\bibnamedelima N},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7309ff4aacfc1ff4325fe59eb737e7d9}
+      \strng{fullhash}{522167f6b62c780a8aafa8edd0976c1d}
+      \strng{fullhashraw}{522167f6b62c780a8aafa8edd0976c1d}
+      \strng{bibnamehash}{7309ff4aacfc1ff4325fe59eb737e7d9}
+      \strng{authorbibnamehash}{7309ff4aacfc1ff4325fe59eb737e7d9}
+      \strng{authornamehash}{7309ff4aacfc1ff4325fe59eb737e7d9}
+      \strng{authorfullhash}{522167f6b62c780a8aafa8edd0976c1d}
+      \strng{authorfullhashraw}{522167f6b62c780a8aafa8edd0976c1d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0971-975X}
+      \field{journaltitle}{SATSA Mukhapatra - Annual Technical Issue}
+      \field{title}{Image Processing Based Detection of Diseases and Nutrient Deficiencies in Plants}
+      \field{urlday}{31}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{25}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 25}
+      \range{pages}{25}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/349707825_Image_Processing_Based_Detection_of_Diseases_and_Nutrient_Deficiencies_in_Plants
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/349707825_Image_Processing_Based_Detection_of_Diseases_and_Nutrient_Deficiencies_in_Plants
       \endverb
     \endentry
     \entry{ConclusãoCobre}{misc}{}{}
@@ -374,50 +404,45 @@
       \verb https://www.agrolink.com.br/fertilizantes/nutrientes/cobre---tudo-o-que-voce-precisa-saber-sobre-este-adubo_468470.html
       \endverb
     \endentry
-    \entry{EstadoArte3}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3861dcf8ca1400d6592060f09db01db3}{%
-           family={Pereira},
-           familyi={P\bibinitperiod},
-           given={Janne\bibnamedelimb Kelly\bibnamedelima Oliveira},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim O\bibinitperiod},
+    \entry{EstadoArte1}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9c22df136c1be9762007e3c64b90abe0}{%
+           family={Muthusamy},
+           familyi={M\bibinitperiod},
+           given={Sudhakar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa71bb52667af153c787de3206b880e7}{%
+           family={Ramu},
+           familyi={R\bibinitperiod},
+           given={Swarna\bibnamedelima Priya},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
            givenun=0}}%
       }
-      \list{institution}{1}{%
-        {Universidade Federal do Ceará Campus de Russas}%
-      }
-      \list{location}{1}{%
-        {Russas, CE}%
-      }
-      \strng{namehash}{3861dcf8ca1400d6592060f09db01db3}
-      \strng{fullhash}{3861dcf8ca1400d6592060f09db01db3}
-      \strng{fullhashraw}{3861dcf8ca1400d6592060f09db01db3}
-      \strng{bibnamehash}{3861dcf8ca1400d6592060f09db01db3}
-      \strng{authorbibnamehash}{3861dcf8ca1400d6592060f09db01db3}
-      \strng{authornamehash}{3861dcf8ca1400d6592060f09db01db3}
-      \strng{authorfullhash}{3861dcf8ca1400d6592060f09db01db3}
-      \strng{authorfullhashraw}{3861dcf8ca1400d6592060f09db01db3}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \strng{namehash}{8a2ce7b42461b8886ccf5457083abd71}
+      \strng{fullhash}{8a2ce7b42461b8886ccf5457083abd71}
+      \strng{fullhashraw}{8a2ce7b42461b8886ccf5457083abd71}
+      \strng{bibnamehash}{8a2ce7b42461b8886ccf5457083abd71}
+      \strng{authorbibnamehash}{8a2ce7b42461b8886ccf5457083abd71}
+      \strng{authornamehash}{8a2ce7b42461b8886ccf5457083abd71}
+      \strng{authorfullhash}{8a2ce7b42461b8886ccf5457083abd71}
+      \strng{authorfullhashraw}{8a2ce7b42461b8886ccf5457083abd71}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{eventyear}{2021}
-      \field{pagetotal}{34}
-      \field{title}{Uso de visão computacional para reconhecimento de imagens de frutas em imagens RGB}
-      \field{type}{TCC (Graduação em Ciência da Computação)}
-      \field{urlday}{26}
-      \field{urlmonth}{4}
-      \field{urlyear}{2024}
-      \field{year}{2021}
-      \field{eventdateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://repositorio.ufc.br/bitstream/riufc/64490/1/2022_tcc_jkopereira.pdf
-      \endverb
-      \verb{url}
-      \verb https://repositorio.ufc.br/bitstream/riufc/64490/1/2022_tcc_jkopereira.pdf
+      \field{issn}{2395-3454}
+      \field{journaltitle}{Nature Environment and Pollution Technology}
+      \field{number}{3}
+      \field{title}{Computer Vision Based Machine Learning and Deep Learning Approaches for Identification of Nutrient Deficiency in Crops: A Survey}
+      \field{volume}{22}
+      \field{year}{2023}
+      \field{pages}{1387\bibrangedash 1399}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.46488/NEPT.2023.v22i03.025
       \endverb
     \endentry
     \entry{IntroduçãoRedeNeural}{article}{}{}
@@ -476,67 +501,54 @@
       \verb 10.3934/mfc.2018008
       \endverb
     \endentry
-    \entry{EstadoArte2}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=5e20845a2b3d54332f26efb7c8ea3045}{%
-           family={Santiago},
-           familyi={S\bibinitperiod},
-           given={Wesley\bibnamedelima Esdras},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
+    \entry{EstadoArte3}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=348d01b48449fbbd89eef0ca4efb02b3}{%
+           family={Tran},
+           familyi={T\bibinitperiod},
+           given={Trung-Tin},
+           giveni={T\bibinithyphendelim T\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=02baeec3bbfdb2d4d3583d2754cf6e7f}{%
-           family={Lopes},
-           familyi={L\bibinitperiod},
-           given={Gustavo\bibnamedelima Dias},
-           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c6399436d213829f00958c44d3b18aec}{%
-           family={Faceto},
-           familyi={F\bibinitperiod},
-           given={Angelo\bibnamedelima Danilo},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=70f7f91cac0bc6045c96ed4a2a6ef99f}{%
-           family={Júnior},
-           familyi={J\bibinitperiod},
-           given={Adalfredo\bibnamedelimb Rocha\bibnamedelima Lobo},
-           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7101372802b4d44ce95aac6714455e91}{%
-           family={Caldeira},
+        {{un=0,uniquepart=base,hash=e43b68efee36320a0b70a5b28ce2670f}{%
+           family={Choi},
            familyi={C\bibinitperiod},
-           given={Rafael\bibnamedelima Faria},
-           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Jae-Won},
+           giveni={J\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=30017ccf488e8d4e7e2cad4b9536e987}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={Thien-Tu\bibnamedelima Huynh},
+           giveni={T\bibinithyphendelim T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92c59cf8f250cebe9190cd3940d1cc04}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jong-Wook},
+           giveni={J\bibinithyphendelim W\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Universidade Estadual do Oeste do Paraná Programa de Mestrado em Energia na Agricultura(UNIOESTE)}%
-      }
-      \strng{namehash}{ef05ef5e5b713ecd8cd46dc4d329bff2}
-      \strng{fullhash}{5439dfec36f65b5c6872f74e341d1460}
-      \strng{fullhashraw}{5439dfec36f65b5c6872f74e341d1460}
-      \strng{bibnamehash}{ef05ef5e5b713ecd8cd46dc4d329bff2}
-      \strng{authorbibnamehash}{ef05ef5e5b713ecd8cd46dc4d329bff2}
-      \strng{authornamehash}{ef05ef5e5b713ecd8cd46dc4d329bff2}
-      \strng{authorfullhash}{5439dfec36f65b5c6872f74e341d1460}
-      \strng{authorfullhashraw}{5439dfec36f65b5c6872f74e341d1460}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{2dcf56453d636769da0e66f0c5246ac4}
+      \strng{fullhash}{d1d6a37aed13ea587fde88215cec338e}
+      \strng{fullhashraw}{d1d6a37aed13ea587fde88215cec338e}
+      \strng{bibnamehash}{2dcf56453d636769da0e66f0c5246ac4}
+      \strng{authorbibnamehash}{2dcf56453d636769da0e66f0c5246ac4}
+      \strng{authornamehash}{2dcf56453d636769da0e66f0c5246ac4}
+      \strng{authorfullhash}{d1d6a37aed13ea587fde88215cec338e}
+      \strng{authorfullhashraw}{d1d6a37aed13ea587fde88215cec338e}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{2316-4093}
-      \field{journaltitle}{Acta Iguazu}
-      \field{month}{7}
-      \field{number}{2}
-      \field{title}{Classificação de laranjas por meio de processamento digital de imagens}
-      \field{volume}{8}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{8}
+      \field{title}{A Comparative Study of Deep CNN in Forecasting and Classifying the Macronutrient Deficiencies on Development of Tomato Plant}
+      \field{volume}{9}
       \field{year}{2019}
-      \field{pages}{49\bibrangedash 58}
-      \range{pages}{10}
       \verb{doi}
-      \verb 10.48075/actaiguaz.v8i2.19227
+      \verb https://doi.org/10.3390/app9081601
       \endverb
     \endentry
     \entry{ResultadoNDVIArtigo}{article}{}{}
