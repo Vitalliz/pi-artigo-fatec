@@ -72,3 +72,81 @@ Há também uma funcionalidade de histórico da propriedade, onde o usuário pod
 \SourceOrNote{Autoria Própria (2024)}
 \end{figure}
 
+\textbf{MBD (Modelo de Banco de Dados)}
+
+Primeiramente, é criado o banco de dados \Cref{fig:banco-dados}, que é então utilizado para gerenciar os dados da aplicação. A seguir, são detalhadas as principais tabelas do banco:
+
+\begin{itemize}
+    \item \textbf{Tabela \texttt{usuarios}}: Contém as informações dos usuários. Possui os seguintes campos:
+    \begin{itemize}
+        \item \texttt{id\_usuario}: Chave primária do tipo \texttt{int}, com \texttt{auto\_increment}.
+        \item \texttt{foto\_perfil}: URL da foto de perfil, armazenado em \texttt{varchar}.
+        \item \texttt{nome}: Nome do usuário, \texttt{varchar not null}.
+        \item \texttt{sobrenome}: Sobrenome do usuário, \texttt{varchar not null}.
+        \item \texttt{email}: E-mail do usuário, \texttt{varchar not null}.
+        \item \texttt{senha}: Senha do usuário, \texttt{varchar not null}.
+        \item \texttt{telefone}: Telefone, \texttt{varchar not null}.
+        \item \texttt{celular}: Celular, \texttt{varchar not null}.
+        \item \texttt{tipo\_pessoa}: Tipo de pessoa, \texttt{enum} com valores “fisica” ou “juridica”, \texttt{not null}.
+        \item \texttt{cpf}: CPF, armazenado em \texttt{varchar}, obrigatório para pessoas físicas.
+        \item \texttt{cnpj}: CNPJ, \texttt{varchar}, obrigatório para pessoas jurídicas.
+        \item \texttt{nome\_fantasia}: Nome fantasia da empresa, \texttt{varchar}.
+        \item \texttt{logradouro}, \texttt{numero}, \texttt{bairro}, \texttt{cidade}: Campos de endereço em \texttt{varchar}.
+        \item \texttt{cep}: CEP, \texttt{varchar}.
+    \end{itemize}
+
+    \item \textbf{Tabela \texttt{propriedades}}: Armazena as informações das propriedades dos usuários.
+    \begin{itemize}
+        \item \texttt{id\_propriedade}: Chave primária do tipo \texttt{int}, com \texttt{auto\_increment}.
+        \item \texttt{id\_usuario}: Chave estrangeira que referencia o usuário proprietário, tipo \texttt{int}.
+        \item \texttt{nome\_propriedade}, \texttt{logradouro\_propriedade}, \texttt{numero\_propriedade}, \texttt{bairro\_propriedade}, \texttt{cep\_propriedade}, \texttt{cidade\_propriedade}: Campos de identificação e localização, todos do tipo \texttt{varchar}.
+        \item \texttt{talhoes\_registrados}: Total de talhões registrados, \texttt{int} com valor padrão \texttt{0}.
+        \item \texttt{total\_pes}: Total de pés cadastrados na propriedade, \texttt{int} com valor padrão \texttt{0}.
+        \item \texttt{pes\_analisados}: Total de pés analisados, \texttt{int} com valor padrão \texttt{0}.
+        \item \texttt{pes\_diagnosticados}: Número de pés diagnosticados, \texttt{int} com valor padrão \texttt{0}.
+    \end{itemize}
+    A chave estrangeira \texttt{id\_usuario} referencia a tabela \texttt{usuarios}.
+
+    \item \textbf{Tabela \texttt{talhoes}}: Armazena as informações dos talhões.
+    \begin{itemize}
+        \item \texttt{id\_talhao}: Chave primária do tipo \texttt{int}, com \texttt{auto\_increment}.
+        \item \texttt{id\_propriedade}: Chave estrangeira que referencia a propriedade à qual o talhão pertence.
+        \item \texttt{nome}: Nome do talhão, \texttt{varchar not null}.
+        \item \texttt{especie\_fruta}: Espécie da fruta, \texttt{varchar not null}.
+    \end{itemize}
+    A chave estrangeira \texttt{id\_propriedade} referencia a tabela \texttt{propriedades}.
+
+    \item \textbf{Tabela \texttt{pes}}: Representa cada pé plantado no talhão.
+    \begin{itemize}
+        \item \texttt{id\_pe}: Chave primária do tipo \texttt{int}, com \texttt{auto\_increment}.
+        \item \texttt{id\_talhao}: Chave estrangeira que referencia o talhão ao qual o pé pertence.
+        \item \texttt{nome}: Nome do pé, \texttt{varchar not null}.
+        \item \texttt{situacao}: Situação do pé, \texttt{enum} com valores “tratado”, “nao tratado” e “sem informacoes”, \texttt{not null}.
+    \end{itemize}
+    A chave estrangeira \texttt{id\_talhao} referencia a tabela \texttt{talhoes}.
+
+    \item \textbf{Tabela \texttt{fotos}}: Armazena as fotos tiradas de cada pé para análise.
+    \begin{itemize}
+        \item \texttt{id\_foto}: Chave primária do tipo \texttt{int}, com \texttt{auto\_increment}.
+        \item \texttt{id\_pe}: Chave estrangeira que referencia o pé da qual a foto foi tirada.
+        \item \texttt{id\_talhao}: Chave estrangeira que referencia o talhão ao qual o pé pertence.
+        \item \texttt{url}: URL da foto, \texttt{varchar not null}.
+        \item \texttt{data\_tirado}: Data em que a foto foi tirada, \texttt{date}.
+        \item \texttt{resultado\_analise}: Resultado da análise da imagem, \texttt{varchar}.
+    \end{itemize}
+    As chaves estrangeiras \texttt{id\_pe} e \texttt{id\_talhao} referenciam, respectivamente, as tabelas \texttt{pes} e \texttt{talhoes}.
+
+    \item \textbf{Tabela \texttt{relatorios}}: Armazena relatórios de diagnóstico para cada pé.
+    \begin{itemize}
+        \item \texttt{id\_relatorio}: Chave primária do tipo \texttt{int}, com \texttt{auto\_increment}.
+        \item \texttt{id\_pe}: Chave estrangeira que referencia o pé analisado.
+        \item \texttt{id\_foto}: Chave estrangeira que referencia a foto utilizada no relatório.
+        \item \texttt{deficiencia\_cobre}: Verifica deficiência de cobre, \texttt{boolean} com valor padrão \texttt{false}.
+        \item \texttt{deficiencia\_manganes}: Verifica deficiência de manganês, \texttt{boolean} com valor padrão \texttt{false}.
+        \item \texttt{outros}: Indica se o resultado foi adverso, \texttt{boolean} com valor padrão \texttt{false}.
+        \item \texttt{nao\_analisado}: Indica se a planta ainda não foi analisada, \texttt{boolean} com valor padrão \texttt{true}.
+        \item \texttt{observacoes}: Observações adicionais do usuário, \texttt{varchar}.
+        \item \texttt{data\_analise}: Data em que a análise foi realizada, \texttt{date not null}.
+    \end{itemize}
+    As chaves estrangeiras \texttt{id\_pe} e \texttt{id\_foto} referenciam, respectivamente, as tabelas \texttt{pes} e \texttt{fotos}.
+\end{itemize}
