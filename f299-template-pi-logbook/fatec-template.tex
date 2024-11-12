@@ -1,73 +1,38 @@
-%%%% fatec-article.tex, 2024/03/10
-
-%% Classe de documento
 \documentclass[
-landscape,
-  a4paper,%% Tamanho de papel: a4paper, letterpaper (^), etc.
-  12pt,%% Tamanho de fonte: 10pt (^), 11pt, 12pt, etc.
-  english,%% Idioma secundário (penúltimo) (>)
-  brazilian,%% Idioma primário (último) (>)
+    landscape,
+    a4paper,
+    12pt,
+    english,
+    brazilian,
 ]{article}
 
-%% Pacotes utilizados
-\usepackage[]{fatec-article}
+\usepackage{fatec-article}
+\usepackage{array} % Necessário para 'm{width}' para centralização vertical
+\usepackage{longtable} % Necessário para tabelas que ocupam várias páginas
 \usepackage{setspace}
 
-%% Processamento de entradas (itens) do índice remissivo (makeindex)
-%\makeindex%
-
-%% Arquivo(s) de referências
-%\addbibresource{fatec-article.bib}
-
-%% Início do documento
 \begin{document}
 
-% Seções e subseções
-%\section{Título de Seção Primária}%
+\section*{Diário de Bordo}
 
-%\subsection{Título de Seção Secundária}%
-
-%\subsubsection{Título de Seção Terciária}%
-
-%\paragraph{Título de seção quaternária}%
-
-%\subparagraph{Título de seção quinária}%
-
-%\section*{Diário de Bordo}%
-\section*{Instruções para o preenchimento}
-\doublespacing
-\begin{enumerate}
-    \item O Diário de Bordo é usado para registrar atividades, progressos, ideias e desafios enfrentados em um projeto ou durante a rotina de trabalho. Serve como um registro cronológico e detalhado das operações diárias, facilitando a organização e o acompanhamento das tarefas.
-    \doublespacing
-    \item Durante o registro das atividades deve-se incluir detalhes como datas, horários, descrições de tarefas, nomes de participantes e observações relevantes.  Esta documentação contínua ajuda na avaliação do progresso de projetos ou atividades, permitindo ajustes e melhorias contínuas nos processos.
-    \doublespacing
-    \item Para evidenciar a realização das tarefas, você poderá utilizar a criação de anexos para adicionar anotações, fotos, prints, questionários, entre outros.
-\end{enumerate}
-
-\break
-
- \begin{table}[]
-\centering
-\begin{tabular}{|l|l|l|l|l|}
-\hline
-Nome da Atividade & Data de início & Data de término & Responsável pela atividade & Descrição da atividade realizada \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-                  &                            &                &                 &                                  \\ \hline
-\end{tabular}
-\end{table}
-
-
+% Usando o ambiente longtable para tabelas que se estendem por várias páginas
+\begin{longtable}{|m{4cm}|m{2.8cm}|m{2.8cm}|m{4.8cm}|m{8cm}|} % Usando 'm' para centralizar verticalmente
+    \hline
+    Nome da Atividade & Data de início & Data de término & Responsável pela atividade & Descrição da atividade realizada \\ \hline
+    \endfirsthead
+    % Cabeçalho que aparecerá no início de cada página
+    \hline
+    Nome da Atividade & Data de início & Data de término & Responsável pela atividade & Descrição da atividade realizada \\ \hline
+    \endhead
+    
+    % Aqui você adiciona as linhas da tabela
+    \centering Revisão do Artigo & \centering 08/10/2024 & \centering 17/11/2024 & \centering Luiz & Foram corrigidos erros de português, revisados os objetivos e reformulada a seção de estado da arte. Além disso, incluíram-se os resultados preliminares com as telas do site, o modelo físico do banco de dados e explicações sobre o diagrama de classes e objetos na seção de resultados. Por fim, algoritmos de recursividade foram implementados na tela de busca do site.\\ \hline
+    \centering Prototipação telas do site no Figma& \centering 05/10/2024 & \centering 17/11/2024 & \centering Amanda & Desenvolvimento das telas iniciais com base na prototipação do semestre anterior, das telas da versão mobile, com adição de landing page, reformulando o design anterior para uma versão desktop web. Criação de componentes afim de diminuir a quantidade de telas feitas, e deixar mais eficiente, melhora no design para facilitar a visualização da simulação.\\ \hline
+    \centering Desenvolvimeto da parte front-end do site & \centering 15/10/2024 & \centering 17/11/2024 & \centering Amanda e Valéria & Criação das telas web, ficando fiel à as telas prototipadas no figma, o desenvolvimento do design foi feito utilizando CSS e Bootstrap\\ \hline
+    \centering Desenvolvimento da parte back-end do site & \centering 15/10/2024 & \centering 17/11/2024 & \centering Todos do grupo participaram dessa parte & Foram feitas as funcionalidades do Prototipo Figma, sistemas internos de rota, integração com o banco de dados, utilizando as bibliotecas e funcionalidades do Node.js, sendo elas Express, Nodemon, Middleware, View Engine EJS, Sequelize(utilizado na integração do banco de dados), mysql2, utilizando a arquitetura MVC para deixar as pastas do código estruturadas. \\ \hline
+    \centering Diagrama de Classe & \centering 25/09/2024 & \centering 17/11/2024 & \centering Luiz & Foi feito o diagrama de classe do projeto, baseado nas funções que o projeto terá.\\ \hline
+    % Continue adicionando linhas conforme necessário
+    
+\end{longtable}
 
 \end{document}
