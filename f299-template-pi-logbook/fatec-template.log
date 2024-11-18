@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  12 NOV 2024 14:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.21)  18 NOV 2024 03:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1281,7 +1281,7 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 <./Logos/fatec.jpg, id=7, 401.5pt x 401.5pt>
 File: ./Logos/fatec.jpg Graphic file (type jpg)
 <use ./Logos/fatec.jpg>
-Package pdftex.def Info: ./Logos/fatec.jpg  used on input line 36.
+Package pdftex.def Info: ./Logos/fatec.jpg  used on input line 41.
 (pdftex.def)             Requested size: 99.58444pt x 99.58464pt.
  [1{C:/Users/luizr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
@@ -1305,15 +1305,15 @@ Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33568 strings out of 473899
- 606379 string characters out of 5726500
- 1600370 words of memory out of 5000000
+ 33570 strings out of 473899
+ 606401 string characters out of 5726500
+ 1605370 words of memory out of 5000000
  55935 multiletter control sequences out of 15000+600000
- 596326 words of font info for 98 fonts, out of 8000000 for 9000
+ 596442 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,19n,131p,1320b,4470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on fatec-template.pdf (2 pages, 140299 bytes).
+Output written on fatec-template.pdf (2 pages, 141687 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)

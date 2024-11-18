@@ -2,7 +2,7 @@ Após aplicar os métodos descritos, foram alcançados os seguintes resultados: 
 
 \textbf{Prototipação do aplicativo no Figma}
 
-A \Cref{fig:landing-page} mostra a tela de Landing Page do projeto, onde são exibidas as principais funcionalidades.
+A \Cref{fig:landing-page} apresenta a tela de Landing Page do projeto, que permite você se logar ou cadastrar.
 
 \begin{figure}[H]
     \centering
@@ -54,6 +54,20 @@ O NDVI, ou Índice de Estado de Vegetação, é gerado a partir de imagens captu
 \SourceOrNote{Autoria Própria (2024)}
 \end{figure}
 
+\textbf{Diagrama de Caso de Uso}
+
+O DCU do projeto, ou Diagrama de Caso de Uso, é utilizado para representar as relações entre os atores (usuários do sistema) e as funcionalidades oferecidas pelo projeto. Conforme ilustrado na \Cref{fig:caso-uso}, o diagrama mostra que o proprietário é responsável por cadastrar as mexeriqueiras e os talhões, podendo também se quiser cadastrar drones, consultar gráficos e estatísticas da propriedade. Já o funcionário é encarregado de escanear as folhas, seja utilizando a câmera ou fazendo o upload de imagens. O aplicativo processará essas imagens e fornecerá um diagnóstico baseado nelas. Além disso, o funcionário pode consultar o mapa NDVI gerado pelos drones, acessar o histórico e visualizar estatísticas. Por sua vez, as funções do drone incluem capturar fotos do local e gerar um mapa NDVI.
+
+
+
+\begin{figure}[H]
+    \centering
+    \caption{Diagrama de Caso de Uso}
+    \includegraphics[width=0.7\linewidth]{Illustrations/CasoUso.jpeg}
+    \label{fig:caso-uso}
+    \SourceOrNote{Autoria Própria (2024)}
+    \end{figure}
+
 \textbf{Diagrama de classes}
 
 O diagrama de classes do nosso projeto \Cref{fig:diagrama-classe} começa com a Landing Page, que é a tela inicial exibida caso o usuário não esteja logado. Nessa tela, o usuário pode optar por fazer login ou cadastrar-se. A tela de login permite que o usuário insira seu e-mail ou telefone celular e senha, com a opção de recuperação de senha, caso necessário.
@@ -64,6 +78,8 @@ Ao escolher escanear uma folha ou fazer o upload de uma imagem, o sistema realiz
 
 Há também uma funcionalidade de histórico da propriedade, onde o usuário pode selecionar uma propriedade específica ou alternar para outro talhão, além de adicionar novos talhões. Ao escolher um talhão, o usuário consegue visualizar todos os pés cadastrados nele, podendo buscar um pé pelo nome, selecionar qualquer um dos pés, editar o talhão ou adicionar novos pés. Caso um pé específico seja selecionado, o usuário pode editar o nome, o relatório e, se necessário, excluí-lo do sistema.
 
+Há também a tela Configurações do Usuário, que exibe todos os dados cadastrados, permitindo que o usuário edite suas informações, caso necessário.
+
 \begin{figure}[H]
 \centering
 \caption{Diagrama de Classe}
@@ -72,9 +88,21 @@ Há também uma funcionalidade de histórico da propriedade, onde o usuário pod
 \SourceOrNote{Autoria Própria (2024)}
 \end{figure}
 
+\textbf{Diagrama de Objetos}
+
+O diagrama de objetos do nosso projeto \Cref{fig:diagrama-objetos} ilustra o processo de cadastro do usuário, da propriedade e do talhão, destacando as diferenças entre usuários do tipo físico e jurídico.
+
+\begin{figure}[H]
+    \centering
+    \caption{Diagrama de Objetos}
+    \includegraphics[width=0.7\linewidth]{Illustrations/diagramaObjetos.png}
+    \label{fig:diagrama-objetos}
+    \SourceOrNote{Autoria Própria (2024)}
+    \end{figure}
+
 \textbf{MBD (Modelo de Banco de Dados)}
 
-Primeiramente, é criado o banco de dados \Cref{fig:banco-dados}, que é então utilizado para gerenciar os dados da aplicação. A seguir, são detalhadas as principais tabelas do banco:
+Primeiramente, é criado o banco de dados, que é então utilizado para gerenciar os dados da aplicação. A seguir, são detalhadas as principais tabelas do banco, e na \Cref{fig:DER} temos o DER do banco de dados físico que será descrito abaixo:
 
 \begin{itemize}
     \item \textbf{Tabela \texttt{usuarios}}: Contém as informações dos usuários. Possui os seguintes campos:
@@ -149,4 +177,110 @@ Primeiramente, é criado o banco de dados \Cref{fig:banco-dados}, que é então 
         \item \texttt{data\_analise}: Data em que a análise foi realizada, \texttt{date not null}.
     \end{itemize}
     As chaves estrangeiras \texttt{id\_pe} e \texttt{id\_foto} referenciam, respectivamente, as tabelas \texttt{pes} e \texttt{fotos}.
-\end{itemize}
+\end{itemize} 
+\textbf{DER do Banco de dados}
+\begin{figure}[H]
+\centering
+\caption{DER}
+\includegraphics[width=0.7\linewidth]{Illustrations/DER_BD.jpeg}
+\label{fig:DER}
+\SourceOrNote{Autoria Própria (2024)}
+\end{figure}
+
+\textbf{Algoritmo de ordenação}
+
+O algoritmo de ordenação escolhido foi o Quick Sort, que foi selecionado por ser altamente adequado para grandes volumes de dados, o que pode ser uma realidade em cenários como o gerenciamento de uma plantação, onde existem muitos pés em um talhão. O Quick Sort é eficiente em termos de desempenho, com uma complexidade média de O(n log n), o que o torna ideal para lidar com grandes quantidades de informações. Além disso, ele oferece um excelente equilíbrio entre desempenho e simplicidade de implementação, facilitando a sua adoção no código. Outro ponto relevante é que o Quick Sort é um algoritmo in-place, ou seja, ele ordena os dados sem a necessidade de alocar espaço extra significativo para armazenar cópias dos dados, o que o torna mais eficiente em termos de uso de memória. No contexto do código, o Quick Sort foi utilizado para ordenar os registros pela data de criação, priorizando os dados mais recentes (do mais novo para o mais velho), o que é crucial para garantir que as informações mais atuais sejam processadas e apresentadas com maior relevância.
+
+Dentro do Quick Sort, o pivô é um elemento selecionado do array que será usado para dividir os dados em duas partes. O objetivo do pivô é organizar os dados ao seu redor, de forma que todos os elementos menores que o pivô fiquem à esquerda dele e todos os elementos maiores fiquem à direita. Este processo de divisão e conquista continua de forma recursiva até que o array esteja totalmente ordenado. O pivô, portanto, desempenha um papel fundamental no funcionamento eficiente do algoritmo, garantindo que a ordenação seja realizada de maneira progressiva.
+
+Logo abaixo do pseudocódigo do algoritmo, está a tela \Cref{fig:tela-alg}, que mostra a implementação do algoritmo em prática.
+
+\begin{algorithm}
+    \caption{Algoritmo QuickSort para ordenar os pés de um talhão pela data}
+    \begin{algorithmic}[1]
+    \Function{QuickSort}{pes, data\_criacao}
+        \If{tamanho(pes) $\leq$ 1}
+            \State \Return pes
+        \EndIf
+    
+        \State pivô $\gets$ pes[tamanho(pes) - 1]
+        \State esquerda $\gets$ []
+        \State direita $\gets$ []
+    
+        \State dataPivô $\gets$ \Call{toDate}{pivô.data\_criacao}
+    
+        \For{$i \gets 0$ \textbf{até} tamanho(pes) - 2}
+            \State dataAtual $\gets$ \Call{toDate}{pes[i].data\_criacao}
+            \If{dataAtual $>$ dataPivô}
+                \State esquerda.add(pes[i])
+            \Else
+                \State direita.add(pes[i])
+            \EndIf
+        \EndFor
+    
+        \State \Return \Call{QuickSort}{esquerda, data\_criacao} + [pivô] + \Call{QuickSort}{direita, data\_criacao}
+    \EndFunction
+    \end{algorithmic}
+\end{algorithm}
+
+
+Caso Base:
+\[
+\text{QuickSort}(pes) = pes \quad \text{se} \quad \text{tamanho}(pes) \leq 1
+\]
+
+Caso Geral:
+\[
+\text{QuickSort}(pes) = \text{QuickSort}(\text{esquerda}) + \{ \text{pivô} \} + \text{QuickSort}(\text{direita})
+\]
+onde:
+
+- \text{esquerda} contém os elementos menores que o pivô.
+- \text{direita} contém os elementos maiores ou iguais ao pivô.
+- A recursão é aplicada nas sublistas \text{esquerda} e \text{direita}.
+   
+\begin{figure}[H]
+\centering
+\caption{Tela histórico de pés}
+\includegraphics[width=0.7\linewidth]{Illustrations/tela_hist.png}
+\SourceOrNote{Autoria Própria (2024)}
+\label{fig:tela-alg}
+\end{figure}
+
+\textbf{Modelo de negócios Canvas}
+    
+    O modelo de negócios Canvas do projeto NitrusLeaf \Cref{fig:canvaspi} tem como principal objetivo delinear os elementos cruciais para o sucesso do nosso empreendimento. Esse modelo abrange várias áreas essenciais, incluindo nossos parceiros, proposta de valor, relacionamento com o cliente, recursos e atividades chave, canais, estrutura de custos e fontes de renda.
+    
+    Parceiros Chave
+    
+    Nosso foco principal em parceiros chave são os locais e entidades envolvidas no setor agrícola, especialmente aqueles interessados em inovação tecnológica. Esses parceiros incluem cooperativas agrícolas, universidades, centros de pesquisa, empresas de tecnologia agrícola, secretarias de agricultura dos municípios do Vale do Ribeira e associações de fazendeiros. A colaboração com esses parceiros é fundamental para ampliar o alcance do projeto e assegurar suporte técnico e científico.
+    
+    Proposta de Valor
+    
+    A proposta de valor do NitrusLeaf gira em torno da capacidade de identificar deficiências nutricionais nas plantas, especificamente a falta de manganês e cobre nas folhas de mexerica, de maneira eficiente e em tempo real. Além disso, o projeto visa manter um padrão elevado de qualidade dos frutos, ajudando os agricultores a otimizar a saúde das plantas e a produtividade.
+    
+    Relacionamento com o Cliente
+    
+    O relacionamento com o cliente é focado em oferecer um suporte abrangente. Isso inclui suporte técnico para a utilização do aplicativo via WhatsApp e feedback do cliente pelo app, além de canais de comunicação para feedback e resolução de dúvidas. Nosso objetivo é garantir que os clientes se sintam apoiados e possam maximizar os benefícios do nosso sistema.
+    
+    Recursos Chave
+    
+    Os recursos chave para o desenvolvimento e operação do NitrusLeaf incluem infraestrutura tecnológica (servidores, drones, câmeras de alta resolução), conhecimento técnico em agronomia e TI, uma equipe de suporte dedicada, programadores, instaladores do sistema físico, funcionários para suporte online e host para hospedar o site. Esses recursos são essenciais para o funcionamento eficaz do sistema.
+    
+    Atividades Chave
+    
+    As atividades chave do projeto incluem o desenvolvimento contínuo do software, a calibração dos algoritmos de IA para identificar deficiências nutricionais, a manutenção dos drones e outros equipamentos, e a realização de testes de campo para validar os diagnósticos fornecidos pelo sistema.
+    
+    Canais
+    
+    Os canais através dos quais promovemos e oferecemos nossos serviços incluem nosso website, redes sociais, feiras agrícolas, eventos de tecnologia, newsletters, parcerias com distribuidores agrícolas e anúncios pelas secretarias de agricultura dos municípios do Vale do Ribeira.
+    
+    Estrutura de Custos
+    
+    A estrutura de custos engloba despesas com desenvolvimento e manutenção do software, compra e manutenção de equipamentos (drones e câmeras), marketing e promoção, salários da equipe, custos operacionais gerais como servidores e infraestrutura de TI, manutenção dos itens que realizam o monitoramento das mexericas, compra dos produtos necessários para o monitoramento, host para hospedar as informações, aluguel do sistema e itens necessários, e mão de obra para instalação e manutenção.
+    
+    Fontes de Renda
+    
+    A principal fonte de renda do NitrusLeaf provém da venda de assinaturas para o uso do aplicativo, serviços de análise de solo e plantas, consultoria técnica, parcerias com empresas e aluguel do sistema.
+    
+    Em resumo, o modelo de negócios Canvas do NitrusLeaf oferece uma visão abrangente de como estruturamos nosso projeto para atingir nossos objetivos e atender às necessidades dos nossos clientes. Nossa abordagem integrada garante que todos os aspectos do negócio estejam alinhados para promover a saúde e produtividade das plantações de nossos usuários.

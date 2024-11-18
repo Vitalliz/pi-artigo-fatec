@@ -4,6 +4,11 @@
 \babel@toc {english}{}\relax 
 \babel@toc {brazilian}{}\relax 
 \setlength {\parskip }{\z@ plus\p@ }\listsfontsize 
-\contentsline {section}{Diagrama de Caso de Uso}{15}{section*.17}%
-\contentsline {section}{Diagrama de Classe}{15}{section*.19}%
-\contentsline {section}{Diagrama de Objetos}{16}{section*.21}%
+\contentsline {section}{Prototipação do aplicativo no Figma}{3}{section*.3}%
+\contentsline {section}{Oracle APEX}{7}{section*.10}%
+\contentsline {section}{Diagrama de caso de uso (DCU) Velho}{10}{section*.14}%
+\contentsline {section}{Escopo de Redes}{11}{section*.16}%
+\contentsline {section}{Modelagem relacional e lógica do banco de dados}{12}{section*.18}%
+\contentsline {section}{Modelo de negócios Canvas}{14}{section*.21}%
+\contentsline {section}{Diagrama de Caso de Uso Novo}{15}{section*.23}%
+\contentsline {section}{Logbook}{16}{section*.25}%

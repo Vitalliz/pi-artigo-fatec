@@ -6,16 +6,28 @@ O artigo cita trabalhos que demonstram como a visão computacional, combinada co
 
 Com base nesses avanços, é viável que o projeto NitrusLeaf implemente um sistema semelhante, utilizando smartphones e visão computacional para capturar e analisar imagens de folhas de mexerica. Com o suporte de algoritmos de ML/DL, o sistema pode processar essas imagens para identificar deficiências específicas, como de cobre e manganês, diretamente no campo.
 
-O artigo de \cite{EstadoArte2} explora um pipeline detalhado para identificar doenças e deficiências nutricionais em plantas, baseado em técnicas de processamento de imagem. Esse pipeline, ou sequência organizada de etapas, permite a análise automatizada e eficiente de imagens de plantas, produzindo diagnósticos agrícolas precisos. O pipeline descrito no artigo inclui as seguintes fases: Aquisição de imagem, Pré-processamento, Segmentação, Extração de características, Classificação e, finalmente, Detecção e Diagnóstico. Cada fase depende da anterior e contribui para refinar e analisar os dados, de modo a produzir uma resposta confiável sobre a condição da planta.
+O artigo de \cite{EstadoArte2} explora um pipeline detalhado \Cref{fig:pipeline} para identificar doenças e deficiências nutricionais em plantas, baseado em técnicas de processamento de imagem. Esse pipeline, ou sequência organizada de etapas, permite a análise automatizada e eficiente de imagens de plantas, produzindo diagnósticos agrícolas precisos. O pipeline descrito no artigo inclui as seguintes fases: Aquisição de imagem, Pré-processamento, Segmentação, Extração de características, Classificação e, finalmente, Detecção e Diagnóstico. Cada fase depende da anterior e contribui para refinar e analisar os dados, de modo a produzir uma resposta confiável sobre a condição da planta.
 
 \begin{itemize} 
-    \item \textbf{Aquisição de imagem}: Envolve a captura de imagens de plantas utilizando câmeras, UAVs (drones) ou dispositivos móveis. Essa etapa garante que a imagem tenha qualidade suficiente para as próximas fases do processamento. \item \textbf{Pré-processamento}: Aqui, técnicas de correção de ruído, ajuste de contraste e brilho, além de redimensionamento e rotação, são aplicadas para melhorar a qualidade da imagem e facilitar a segmentação. 
+    \item \textbf{Aquisição de imagem}: Envolve a captura de imagens de plantas utilizando câmeras, drones (Veículos Aéreos Não Tripulados - VANTs) ou dispositivos móveis. Essa etapa assegura que as imagens tenham qualidade suficiente para as fases subsequentes do processamento.
+    \item \textbf{Pré-processamento}: Aqui, técnicas de correção de ruído, ajuste de contraste e brilho, além de redimensionamento e rotação, são aplicadas para melhorar a qualidade da imagem e facilitar a segmentação. 
     \item \textbf{Segmentação de imagem}: É feita para isolar a folha ou parte relevante da planta, separando-a do fundo. Técnicas comuns incluem limiarização, segmentação por cor e abordagens de aprendizado de máquina. \item \textbf{Extração de características}: Essa etapa analisa e extrai informações importantes, como cor, textura e forma, que são essenciais para diferenciar entre folhas saudáveis e afetadas. Métodos como histogramas de cor e a Matriz de Co-ocorrência de Níveis de Cinza (GLCM) são comumente usados. 
     \item \textbf{Classificação}: Modelos de aprendizado de máquina ou redes neurais profundas (como CNNs e SVMs) são empregados para classificar as imagens, diferenciando as folhas saudáveis das que apresentam deficiências ou doenças. 
     \item \textbf{Detecção e Diagnóstico}: A última etapa envolve o diagnóstico da condição da planta, onde é identificada a doença ou deficiência nutricional específica, e recomendações são geradas com base nos resultados da classificação.
 \end{itemize}
 
-Além disso, o artigo aborda técnicas não intrusivas para detecção de deficiências nutricionais, utilizando métodos avançados de verificação de imagem. Por exemplo, uma tabela mostra o uso do método RGB para identificar deficiências de nutrientes, incluindo a deficiência de manganês em citrus. Esse tipo de abordagem reforça a viabilidade do nosso projeto, NitrusLeaf, que busca identificar deficiências de cobre e manganês nas folhas de mexerica. Ao adotar essas tecnologias e adaptar o pipeline descrito, o NitrusLeaf poderá oferecer uma solução eficaz e prática para diagnósticos agrícolas baseados em visão computacional.
+\begin{figure}[H]
+    \centering
+    \caption{Esquema do pipeline para detecção de doenças em plantas baseada em imagens}
+    \includegraphics[width=0.8\linewidth]{Illustrations/pipeline.png}
+    \label{fig:pipeline}
+    \SourceOrNote{Adaptado de \cite{EstadoArte2}}
+    \end{figure}
+
+
+    Além disso, o artigo explora técnicas não intrusivas para a detecção de deficiências nutricionais, utilizando métodos avançados de análise de imagens. Por exemplo, uma tabela destaca o uso do sistema de cores RGB (Red, Green, Blue) para identificar deficiências de nutrientes, incluindo a deficiência de manganês em citrus. Essa abordagem reforça a viabilidade do projeto NitrusLeaf, que tem como objetivo identificar deficiências de cobre e manganês nas folhas de mexerica. Ao adotar essas tecnologias e adaptar o pipeline descrito, o NitrusLeaf poderá se consolidar como uma solução eficaz e prática para diagnósticos agrícolas baseados em visão computacional.
+
+
 
 O artigo de \textcite{EstadoArte3} utiliza os modelos Inception-ResNet v2, Autoencoder de Rede Neural Convolucional (CNN), e uma combinação desses dois modelos por meio de Ensemble Averaging para melhorar a detecção precoce de deficiências nutricionais de cálcio, nitrogênio e potássio em plantações de tomate. A identificação rápida dessas deficiências é essencial, pois a falta de intervenção pode levar a condições mais graves, incluindo doenças que afetam a produtividade e a saúde das plantas. Para garantir que os modelos fossem treinados com imagens robustas e representativas, os autores aplicaram técnicas de pré-processamento e aumento de dados (data augmentation), como ajuste de ângulo, brilho e contraste. Essas técnicas aumentaram a diversidade visual do conjunto de dados, ajudando os modelos a generalizar melhor e a detectar padrões de deficiência com mais precisão.
 

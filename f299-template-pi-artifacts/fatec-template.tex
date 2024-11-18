@@ -10,6 +10,10 @@
 %% Pacotes utilizados
 \usepackage[]{fatec-article}
 \usepackage{float}
+\usepackage{array} % Necessário para 'm{width}' para centralização vertical
+\usepackage{longtable} % Necessário para tabelas que ocupam várias páginas
+\usepackage{setspace}
+\usepackage{multirow}
 %% Início do documento
 \begin{document}
 \vspace{8cm}
@@ -29,9 +33,9 @@
 %exemplo da forma de organização das seções e subseções, você deverá adaptar o template para a realidade do seu projeto.
 \section*{Resultados}
 Após aplicar os métodos descritos, foram alcançados os seguintes resultados: a prototipação das telas para dispositivos móveis utilizando o Figma, a criação do site com o Oracle APEX, a elaboração do Diagrama de Caso de Uso (DCU), o Escopo de Redes, a modelagem relacional e lógica do banco de dados (MBD), e o desenvolvimento do Modelo de Negócios Canvas.
-
-\textbf{Prototipação do aplicativo no Figma}
-
+    
+\subsection*{\textbf{Prototipação do aplicativo no Figma}}
+\addcontentsline{toc}{section}{Prototipação do aplicativo no Figma}
 A \Cref{fig:splash-screen} mostra a tela de splash screen do projeto, tendo a logo, a paleta de cores da identidade visual e a escolha do modo de entrada ou cadastro. Após logar ou se cadastrar você será levado à tela do inicio. 
 
 \begin{figure}[H]
@@ -97,7 +101,8 @@ Para verificar os pés cadastrados no aplicativo, acesse a tela de histórico \C
 \SourceOrNote{Autoria Própria (2024)}
 \end{figure}
 
-\textbf{Oracle APEX}
+\subsection*{\textbf{Oracle APEX}}
+\addcontentsline{toc}{section}{Oracle APEX}
 
 Na aplicação desenvolvida no Oracle APEX, existem três telas principais. A primeira delas é a tela com o mapa, conforme ilustrado na \Cref{fig:APEX-mapa}. Esta tela exibe a localização exata de cada pé dentro dos talhões, fornecendo informações detalhadas sobre a incidência de condições, como deficiência de cobre, deficiência de manganês, ou nenhuma das duas, e identificando qual pé específico está sendo afetado.
 
@@ -129,7 +134,8 @@ A última tela é a tela dos gráficos, conforme ilustrado na \Cref{fig:grafico}
 \SourceOrNote{Autoria Própria (2024)}
 \end{figure}
 
-\textbf{Diagrama de caso de uso (DCU)}
+\subsection*{\textbf{Diagrama de caso de uso (DCU) Velho}}
+\addcontentsline{toc}{section}{Diagrama de caso de uso (DCU) Velho}
 
 O DCU do projeto, ou Diagrama de Caso de Uso, é um diagrama utilizado para explicar as relações entre os atores (utilizadores do sistema) e as funcionalidades disponibilizadas pelo projeto. Conforme ilustrado na \Cref{fig:dcu}, ele mostra que o proprietário deve cadastrar as mexeriqueiras e, se desejar, cadastrar os drones. O funcionário é responsável por escanear as folhas, podendo fazer isso tanto com a câmera quanto fazendo upload das imagens. O aplicativo fornecerá o diagnóstico baseado nas imagens. Além disso, o funcionário pode consultar o mapa NDVI gerado pelo drone, bem como consultar o histórico e visualizar estatísticas. As funções do drone incluem tirar fotos do local e enviar um mapa NDVI.
 
@@ -143,7 +149,8 @@ O DCU do projeto, ou Diagrama de Caso de Uso, é um diagrama utilizado para expl
 \SourceOrNote{Autoria Própria (2024)}
 \end{figure}
 
-\textbf{Escopo de Redes}
+\subsection*{\textbf{Escopo de Redes}}
+\addcontentsline{toc}{section}{Escopo de Redes}
 
 A representação das ligações de rede do projeto é mostrada no escopo de redes, conforme ilustrado na \Cref{fig:escopoderedes}. Esta figura demonstra onde os programas são desenvolvidos e mantidos, sua conexão com a internet e o servidor, e a conexão do usuário com a internet. Quando o usuário envia fotos, estas passam pela internet e são armazenadas no servidor, que guarda as informações no banco de dados.
 
@@ -159,7 +166,9 @@ Há também uma recepção, equipada com uma mesa para atender possíveis client
 \SourceOrNote{Autoria Própria (2024)}
 \end{figure}
 
-\textbf{Modelagem relacional e lógica do banco de dados}
+\subsection*{\textbf{Modelagem relacional e lógica do banco de dados}}
+\addcontentsline{toc}{section}{Modelagem relacional e lógica do banco de dados}
+
 
 A modelagem relacional do banco de dados \Cref{fig:mbdrelacional} do projeto NitrusLeaf tem como principal objetivo explicar a estrutura de dados utilizada para identificar deficiências nutricionais em folhas de mexeriqueira (Citrus reticulata). Este banco de dados é composto por várias entidades e seus respectivos relacionamentos, garantindo a integridade e a eficiência no armazenamento e consulta dos dados.
 
@@ -187,7 +196,8 @@ Esse modelo relacional detalha como o banco de dados é estruturado para garanti
 \SourceOrNote{Autoria Própria (2024)}
 \end{figure}
 
-\textbf{Modelo de negócios Canvas}
+\subsection*{\textbf{Modelo de negócios Canvas}}
+\addcontentsline{toc}{section}{Modelo de negócios Canvas}
 
 O modelo de negócios Canvas do projeto NitrusLeaf \Cref{fig:canvaspi} tem como principal objetivo delinear os elementos cruciais para o sucesso do nosso empreendimento. Esse modelo abrange várias áreas essenciais, incluindo nossos parceiros, proposta de valor, relacionamento com o cliente, recursos e atividades chave, canais, estrutura de custos e fontes de renda.
 
@@ -228,49 +238,46 @@ Em resumo, o modelo de negócios Canvas do NitrusLeaf oferece uma visão abrange
 \section*{Diagramas UML}
     Nesta seção serão apresentados os diagramas da UML utilizados para a modelagem do sistema desenvolvido. Dentre os diagramas utilizados, pode-se citar: Diagrama de Caso de Uso, Diagrama de Classe e Diagrama de Objetos.
     
-    \subsection*{Diagrama de Caso de Uso}
-    \addcontentsline{toc}{section}{Diagrama de Caso de Uso}
+    \subsection*{Diagrama de Caso de Uso Atual}
+    \addcontentsline{toc}{section}{Diagrama de Caso de Uso Novo}
 
-    Esse é um exemplo de diagrama de caso de uso, você deverá descrever todos os componentes presentes no diagrama (atores e funcionalidades do sistema).
+    O DCU do projeto, ou Diagrama de Caso de Uso, é utilizado para representar as relações entre os atores (usuários do sistema) e as funcionalidades oferecidas pelo projeto. Conforme ilustrado na \Cref{fig:caso-uso}, o diagrama mostra que o proprietário é responsável por cadastrar as mexeriqueiras e os talhões, podendo também se quiser cadastrar drones, consultar gráficos e estatísticas da propriedade. Já o funcionário é encarregado de escanear as folhas, seja utilizando a câmera ou fazendo o upload de imagens. O aplicativo processará essas imagens e fornecerá um diagnóstico baseado nelas. Além disso, o funcionário pode consultar o mapa NDVI gerado pelos drones, acessar o histórico e visualizar estatísticas. Por sua vez, as funções do drone incluem capturar fotos do local e gerar um mapa NDVI.
 
             \begin{figure}[h]
 \centering
 \caption{Diagrama de caso de uso}%
-\label{fig:diagrama-caso-uso}
- \includegraphics[width=1.1\textwidth]{Logos/caso_de_uso_1.jpg}
+\label{fig:caso-uso}
+\includegraphics[width=1.1\textwidth]{Logos/CasoUso.jpeg}
 \SourceOrNote{Maia (2024)}
 \end{figure}
 
-    Não deixe a seção terminar com a imagem então sempre adicione um texto após a mesma.
+\section*{Logbook}
+    \addcontentsline{toc}{section}{Logbook}
+
+    % Usando o ambiente longtable para tabelas que se estendem por várias páginas
+\begin{longtable}{|m{2.8cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{5cm}|} % Usando 'm' para centralizar verticalmente
+    \hline
+    Nome da Atividade & Data de início & Data de término & Responsável pela atividade & Descrição da atividade realizada \\ \hline
+    \endfirsthead
+    % Cabeçalho que aparecerá no início de cada página
+    \hline
+    Nome da Atividade & Data de início & Data de término & Responsável pela atividade & Descrição da atividade realizada \\ \hline
+    \endhead
     
-    \subsection*{Diagrama de Classe}
-    \addcontentsline{toc}{section}{Diagrama de Classe}
-
-    Esse é um exemplo de diagrama de classe, você deverá descrever os elementos presentes no diagrama (classes e relacionamentos).
-
-    \begin{figure}[h]
-\centering
-\caption{Diagrama de classe}%
-\label{fig:diagrama-classe}
- \includegraphics[width=0.8\textwidth]{Logos/diagramaclasse.png}
-\SourceOrNote{Maia (2024)}
-\end{figure}
-
-     Não deixe a seção terminar com a imagem então sempre adicione um texto após a mesma.
-
-    \subsection*{Diagrama de Objetos}
-    \addcontentsline{toc}{section}{Diagrama de Objetos}
-
-Esse é um exemplo de diagrama de objetos.
-
-        \begin{figure}[h]
-\centering
-\caption{Diagrama de objetos}%
-\label{fig:diagrama-objetos}
- \includegraphics[width=0.8\textwidth]{Logos/diagrama_objetos.png}
-\SourceOrNote{Maia (2024)}
-\end{figure}
-
-Não deixe a seção terminar com a imagem então sempre adicione um texto após a mesma.
+    % Aqui você adiciona as linhas da tabela
+    \centering Revisão do Artigo & \centering 08/10/2024 & \centering 17/11/2024 & \centering Luiz & Foram corrigidos erros de português, revisados os objetivos e reformulada a seção de estado da arte. Além disso, incluíram-se os resultados preliminares com as telas do site, o modelo físico do banco de dados e explicações sobre o diagrama de classes e objetos na seção de resultados. Por fim, algoritmos de recursividade foram implementados na tela de busca do site.\\ \hline
+    \centering Prototipação telas do site no Figma& \centering 05/10/2024 & \centering 17/11/2024 & \centering Amanda & Desenvolvimento das telas iniciais com base na prototipação do semestre anterior, das telas da versão mobile, com adição de landing page, reformulando o design anterior para uma versão desktop web. Criação de componentes afim de diminuir a quantidade de telas feitas, e deixar mais eficiente, melhora no design para facilitar a visualização da simulação.\\ \hline
+    \centering Desenvolvimeto da parte front-end do site & \centering 15/10/2024 & \centering 17/11/2024 & \centering Amanda e Valéria & Criação das telas web, ficando fiel à as telas prototipadas no figma, o desenvolvimento do design foi feito utilizando CSS e Bootstrap\\ \hline
+    \centering Desenvolvimento da parte back-end do site & \centering 15/10/2024 & \centering 17/11/2024 & \centering Todos do grupo participaram dessa parte & Foram feitas as funcionalidades do Prototipo Figma, sistemas internos de rota, integração com o banco de dados, utilizando as bibliotecas e funcionalidades do Node.js, sendo elas Express, Nodemon, Middleware, View Engine EJS, Sequelize(utilizado na integração do banco de dados), mysql2, utilizando a arquitetura MVC para deixar as pastas do código estruturadas. \\ \hline
+    \centering Banco de dados Físico& \centering 25/10/2024 & \centering 10/11/2024 & \centering Lucas & Foi feito o banco de dados que foi utilizado no site, o banco de dados está de acordo com todas as funcionalidades que o projeto terá.\\ \hline
+    \centering DER do Banco de dados& \centering 23/10/2024 & \centering 25/10/2024 & \centering Lucas & O DER do banco de dados foi refeito, agora com todos os dados corretos e alinhados ao projeto atual.\\ \hline
+    \centering Diagrama de Classe & \centering 25/09/2024 & \centering 17/11/2024 & \centering Luiz & Foi feito o diagrama de classe do projeto, baseado nas funções que o projeto terá.\\ \hline
+    \centering Diagrama de Objetos & \centering 25/09/2024 & \centering 17/11/2024 & \centering Luiz & Foi feito o diagrama de objetos do projeto, mostrando os objetos das classes importantes.\\ \hline
+    \centering Diagrama Caso de Uso & \centering 11/11/2024 & \centering 17/11/2024 & \centering Valéria & Foi refeito o diagrama de caso de uso, com todos os atores e suas respectivas ações corretas e alinhadas com o projeto atual.\\ \hline
+    \centering Banner & \centering 13/11/2024 & \centering 18/11/2024 & \centering Amanda & Feito o banner que será utilizado para a próxima feira tecnólogica.\\ \hline
+    % Continue adicionando linhas conforme necessário
+    
+\end{longtable}
+        
 
 \end{document}
