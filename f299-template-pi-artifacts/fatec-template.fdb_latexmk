@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber fatec-template"] 1731911428.81146 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1731912176.86946 0
-  "fatec-template.bcf" 1731912176 113109 d62ef79e29dd9b074575982fec8535da "pdflatex"
+["biber fatec-template"] 1731912801.93839 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1731912811.63502 0
+  "fatec-template.bcf" 1731912811 113109 d62ef79e29dd9b074575982fec8535da "pdflatex"
   (generated)
   "fatec-template.bbl"
   "fatec-template.blg"
   (rewritten before read)
-["pdflatex"] 1731912173.17773 "c:/Users/luizr/Desktop/PIArtigo/f299-template-pi-artifacts/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1731912176.87012 0
+["pdflatex"] 1731912807.72466 "c:/Users/luizr/Desktop/PIArtigo/f299-template-pi-artifacts/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1731912811.63576 0
   "C:/Users/luizr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1731911419 122199 f0a029dcadf437d1491ad2875c164ac4 ""
   "C:/Users/luizr/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1726970274 11948197 678e150852611f32548acaaa6d5ec737 ""
   "C:/Users/luizr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -194,6 +194,7 @@
   "Logos/CasoUso.jpeg" 1731900467 61919 245e236c23fd0eadf38660218c45d70c ""
   "Logos/Splash-Screen.png" 1727129888 226528 e1036686c446d04062dabfccbc784afa ""
   "Logos/Tela-Escaneamento.png" 1727129888 933772 c9d13ac1cc9eb785497d734bf37382b3 ""
+  "Logos/canvas.png" 1729711452 151294 c175345459c1387cced354d76b16095a ""
   "Logos/dcu.jpeg" 1727129888 111138 9b51706ec7e85909c1b7d7689db72843 ""
   "Logos/escopoderedes.png" 1727129888 172264 5190ca3604258b72d14b1480721e7173 ""
   "Logos/grafico.png" 1727129888 31265 509fcfbb4ddc2941bd8ae7062f7ed06d ""
@@ -204,14 +205,14 @@
   "Logos/tela-drone.png" 1727129888 418949 fc797a2956973258d58ba8c34f8566c2 ""
   "Logos/tela-inicio.png" 1727129888 143262 07f7c2b162d43f737bd63d39fccc2d9e ""
   "Logos/tela-relatorios.png" 1727129888 170851 efb05c3e710f1b3caed7f5e45b679ea4 ""
-  "c:/Users/luizr/Desktop/PIArtigo/f299-template-pi-artifacts/fatec-template.tex" 1731912171 23800 36acbb39514743e15b1ca2cc29d7e016 ""
+  "c:/Users/luizr/Desktop/PIArtigo/f299-template-pi-artifacts/fatec-template.tex" 1731912804 23983 7a7e748b1681c4b528d53cba33241d2f ""
   "fatec-article.sty" 1727122725 40662 bf9c8d6e851cda1aa131bd67402f9dad ""
-  "fatec-template.aux" 1731912176 6382 a7ccf81c15c0234df1bea57856baa982 "pdflatex"
-  "fatec-template.bbl" 1731911430 0 d41d8cd98f00b204e9800998ecf8427e "biber fatec-template"
-  "fatec-template.out" 1731912176 1687 543af40c9f7dc2276aa079c2efef3976 "pdflatex"
-  "fatec-template.run.xml" 1731912176 2498 cdb8e270dd429022a5565db3000a9a0e "pdflatex"
-  "fatec-template.tex" 1731912171 23800 36acbb39514743e15b1ca2cc29d7e016 ""
-  "fatec-template.toc" 1731912176 766 7342667fc0c71c2889c5e3146bf7ba4e "pdflatex"
+  "fatec-template.aux" 1731912811 6637 9292b40a101780b07d6d705c9ce081b4 "pdflatex"
+  "fatec-template.bbl" 1731912803 0 d41d8cd98f00b204e9800998ecf8427e "biber fatec-template"
+  "fatec-template.out" 1731912811 1687 c7ee47b380aae8ce81c77c64e118b12e "pdflatex"
+  "fatec-template.run.xml" 1731912811 2498 cdb8e270dd429022a5565db3000a9a0e "pdflatex"
+  "fatec-template.tex" 1731912804 23983 7a7e748b1681c4b528d53cba33241d2f ""
+  "fatec-template.toc" 1731912811 766 9b229dc2fb1110b87e711e622bc40cc7 "pdflatex"
   (generated)
   "fatec-template.aux"
   "fatec-template.bcf"
