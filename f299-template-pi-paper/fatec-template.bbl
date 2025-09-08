@@ -19,14 +19,11 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{ResultadoNDVISite}{misc}{}{}
+    \entry{Aegro2020}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5c16383134479e6c52687aa35894cf7e}{%
            family={Aegro},
            familyi={A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Porto Alegre, RS}%
       }
       \strng{namehash}{5c16383134479e6c52687aa35894cf7e}
       \strng{fullhash}{5c16383134479e6c52687aa35894cf7e}
@@ -42,13 +39,14 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Blog aegro}
+      \field{note}{Blog Aegro, Porto Alegre, RS}
       \field{title}{O que são mapas NDVI e como utilizá-los na fazenda}
       \field{urlday}{29}
       \field{urlmonth}{5}
       \field{urlyear}{2024}
       \field{year}{2020}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://blog.aegro.com.br/ndvi/
       \endverb
@@ -56,7 +54,7 @@
       \verb https://blog.aegro.com.br/ndvi/
       \endverb
     \endentry
-    \entry{IntroduçãoEUAProblemas}{misc}{}{}
+    \entry{Aregbe2024}{online}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=177472f29f78605ca4ebfcd23cb91650}{%
            family={Aregbe},
@@ -91,13 +89,14 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Southern Ag Today}
+      \field{note}{Southern Ag Today}
       \field{title}{Citrus Greening, Hurricanes, and the Decline of the Florida Citrus Industry}
       \field{urlday}{4}
       \field{urlmonth}{5}
       \field{urlyear}{2024}
       \field{year}{2024}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://southernagtoday.org/2024/01/05/citrus-greening-hurricanes-and-the-decline-of-the-florida-citrus-industry/
       \endverb
@@ -105,7 +104,7 @@
       \verb https://southernagtoday.org/2024/01/05/citrus-greening-hurricanes-and-the-decline-of-the-florida-citrus-industry/
       \endverb
     \endentry
-    \entry{ConclusãoMicroN}{misc}{}{}
+    \entry{Bruna2019}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a42bada6a7858927d9aa821d8a04c731}{%
            family={Bruna},
@@ -113,9 +112,6 @@
            given={Jackellyne},
            giveni={J\bibinitperiod},
            givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Porto Alegre, RS}%
       }
       \strng{namehash}{a42bada6a7858927d9aa821d8a04c731}
       \strng{fullhash}{a42bada6a7858927d9aa821d8a04c731}
@@ -131,21 +127,22 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Blog aegro}
+      \field{note}{Blog Aegro, Porto Alegre, RS}
       \field{title}{9 micronutrientes das plantas: como e quando utilizá-los}
       \field{urlday}{30}
       \field{urlmonth}{5}
       \field{urlyear}{2024}
       \field{year}{2019}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
-      \verb https://blog.aegro.com.br/micronutrientes/#:~:text=Os%20sintomas%20de%20deficiência%20de%20manganês%20podem%20frequentemente%20ser%20confundidos,do%20solo%20é%20tão%20crítico.&text=O%20pH%20do%20solo%20mais,folhas%20amareladas%20na%20sua%20lavoura.
+      \verb https://blog.aegro.com.br/micronutrientes/
       \endverb
       \verb{url}
-      \verb https://blog.aegro.com.br/micronutrientes/#:~:text=Os%20sintomas%20de%20defici%C3%AAncia%20de%20mangan%C3%AAs%20podem%20frequentemente%20ser%20confundidos,do%20solo%20%C3%A9%20t%C3%A3o%20cr%C3%ADtico.&text=O%20pH%20do%20solo%20mais,folhas%20amareladas%20na%20sua%20lavoura.
+      \verb https://blog.aegro.com.br/micronutrientes/
       \endverb
     \endentry
-    \entry{IntroduçãoDeficiencias}{article}{}{}
+    \entry{Bueno1999}{online}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=48f4a0dcda8bd65090cc0a5bb64d2b0e}{%
            family={Bueno},
@@ -159,9 +156,6 @@
            given={Luadir},
            giveni={L\bibinitperiod},
            givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Embrapa Amazônia Ocidental}%
       }
       \strng{namehash}{426f274eb754de31841d5409ecba43cf}
       \strng{fullhash}{426f274eb754de31841d5409ecba43cf}
@@ -177,17 +171,14 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1517-2449}
-      \field{journaltitle}{Embrapa}
-      \field{month}{12}
+      \field{note}{Embrapa Amazônia Ocidental}
       \field{title}{Sintomas de deficiências nutricionais em citros}
       \field{urlday}{19}
       \field{urlmonth}{4}
       \field{urlyear}{2024}
       \field{year}{1999}
       \field{urldateera}{ce}
-      \field{pages}{19}
-      \range{pages}{1}
+      \true{nocite}
       \verb{urlraw}
       \verb https://ainfo.cnptia.embrapa.br/digital/bitstream/item/64450/1/CircTec-06-1999.pdf
       \endverb
@@ -195,7 +186,7 @@
       \verb https://ainfo.cnptia.embrapa.br/digital/bitstream/item/64450/1/CircTec-06-1999.pdf
       \endverb
     \endentry
-    \entry{IntroduçãoDeepLearning}{article}{}{}
+    \entry{Christin2019}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=cd924f887ac71b2964943a571b6a24f5}{%
            family={Christin},
@@ -216,9 +207,6 @@
            giveni={N\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {British Ecological Society(BES)}%
-      }
       \strng{namehash}{8aa4387610d54b513d74e088ceae6656}
       \strng{fullhash}{8aa4387610d54b513d74e088ceae6656}
       \strng{fullhashraw}{8aa4387610d54b513d74e088ceae6656}
@@ -234,27 +222,25 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Methods in Ecology and Evolution}
-      \field{month}{10}
       \field{title}{Applications for deep learning in ecology}
       \field{urlday}{5}
       \field{urlmonth}{5}
       \field{urlyear}{2024}
+      \field{volume}{10}
       \field{year}{2019}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{1632\bibrangedash 1644}
       \range{pages}{13}
       \verb{doi}
       \verb 10.1111/2041-210X.13256
       \endverb
     \endentry
-    \entry{IntroduçãoGreening}{misc}{}{}
+    \entry{Fundecitrus2018}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f246a88e09cbdff3f663c1e8067e4978}{%
            family={Fundecitrus},
            familyi={F\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Araraquara, SP}%
       }
       \strng{namehash}{f246a88e09cbdff3f663c1e8067e4978}
       \strng{fullhash}{f246a88e09cbdff3f663c1e8067e4978}
@@ -270,13 +256,14 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Fundecitrus, ciência e sustentabilidade para a citrucultura}
+      \field{note}{Fundecitrus, ciência e sustentabilidade para a citricultura, Araraquara, SP}
       \field{title}{Greening}
       \field{urlday}{26}
       \field{urlmonth}{4}
       \field{urlyear}{2024}
       \field{year}{2018}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.fundecitrus.com.br/doencas/greening
       \endverb
@@ -284,7 +271,7 @@
       \verb https://www.fundecitrus.com.br/doencas/greening
       \endverb
     \endentry
-    \entry{EstadoArte2}{article}{}{}
+    \entry{Ghorai2021}{article}{}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=177b747273b028d0a5d91e0176c7eb9e}{%
            family={Ghorai},
@@ -319,19 +306,19 @@
         {{un=0,uniquepart=base,hash=43daf67e91cc307f0b633b408cfcbd1e}{%
            family={Kundo},
            familyi={K\bibinitperiod},
-           given={S},
+           given={S.},
            giveni={S\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=1ea4ad8b9493805a4164f3f5c8fb103e}{%
            family={Roy},
            familyi={R\bibinitperiod},
-           given={M\bibnamedelima De},
+           given={M.\bibnamedelimi De},
            giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=6e961b2772021a494175e731c043929f}{%
            family={Mandal},
            familyi={M\bibinitperiod},
-           given={S\bibnamedelima N},
+           given={S.\bibnamedelimi N.},
            giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
            givenun=0}}%
       }
@@ -349,7 +336,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{0971-975X}
       \field{journaltitle}{SATSA Mukhapatra - Annual Technical Issue}
       \field{title}{Image Processing Based Detection of Diseases and Nutrient Deficiencies in Plants}
       \field{urlday}{31}
@@ -358,16 +344,17 @@
       \field{volume}{25}
       \field{year}{2021}
       \field{urldateera}{ce}
+      \true{nocite}
       \field{pages}{1\bibrangedash 25}
       \range{pages}{25}
       \verb{urlraw}
-      \verb https://www.researchgate.net/publication/349707825_Image_Processing_Based_Detection_of_Diseases_and_Nutrient_Deficiencies_in_Plants
+      \verb https://www.researchgate.net/publication/349707825
       \endverb
       \verb{url}
-      \verb https://www.researchgate.net/publication/349707825_Image_Processing_Based_Detection_of_Diseases_and_Nutrient_Deficiencies_in_Plants
+      \verb https://www.researchgate.net/publication/349707825
       \endverb
     \endentry
-    \entry{ConclusãoCobre}{misc}{}{}
+    \entry{Machado2022}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a5918a28f528433d5a29908b69c8979a}{%
            family={Machado},
@@ -390,13 +377,14 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{Agrolink}
+      \field{note}{Agrolink}
       \field{title}{Cobre - tudo o que você precisa saber sobre este adubo}
       \field{urlday}{30}
       \field{urlmonth}{5}
       \field{urlyear}{2024}
       \field{year}{2022}
       \field{urldateera}{ce}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.agrolink.com.br/fertilizantes/nutrientes/cobre---tudo-o-que-voce-precisa-saber-sobre-este-adubo_468470.html
       \endverb
@@ -404,7 +392,7 @@
       \verb https://www.agrolink.com.br/fertilizantes/nutrientes/cobre---tudo-o-que-voce-precisa-saber-sobre-este-adubo_468470.html
       \endverb
     \endentry
-    \entry{EstadoArte1}{article}{}{}
+    \entry{Muthusamy2023}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=9c22df136c1be9762007e3c64b90abe0}{%
            family={Muthusamy},
@@ -433,19 +421,19 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{2395-3454}
       \field{journaltitle}{Nature Environment and Pollution Technology}
       \field{number}{3}
       \field{title}{Computer Vision Based Machine Learning and Deep Learning Approaches for Identification of Nutrient Deficiency in Crops: A Survey}
       \field{volume}{22}
       \field{year}{2023}
+      \true{nocite}
       \field{pages}{1387\bibrangedash 1399}
       \range{pages}{13}
       \verb{doi}
-      \verb https://doi.org/10.46488/NEPT.2023.v22i03.025
+      \verb 10.46488/NEPT.2023.v22i03.025
       \endverb
     \endentry
-    \entry{IntroduçãoRedeNeural}{article}{}{}
+    \entry{Qin2018}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=9ac9bfaa693fa9e6a207d3833e22d820}{%
            family={Qin},
@@ -472,9 +460,6 @@
            giveni={X\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {American Institute of Mathematical Sciences}%
-      }
       \strng{namehash}{9b7008d4385e1405ad30af94108214b9}
       \strng{fullhash}{e7e24a4ef437a81c5a7a826ee05fe93d}
       \strng{fullhashraw}{e7e24a4ef437a81c5a7a826ee05fe93d}
@@ -490,18 +475,18 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Mathematical Foundations of Computing}
-      \field{month}{5}
       \field{number}{2}
-      \field{title}{How convolutional neural networks see the world --- A survey of convolutional neural network visualization methods}
+      \field{title}{How convolutional neural networks see the world -- A survey of convolutional neural network visualization methods}
       \field{volume}{1}
       \field{year}{2018}
+      \true{nocite}
       \field{pages}{149\bibrangedash 180}
       \range{pages}{32}
       \verb{doi}
       \verb 10.3934/mfc.2018008
       \endverb
     \endentry
-    \entry{EstadoArte3}{article}{}{}
+    \entry{Tran2019}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=348d01b48449fbbd89eef0ca4efb02b3}{%
            family={Tran},
@@ -547,11 +532,12 @@
       \field{title}{A Comparative Study of Deep CNN in Forecasting and Classifying the Macronutrient Deficiencies on Development of Tomato Plant}
       \field{volume}{9}
       \field{year}{2019}
+      \true{nocite}
       \verb{doi}
-      \verb https://doi.org/10.3390/app9081601
+      \verb 10.3390/app9081601
       \endverb
     \endentry
-    \entry{ResultadoNDVIArtigo}{article}{}{}
+    \entry{Trindade2021}{online}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=4c3c305f168eeff3a54cdc74d2c8a98b}{%
            family={Trindade},
@@ -572,9 +558,6 @@
            giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim d\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Embrapa Pecuária Sul}%
-      }
       \strng{namehash}{4b2174ea627f909741f05829e9f5218f}
       \strng{fullhash}{4b2174ea627f909741f05829e9f5218f}
       \strng{fullhashraw}{4b2174ea627f909741f05829e9f5218f}
@@ -589,17 +572,14 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1983-0467}
-      \field{journaltitle}{Bagé}
-      \field{month}{5}
-      \field{title}{Avaliação do índice normalizado de vegetação no monitoramento de sistema de unidades de manejo.}
+      \field{note}{Bagé: Embrapa Pecuária Sul}
+      \field{title}{Avaliação do índice normalizado de vegetação no monitoramento de sistema de unidades de manejo}
       \field{urlday}{29}
       \field{urlmonth}{5}
       \field{urlyear}{2024}
       \field{year}{2021}
       \field{urldateera}{ce}
-      \field{pages}{31}
-      \range{pages}{1}
+      \true{nocite}
       \verb{urlraw}
       \verb https://ainfo.cnptia.embrapa.br/digital/bitstream/item/223511/1/BPD-47-online.pdf
       \endverb
@@ -608,6 +588,9 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{EstadoArte1}
+  \missing{EstadoArte2}
+  \missing{EstadoArte3}
 \endrefsection
 \endinput
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.11" bltxversion="3.20" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.11" bltxversion="3.21" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -516,6 +516,7 @@
     <bcf:option datatype="string">alphaothers</bcf:option>
     <bcf:option datatype="string">sortalphaothers</bcf:option>
     <bcf:option datatype="string">presort</bcf:option>
+    <bcf:option datatype="string">citepagerange</bcf:option>
     <bcf:option datatype="string">texencoding</bcf:option>
     <bcf:option datatype="string">bibencoding</bcf:option>
     <bcf:option datatype="string">sortingtemplatename</bcf:option>
@@ -657,9 +658,14 @@
     <bcf:option datatype="boolean">extradate</bcf:option>
     <bcf:option datatype="boolean">extrayear</bcf:option>
     <bcf:option datatype="boolean">justify</bcf:option>
+    <bcf:option datatype="boolean">oldspacing</bcf:option>
     <bcf:option datatype="boolean">pretty</bcf:option>
     <bcf:option datatype="boolean">citecount</bcf:option>
+    <bcf:option datatype="boolean">slashdaterange</bcf:option>
+    <bcf:option datatype="boolean">dateyear</bcf:option>
+    <bcf:option datatype="boolean">datemonth</bcf:option>
     <bcf:option datatype="boolean">sccite</bcf:option>
+    <bcf:option datatype="boolean">accite</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -741,6 +747,8 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
+    <bcf:option datatype="boolean">dateyear</bcf:option>
+    <bcf:option datatype="boolean">datemonth</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -839,6 +847,9 @@
     <bcf:option datatype="boolean" backendout="1">extradate</bcf:option>
     <bcf:option datatype="boolean" backendout="1">extrayear</bcf:option>
     <bcf:option datatype="boolean" backendout="1">backref</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">slashdaterange</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">dateyear</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">datemonth</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -899,7 +910,7 @@
   </bcf:datafieldset>
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
-    <bcf:maps datatype="bibtex" level="user">
+    <bcf:maps datatype="bibtex" level="style">
       <bcf:map>
         <bcf:map_step map_field_source="conference-number" map_field_target="number"/>
         <bcf:map_step map_field_source="conference-year" map_field_target="eventdate"/>
@@ -2454,25 +2465,23 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">fatec-article.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">IntroduçãoGreening</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">IntroduçãoEUAProblemas</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">IntroduçãoGreening</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">IntroduçãoGreening</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">IntroduçãoGreening</bcf:citekey>
-    <bcf:citekey order="5" intorder="2">IntroduçãoDeficiencias</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">IntroduçãoRedeNeural</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">IntroduçãoDeepLearning</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">EstadoArte1</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">EstadoArte1</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">EstadoArte2</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">EstadoArte2</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">EstadoArte2</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">EstadoArte3</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">EstadoArte3</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">ResultadoNDVIArtigo</bcf:citekey>
-    <bcf:citekey order="15" intorder="2">ResultadoNDVISite</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">ConclusãoMicroN</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">ConclusãoCobre</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">EstadoArte1</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">EstadoArte2</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">EstadoArte2</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">EstadoArte2</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">EstadoArte3</bcf:citekey>
+    <bcf:citekey order="6" intorder="1" nocite="1">Aregbe2024</bcf:citekey>
+    <bcf:citekey order="7" intorder="2" nocite="1">Bruna2019</bcf:citekey>
+    <bcf:citekey order="8" intorder="3" nocite="1">Bueno1999</bcf:citekey>
+    <bcf:citekey order="9" intorder="4" nocite="1">Christin2019</bcf:citekey>
+    <bcf:citekey order="10" intorder="5" nocite="1">Fundecitrus2018</bcf:citekey>
+    <bcf:citekey order="11" intorder="6" nocite="1">Ghorai2021</bcf:citekey>
+    <bcf:citekey order="12" intorder="7" nocite="1">Machado2022</bcf:citekey>
+    <bcf:citekey order="13" intorder="8" nocite="1">Muthusamy2023</bcf:citekey>
+    <bcf:citekey order="14" intorder="9" nocite="1">Qin2018</bcf:citekey>
+    <bcf:citekey order="15" intorder="10" nocite="1">Tran2019</bcf:citekey>
+    <bcf:citekey order="16" intorder="11" nocite="1">Trindade2021</bcf:citekey>
+    <bcf:citekey order="17" intorder="12" nocite="1">Aegro2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

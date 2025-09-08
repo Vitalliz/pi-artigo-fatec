@@ -15,9 +15,9 @@
 \usepackage{algpseudocode}
 \usepackage{amsmath}
 
-\Author{1}{Name={ Fagundes. L \\ Freitas. A \\ Freitas. V\\ Medina. L}}
+\Author{1}{Name={ Fagundes. L \\ Freitas. A \\ Freitas. V}}
 
-\Author{2}{Name={\{ lucas.fagundes3@fatec.sp.gov.br \}\\ \{ amanda.freitas14@fatec.sp.gov.br \} \\ \{ valeria.freitas@fatec.sp.gov.br \} \\ \{ luiz.medina@fatec.sp.gov.br \}}}
+\Author{2}{Name={\{ lucas.fagundes3@fatec.sp.gov.br \}\\ \{ amanda.freitas14@fatec.sp.gov.br \} \\ \{ valeria.freitas@fatec.sp.gov.br \}}}
 
 %% Definição das palavras-chaves/keywords
 \Keyword{1}{Citrus reticulata}{Citrus reticulata}
@@ -72,20 +72,13 @@
 
 \input{Topicos/metodologia}
 
-\section*{RESULTADOS PRELIMINARES}\label{sect:resultados}
-
-\input{Topicos/resultados}
-
-\section*{CONCLUSÃO}\label{sect:conclusao}
-
-\input{Topicos/conclusao}
+% Inclui referências mesmo sem citações explícitas no texto
+\nocite{Aregbe2024,Bruna2019,Bueno1999,Christin2019,Fundecitrus2018,Ghorai2021,Machado2022,Muthusamy2023,Qin2018,Tran2019,Trindade2021,Aegro2020}
 
 \printbibliography
 
 %% Elementos pós-textuais (opcionais): Apêndice e Anexo
-%Caso for utilizar, basta retirar o símbolo de % na frente do comando
-%\input{./Extras/post-textual}
-
+% Caso for utilizar, basta retirar o símbolo de % na frente do comando
 \input{./Extras/post-textual}
 
 %% Fim do documento

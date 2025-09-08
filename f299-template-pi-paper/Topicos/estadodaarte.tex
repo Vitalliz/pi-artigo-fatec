@@ -1,4 +1,4 @@
-Entre os muitos desafios enfrentados pelos agricultores, a deficiência de minerais nas plantas é uma preocupação significativa, pois pode resultar em perdas de produtividade e qualidade dos cultivos. A mexerica (Citrus reticulata) é uma das culturas suscetíveis a deficiências minerais, o que pode afetar seu crescimento, desenvolvimento e produção.
+Entre os muitos desafios enfrentados pelos agricultores, a deficiência de minerais nas plantas é uma preocupação significativa, pois pode resultar em perdas de produtividade e qualidade dos cultivos. A mexerica (Citrus reticulata) é uma das culturas suscetíveis a deficiências minerais, o que pode afetar seu crescimento, desenvolvimento e produção. 
 
 O artigo de \textcite{EstadoArte1} discute avanços recentes nas tecnologias de visão computacional, aprendizado de máquina (ML) e aprendizado profundo (DL), que têm sido aplicadas ao monitoramento agrícola para melhorar a produtividade e a qualidade das colheitas. Entre as tecnologias abordadas, destacam-se imagens de satélite, sensoriamento remoto, Internet das Coisas (IoT), dispositivos de sensor e Veículos Aéreos Não Tripulados (VANTs). Esses sistemas são utilizados para capturar dados visuais e detectar deficiências nutricionais em tempo real, permitindo um diagnóstico precoce e aumentando a eficiência na aplicação de insumos agrícolas.
 
@@ -6,14 +6,15 @@ O artigo cita trabalhos que demonstram como a visão computacional, combinada co
 
 Com base nesses avanços, é viável que o projeto NitrusLeaf implemente um sistema semelhante, utilizando smartphones e visão computacional para capturar e analisar imagens de folhas de mexerica. Com o suporte de algoritmos de ML/DL, o sistema pode processar essas imagens para identificar deficiências específicas, como de cobre e manganês, diretamente no campo.
 
-O artigo de \cite{EstadoArte2} explora um pipeline detalhado \Cref{fig:pipeline} para identificar doenças e deficiências nutricionais em plantas, baseado em técnicas de processamento de imagem. Esse pipeline, ou sequência organizada de etapas, permite a análise automatizada e eficiente de imagens de plantas, produzindo diagnósticos agrícolas precisos. O pipeline descrito no artigo inclui as seguintes fases: Aquisição de imagem, Pré-processamento, Segmentação, Extração de características, Classificação e, finalmente, Detecção e Diagnóstico. Cada fase depende da anterior e contribui para refinar e analisar os dados, de modo a produzir uma resposta confiável sobre a condição da planta.
+O artigo de \cite{EstadoArte2} explora um pipeline detalhado \Cref{fig:pipeline} para identificar doenças e deficiências nutricionais em plantas, baseado em técnicas de processamento de imagem. Esse pipeline, ou sequência organizada de etapas, permite a análise automatizada e eficiente de imagens de plantas, produzindo diagnósticos agrícolas precisos. O pipeline descrito no artigo inclui as seguintes fases:
 
-\begin{itemize} 
-    \item \textbf{Aquisição de imagem}: Envolve a captura de imagens de plantas utilizando câmeras, drones (Veículos Aéreos Não Tripulados - VANTs) ou dispositivos móveis. Essa etapa assegura que as imagens tenham qualidade suficiente para as fases subsequentes do processamento.
-    \item \textbf{Pré-processamento}: Aqui, técnicas de correção de ruído, ajuste de contraste e brilho, além de redimensionamento e rotação, são aplicadas para melhorar a qualidade da imagem e facilitar a segmentação. 
-    \item \textbf{Segmentação de imagem}: É feita para isolar a folha ou parte relevante da planta, separando-a do fundo. Técnicas comuns incluem limiarização, segmentação por cor e abordagens de aprendizado de máquina. \item \textbf{Extração de características}: Essa etapa analisa e extrai informações importantes, como cor, textura e forma, que são essenciais para diferenciar entre folhas saudáveis e afetadas. Métodos como histogramas de cor e a Matriz de Co-ocorrência de Níveis de Cinza (GLCM) são comumente usados. 
-    \item \textbf{Classificação}: Modelos de aprendizado de máquina ou redes neurais profundas (como CNNs e SVMs) são empregados para classificar as imagens, diferenciando as folhas saudáveis das que apresentam deficiências ou doenças. 
-    \item \textbf{Detecção e Diagnóstico}: A última etapa envolve o diagnóstico da condição da planta, onde é identificada a doença ou deficiência nutricional específica, e recomendações são geradas com base nos resultados da classificação.
+\begin{itemize}
+    \item \textbf{Aquisição de imagem}: envolve a captura de imagens de plantas utilizando câmeras, drones (Veículos Aéreos Não Tripulados - VANTs) ou dispositivos móveis. Essa etapa assegura que as imagens tenham qualidade suficiente para as fases subsequentes do processamento.
+    \item \textbf{Pré-processamento}: técnicas de correção de ruído, ajuste de contraste e brilho, além de redimensionamento e rotação, são aplicadas para melhorar a qualidade da imagem e facilitar a segmentação.
+    \item \textbf{Segmentação de imagem}: isola a folha ou parte relevante da planta, separando-a do fundo. Técnicas comuns incluem limiarização, segmentação por cor e abordagens de aprendizado de máquina.
+    \item \textbf{Extração de características}: analisa e extrai informações importantes, como cor, textura e forma, essenciais para diferenciar entre folhas saudáveis e afetadas. Métodos como histogramas de cor e a Matriz de Co-ocorrência de Níveis de Cinza (GLCM) são comumente usados.
+    \item \textbf{Classificação}: modelos de aprendizado de máquina ou redes neurais profundas (como CNNs e SVMs) são empregados para classificar as imagens, diferenciando folhas saudáveis das que apresentam deficiências ou doenças.
+    \item \textbf{Detecção e Diagnóstico}: identifica a doença ou deficiência nutricional específica e gera recomendações com base nos resultados da classificação.
 \end{itemize}
 
 \begin{figure}[H]
@@ -25,7 +26,7 @@ O artigo de \cite{EstadoArte2} explora um pipeline detalhado \Cref{fig:pipeline}
     \end{figure}
 
 
-    Além disso, o artigo explora técnicas não intrusivas para a detecção de deficiências nutricionais, utilizando métodos avançados de análise de imagens. Por exemplo, uma tabela destaca o uso do sistema de cores RGB (Red, Green, Blue) para identificar deficiências de nutrientes, incluindo a deficiência de manganês em citrus. Essa abordagem reforça a viabilidade do projeto NitrusLeaf, que tem como objetivo identificar deficiências de cobre e manganês nas folhas de mexerica. Ao adotar essas tecnologias e adaptar o pipeline descrito, o NitrusLeaf poderá se consolidar como uma solução eficaz e prática para diagnósticos agrícolas baseados em visão computacional.
+Além disso, o artigo explora técnicas não intrusivas para a detecção de deficiências nutricionais, utilizando métodos avançados de análise de imagens. Por exemplo, uma tabela destaca o uso do sistema de cores RGB (Red, Green, Blue) para identificar deficiências de nutrientes, incluindo a deficiência de manganês em citrus. Essa abordagem reforça a viabilidade do projeto NitrusLeaf, que tem como objetivo identificar deficiências de cobre e manganês nas folhas de mexerica. Ao adotar essas tecnologias e adaptar o pipeline descrito, o NitrusLeaf poderá se consolidar como uma solução eficaz e prática para diagnósticos agrícolas baseados em visão computacional.
 
 
 
