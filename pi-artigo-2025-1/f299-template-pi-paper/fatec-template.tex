@@ -1,0 +1,85 @@
+%%%% fatec-article.tex, 2024/03/10
+
+%% Classe de documento
+\documentclass[
+  a4paper,%% Tamanho de papel: a4paper, letterpaper (^), etc.
+  12pt,%% Tamanho de fonte: 10pt (^), 11pt, 12pt, etc.
+  english,%% Idioma secundário (penúltimo) (>)
+  brazilian,%% Idioma primário (último) (>)
+]{article}
+
+%% Pacotes utilizados
+\usepackage[]{fatec-article}
+\usepackage{float}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+
+\Author{1}{Name={ Fagundes. L \\ Freitas. A \\ Freitas. V}}
+
+\Author{2}{Name={\{ lucas.fagundes3@fatec.sp.gov.br \}\\ \{ amanda.freitas14@fatec.sp.gov.br \} \\ \{ valeria.freitas@fatec.sp.gov.br \}}}
+
+%% Definição das palavras-chaves/keywords
+\Keyword{1}{Citrus reticulata}{Citrus reticulata}
+\Keyword{2}{Deficiência nutricional}{Nutritional deficiency}
+\Keyword{3}{Visão computacional}{Computer Vision}
+\Keyword{4}{Manganês}{Manganese}
+\Keyword{5}{Cobre}{Copper}
+
+%%%% Resumo no idioma primário (brazilian)
+\begin{Abstract}[brazilian]%% Idioma (brazilian ou english)
+  Este artigo tem como objetivo alinhar-se ao Objetivo de Desenvolvimento Sustentável (ODS) 2 — Fome Zero e Agricultura Sustentável da Agenda 2030 da ONU, visando reduzir perdas na produção agrícola e promover práticas agrícolas mais sustentáveis. A proposta apresentada busca auxiliar agricultores na identificação rápida e precisa de deficiências nutricionais em plantas, utilizando visão computacional para analisar imagens de folhas capturadas por drones ou enviadas pelos produtores. O trabalho descreve o desenvolvimento inicial do projeto NitrusLeaf, um aplicativo para celular e site, que emprega técnicas de Inteligência Artificial (IA) para identificar deficiências nutricionais de cobre e manganês em folhas de Citrus reticulata (mexerica). O treinamento da IA será realizado com redes neurais convolucionais (CNNs), utilizando um banco de dados composto por imagens de folhas com e sem deficiências. Espera-se que, ao final da pesquisa, o NitrusLeaf se consolide como uma ferramenta eficaz para apoiar a agricultura sustentável. 
+\end{Abstract}
+
+%%%% Resumo no idioma secundário (english)
+\begin{Abstract}[english]%% Idioma (brazilian ou english)
+  This article aims to align with the Sustainable Development Goal (SDG) 2 — Zero Hunger and Sustainable Agriculture of the UN 2030 Agenda, aiming to reduce losses in agricultural production and promote more sustainable agricultural practices. The proposed application seeks to assist farmers in the rapid and accurate identification of nutritional deficiencies in plants, using computer vision to analyze images of leaves captured by drones or submitted by producers. This work presents the initial development of the NitrusLeaf project, a mobile app and website that utilizes Artificial Intelligence (AI) techniques to identify nutritional deficiencies of copper and manganese in Citrus reticulata (mandarin) leaves. The AI will be trained using convolutional neural networks (CNNs), employing a database of images of leaves with and without deficiencies. It is expected that, by the end of the research, NitrusLeaf will be consolidated as an effective tool to support sustainable agriculture.
+\end{Abstract}
+
+%% Processamento de entradas (itens) do índice remissivo (makeindex)
+\makeindex%
+
+%% Arquivo(s) de referências
+\addbibresource{fatec-article.bib}
+
+%% Início do documento
+\begin{document}
+
+% Seções e subseções
+%\section{Título de Seção Primária}%
+
+%\subsection{Título de Seção Secundária}%
+
+%\subsubsection{Título de Seção Terciária}%
+
+%\paragraph{Título de seção quaternária}%
+
+%\subparagraph{Título de seção quinária}%
+
+\section*{Introdução}%
+\label{sect:intro}
+\input{Topicos/introducao}
+
+\section*{OBJETIVO} \label{sect:obj}
+
+\input{Topicos/objetivo}
+
+\section*{ESTADO DA ARTE} \label{sect:estadoarte}
+
+\input{Topicos/estadodaarte}
+
+\section*{METODOLOGIA} \label{sect:metodologia}
+
+\input{Topicos/metodologia}
+
+% Inclui referências mesmo sem citações explícitas no texto
+\nocite{Aregbe2024,Bruna2019,Bueno1999,Christin2019,Fundecitrus2018,Ghorai2021,Machado2022,Muthusamy2023,Qin2018,Tran2019,Trindade2021,Aegro2020}
+
+\printbibliography
+
+%% Elementos pós-textuais (opcionais): Apêndice e Anexo
+% Caso for utilizar, basta retirar o símbolo de % na frente do comando
+\input{./Extras/post-textual}
+
+%% Fim do documento
+\end{document}
