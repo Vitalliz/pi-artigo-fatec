@@ -344,7 +344,6 @@
       \field{volume}{25}
       \field{year}{2021}
       \field{urldateera}{ce}
-      \true{nocite}
       \field{pages}{1\bibrangedash 25}
       \range{pages}{25}
       \verb{urlraw}
@@ -426,7 +425,6 @@
       \field{title}{Computer Vision Based Machine Learning and Deep Learning Approaches for Identification of Nutrient Deficiency in Crops: A Survey}
       \field{volume}{22}
       \field{year}{2023}
-      \true{nocite}
       \field{pages}{1387\bibrangedash 1399}
       \range{pages}{13}
       \verb{doi}
@@ -532,7 +530,6 @@
       \field{title}{A Comparative Study of Deep CNN in Forecasting and Classifying the Macronutrient Deficiencies on Development of Tomato Plant}
       \field{volume}{9}
       \field{year}{2019}
-      \true{nocite}
       \verb{doi}
       \verb 10.3390/app9081601
       \endverb
@@ -588,9 +585,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{EstadoArte1}
-  \missing{EstadoArte2}
-  \missing{EstadoArte3}
 \endrefsection
 \endinput
 
