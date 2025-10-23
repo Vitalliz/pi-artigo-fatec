@@ -1,14 +1,43 @@
-O desenvolvimento do projeto será conduzido em etapas que seguem a metodologia de desenvolvimento ágil Scrum, permitindo uma adaptação flexível aos requisitos ao longo do processo. Além disso, será utilizada a linguagem UML (Unified Modeling Language) para a elaboração de diagramas de classes, objetos e casos de uso, bem como a aplicação da análise SWOT (Forças, Fraquezas, Oportunidades e Ameaças), a fim de garantir uma compreensão completa da estrutura e do comportamento do sistema.
+O desenvolvimento do projeto NitrusLeaf foi estruturado em etapas organizadas de forma sequencial e iterativa, com base em princípios de desenvolvimento ágil, visando flexibilidade e adaptação ao longo do processo. O método adotado busca garantir a integração eficiente entre as etapas de análise, implementação e validação dos resultados, assegurando a qualidade e a aplicabilidade da solução desenvolvida.
 
-As principais etapas do projeto são descritas a seguir:
+A Figura \ref{fig:fluxograma} apresenta o fluxograma geral do processo metodológico, descrevendo a sequência lógica das atividades realizadas, desde a captura das imagens até o registro final dos diagnósticos no sistema.
 
-\begin{itemize}
-    \item \textbf{1.1 Coleta de Requisitos e Design}: A ferramenta Figma será utilizada para o desenvolvimento de protótipos de baixa e alta fidelidade das interfaces da aplicação. Essa escolha se justifica pela facilidade de uso da plataforma, sua capacidade colaborativa em tempo real e pelos recursos que permitem validar aspectos funcionais e de usabilidade com clareza e agilidade.
-    \item \textbf{1.2 Desenvolvimento Front-end}: O código da interface será estruturado com HTML, CSS e React, utilizando o framework Next.js, que oferece recursos avançados como renderização do lado do servidor (SSR), geração de páginas estáticas (SSG) e roteamento dinâmico. Essa abordagem permite maior performance, melhor usabilidade e organização otimizada do projeto. O JavaScript será utilizado para implementar a lógica de interação entre o usuário e a interface, garantindo dinamismo e fluidez. O Node.js será adotado em conjunto para a criação de componentes reutilizáveis e integração com o back-end, aumentando a eficiência e a modularidade do código.
-    \item \textbf{1.3 Desenvolvimento Back-end e Banco de Dados}: O DER (Diagrama Entidade-Relacionamento) do banco de dados será modelado utilizando o brModelo, e a implementação será feita com as ferramentas MySQL WorkBench e XAMPP, garantindo uma estrutura robusta e confiável para o armazenamento dos dados. A integração entre o front-end e o back-end será realizada utilizando Node.js, responsável por criar e gerenciar as rotas da aplicação, permitindo a comunicação entre os módulos visuais e os serviços do sistema. Para os componentes que envolvem visão computacional, será utilizada a linguagem Python, aplicada na análise de imagens por meio de algoritmos de inteligência artificial. No ambiente mobile, será utilizado React Native, devido à sua natureza multiplataforma e à possibilidade de criação de APIs eficientes com bom desempenho em dispositivos móveis.
-    \item \textbf{1.4 Treinamento e Avaliação de Algoritmos de IA}: O modelo de IA será baseado em redes neurais convolucionais (CNNs), treinado com imagens rotuladas de folhas de mexerica contendo sintomas de deficiência nutricional. Serão aplicadas técnicas de data augmentation, como variação de brilho, ângulo e contraste, para ampliar a diversidade do conjunto de dados. A eficiência do algoritmo será mensurada por meio de análise de desempenho, utilizando métricas como acurácia, precisão, sensibilidade, F1-score e tempo de execução. A abordagem adotada seguirá o modelo de avaliação empregado por Tran et al. (2019), que compararam arquiteturas como Inception-ResNet v2, Autoencoder CNN e técnicas de Ensemble Averaging para detecção de deficiências nutricionais em folhas de tomate. Da mesma forma, pretende-se validar o modelo proposto com técnicas de validação cruzada e métricas de desempenho estatístico, de forma a garantir confiabilidade e precisão no diagnóstico das deficiências de cobre e manganês.
-    \item \textbf{1.5 Testes e Validação}: Após a implementação do sistema, serão conduzidos testes automatizados e manuais para verificar o correto funcionamento de cada componente. Serão utilizadas ferramentas como o Selenium, que permite a automação de testes de interface, com foco na experiência do usuário e na funcionalidade dos elementos visuais da aplicação. Os testes manuais complementarão essa abordagem, possibilitando a verificação de cenários não cobertos pelos testes automatizados.
-    \item \textbf{1.6 Publicação e Acompanhamento}: O sistema será inicialmente publicado na plataforma web, com foco no desenvolvimento do front-end e back-end. Em uma etapa futura, funcionalidades presentes na versão web serão adaptadas para o ambiente mobile, permitindo que os agricultores utilizem o aplicativo diretamente no campo para escanear folhas em tempo real e receber diagnósticos imediatos. A arquitetura do sistema será planejada com foco em escalabilidade e manutenção contínua, com atualizações baseadas no feedback dos usuários. Essa abordagem progressiva permitirá a constante evolução do sistema, de forma a atender às reais demandas do setor agrícola e garantir a longevidade e eficácia da solução proposta.
-\end{itemize}
+\begin{figure}[H]
+    \centering
+    \caption{Fluxograma do processo de classificação das folhas de mexerica}
+    \includegraphics[width=0.6\linewidth]{Illustrations/fluxograma.png}
+    \label{fig:fluxograma}
+    \SourceOrNote{Fonte: autoria própria (2025)}
+\end{figure}
 
-O fluxograma do processo desenvolvido pode ser consultado no Apêndice B.
+A seguir, descrevem-se detalhadamente as etapas que compõem o processo metodológico representado no fluxograma:
+
+\begin{enumerate}
+\item \textbf{Coleta de Requisitos e Planejamento do Sistema}
+
+Nesta etapa inicial, foram levantados os requisitos funcionais e não funcionais do sistema, definindo-se as principais funcionalidades e fluxos de interação. Para o planejamento da interface e prototipagem, utilizou-se o Figma, devido à sua facilidade de colaboração e à capacidade de criar protótipos interativos de baixa e alta fidelidade. Essa fase também incluiu a elaboração de diagramas UML para a representação da estrutura do sistema e análise SWOT para identificar forças, fraquezas, oportunidades e ameaças, garantindo uma visão ampla do projeto.
+
+\item \textbf{Captura e Pré-processamento das Imagens}
+
+O processo tem início com a captura de imagens de folhas de mexerica por meio da câmera do celular ou upload de imagens previamente armazenadas. As imagens passam por etapas de pré-processamento, incluindo redimensionamento, normalização e correção de brilho e contraste. Essas operações garantem a padronização dos dados visuais, fundamentais para o bom desempenho da CNN durante a classificação.
+
+\item \textbf{Envio e Processamento das Imagens}
+
+Após o pré-processamento, as imagens são enviadas para o servidor por meio de uma API desenvolvida em Node.js. No servidor, o modelo de IA implementado em Python realiza o processamento utilizando redes neurais convolucionais (CNNs) treinadas previamente com imagens rotuladas de folhas saudáveis e com deficiências de cobre e manganês. Essa etapa representa o núcleo analítico do sistema, onde ocorre a classificação automática das imagens.
+
+\item \textbf{Classificação e Exibição dos Resultados}
+
+O modelo realiza a classificação das folhas em três categorias: saudável, deficiência de cobre ou deficiência de manganês. O resultado é exibido no aplicativo em tempo real, fornecendo ao usuário um diagnóstico rápido e acessível. Essa abordagem visa permitir a identificação imediata de deficiências no campo, reduzindo o tempo entre o diagnóstico e a tomada de decisão pelo agricultor.
+
+\item \textbf{Registro e Armazenamento dos Diagnósticos}
+
+Os diagnósticos gerados são armazenados no banco de dados, associados ao registro da planta e ao talhão correspondente. Essa funcionalidade possibilita o acompanhamento histórico do estado nutricional das plantas, facilitando análises posteriores e o monitoramento contínuo das condições do cultivo.
+
+\item \textbf{Treinamento e Avaliação do Modelo}
+
+O treinamento do modelo de IA foi realizado a partir de um conjunto de imagens rotuladas, aplicando técnicas de \textit{data augmentation} para aumentar a diversidade visual do conjunto. Foram utilizadas métricas de desempenho como acurácia, precisão e F1-score para validar o modelo. A metodologia de avaliação segue princípios semelhantes aos empregados por \textcite{Tran2019}, que demonstraram a importância da validação cruzada e da comparação de arquiteturas para garantir resultados consistentes e confiáveis.
+
+\item \textbf{Ferramentas Utilizadas}
+
+Para a implementação do sistema, foram empregadas diferentes ferramentas tecnológicas. O front-end foi desenvolvido com React e Next.js, oferecendo desempenho otimizado e boa organização estrutural. O back-end foi construído em Node.js, responsável pela integração com o banco de dados e a comunicação com o modelo de IA. O armazenamento de dados foi realizado com MySQL, escolhido pela robustez e ampla compatibilidade. O módulo de visão computacional foi desenvolvido em Python, pela facilidade de integração com bibliotecas voltadas à IA, como TensorFlow e Keras.
+\end{enumerate}
