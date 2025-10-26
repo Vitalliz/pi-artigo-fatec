@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.5)  23 OCT 2025 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.5)  26 OCT 2025 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Roky/pi-artigo-17/f299-template-pi-paper/fatec-template.tex
-(c:/Users/Roky/pi-artigo-17/f299-template-pi-paper/fatec-template.tex
+**c:/Users/Roky/pi-artigo-17/pi-artigo-2025-2/f299-template-pi-paper/fatec-template.tex
+(c:/Users/Roky/pi-artigo-17/pi-artigo-2025-2/f299-template-pi-paper/fatec-template.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
 (C:\Users\Roky\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -1023,7 +1023,7 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
  (fatec-template.aux
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
-(babel)             Reported on input line 9.
+(babel)             Reported on input line 11.
 )
 \openout1 = `fatec-template.aux'.
 
@@ -1290,6 +1290,8 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 (Font)              scaled to size 6.6pt on input line 46.
 Package cleveref Info: loaded `brazilian' language definitions on input line 46.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 46.
 Package cleveref Info: loaded `brazilian' language definitions on input line 46.
 Package cleveref Info: loaded `english' language definitions on input line 46.
 Package cleveref Info: loaded `brazilian' language definitions on input line 46.
@@ -1298,19 +1300,19 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
 
 
-<./Illustrations/fatec.jpg, id=15, 401.5pt x 401.5pt>
+<./Illustrations/fatec.jpg, id=17, 401.5pt x 401.5pt>
 File: ./Illustrations/fatec.jpg Graphic file (type jpg)
 <use ./Illustrations/fatec.jpg>
-Package pdftex.def Info: ./Illustrations/fatec.jpg  used on input line 6.
+Package pdftex.def Info: ./Illustrations/fatec.jpg  used on input line 4.
 (pdftex.def)             Requested size: 99.58444pt x 99.58464pt.
 [1{C:/Users/Roky/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
- <./Illustrations/fatec.jpg>]) (Topicos/objetivo.tex)
+ <./Illustrations/fatec.jpg>]) (Topicos/objetivo.tex
 
-[2] (Topicos/estadodaarte.tex)
+[2]) (Topicos/estadodaarte.tex
 
-[3] (Topicos/metodologia.tex
-<Illustrations/fluxograma.png, id=60, 231.86626pt x 499.11469pt>
+[3]) (Topicos/metodologia.tex
+<Illustrations/fluxograma.png, id=81, 231.86626pt x 499.11469pt>
 File: Illustrations/fluxograma.png Graphic file (type png)
 <use Illustrations/fluxograma.png>
 Package pdftex.def Info: Illustrations/fluxograma.png  used on input line 8.
@@ -1345,13 +1347,6 @@ Package cleveref Info: loaded `brazilian' language definitions on input line 78.
 Package cleveref Info: loaded `brazilian' language definitions on input line 78.
 Package cleveref Info: loaded `brazilian' language definitions on input line 78.
 Package cleveref Info: loaded `brazilian' language definitions on input line 78.
-Package cleveref Info: loaded `brazilian' language definitions on input line 78.
-Package cleveref Info: loaded `brazilian' language definitions on input line 78.
-Package cleveref Info: loaded `brazilian' language definitions on input line 78.
-Package cleveref Info: loaded `brazilian' language definitions on input line 78.
-Package cleveref Info: loaded `brazilian' language definitions on input line 78.
-Package cleveref Info: loaded `brazilian' language definitions on input line 78.
-Package cleveref Info: loaded `brazilian' language definitions on input line 78.
 
 
 [7]
@@ -1366,84 +1361,75 @@ Package cleveref Info: loaded `brazilian' language definitions on input line 78.
 Package cleveref Info: loaded `brazilian' language definitions on input line 78.
 Package cleveref Info: loaded `brazilian' language definitions on input line 78.
 Package cleveref Info: loaded `brazilian' language definitions on input line 78.
-Package cleveref Info: loaded `brazilian' language definitions on input line 78.
  (Extras/post-textual.tex
-<Illustrations/canvas.png, id=111, 702.37407pt x 865.73438pt>
-File: Illustrations/canvas.png Graphic file (type png)
-<use Illustrations/canvas.png>
-Package pdftex.def Info: Illustrations/canvas.png  used on input line 15.
-(pdftex.def)             Requested size: 386.95897pt x 476.97441pt.
+<Illustrations/swot.png, id=125, 534.49687pt x 420.06938pt>
+File: Illustrations/swot.png Graphic file (type png)
+<use Illustrations/swot.png>
+Package pdftex.def Info: Illustrations/swot.png  used on input line 15.
+(pdftex.def)             Requested size: 386.95897pt x 304.12907pt.
 
 
 [8])
 
-[9 <./Illustrations/canvas.png>] (fatec-template.aux
-Package cleveref Info: loaded `brazilian' language definitions on input line 9.
-Package cleveref Info: loaded `brazilian' language definitions on input line 10.
+[9 <./Illustrations/swot.png>] (fatec-template.aux
 Package cleveref Info: loaded `brazilian' language definitions on input line 11.
-Package cleveref Info: loaded `english' language definitions on input line 12.
+Package cleveref Info: loaded `brazilian' language definitions on input line 12.
 Package cleveref Info: loaded `brazilian' language definitions on input line 13.
-Package cleveref Info: loaded `brazilian' language definitions on input line 14.
+Package cleveref Info: loaded `english' language definitions on input line 14.
 Package cleveref Info: loaded `brazilian' language definitions on input line 15.
-Package cleveref Info: loaded `english' language definitions on input line 16.
+Package cleveref Info: loaded `brazilian' language definitions on input line 16.
 Package cleveref Info: loaded `brazilian' language definitions on input line 17.
-Package cleveref Info: loaded `brazilian' language definitions on input line 104.
-Package cleveref Info: loaded `brazilian' language definitions on input line 105.
-Package cleveref Info: loaded `brazilian' language definitions on input line 106.
-Package cleveref Info: loaded `brazilian' language definitions on input line 107.
-Package cleveref Info: loaded `brazilian' language definitions on input line 109.
-Package cleveref Info: loaded `brazilian' language definitions on input line 110.
-Package cleveref Info: loaded `brazilian' language definitions on input line 111.
-Package cleveref Info: loaded `brazilian' language definitions on input line 112.
-Package cleveref Info: loaded `brazilian' language definitions on input line 114.
-Package cleveref Info: loaded `brazilian' language definitions on input line 115.
-Package cleveref Info: loaded `brazilian' language definitions on input line 116.
-Package cleveref Info: loaded `brazilian' language definitions on input line 117.
-Package cleveref Info: loaded `brazilian' language definitions on input line 119.
-Package cleveref Info: loaded `brazilian' language definitions on input line 120.
+Package cleveref Info: loaded `english' language definitions on input line 18.
+Package cleveref Info: loaded `brazilian' language definitions on input line 19.
 Package cleveref Info: loaded `brazilian' language definitions on input line 121.
 Package cleveref Info: loaded `brazilian' language definitions on input line 122.
+Package cleveref Info: loaded `brazilian' language definitions on input line 123.
 Package cleveref Info: loaded `brazilian' language definitions on input line 124.
-Package cleveref Info: loaded `brazilian' language definitions on input line 125.
+Package cleveref Info: loaded `brazilian' language definitions on input line 126.
 Package cleveref Info: loaded `brazilian' language definitions on input line 127.
 Package cleveref Info: loaded `brazilian' language definitions on input line 128.
 Package cleveref Info: loaded `brazilian' language definitions on input line 129.
-Package cleveref Info: loaded `brazilian' language definitions on input line 130.
+Package cleveref Info: loaded `brazilian' language definitions on input line 131.
 Package cleveref Info: loaded `brazilian' language definitions on input line 132.
-Package cleveref Info: loaded `brazilian' language definitions on input line 133.
 Package cleveref Info: loaded `brazilian' language definitions on input line 134.
 Package cleveref Info: loaded `brazilian' language definitions on input line 135.
+Package cleveref Info: loaded `brazilian' language definitions on input line 136.
 Package cleveref Info: loaded `brazilian' language definitions on input line 137.
-Package cleveref Info: loaded `brazilian' language definitions on input line 138.
 Package cleveref Info: loaded `brazilian' language definitions on input line 139.
 Package cleveref Info: loaded `brazilian' language definitions on input line 140.
+Package cleveref Info: loaded `brazilian' language definitions on input line 141.
+Package cleveref Info: loaded `brazilian' language definitions on input line 142.
+Package cleveref Info: loaded `brazilian' language definitions on input line 144.
 Package cleveref Info: loaded `brazilian' language definitions on input line 145.
 Package cleveref Info: loaded `brazilian' language definitions on input line 146.
 Package cleveref Info: loaded `brazilian' language definitions on input line 147.
-Package cleveref Info: loaded `brazilian' language definitions on input line 148.
+Package cleveref Info: loaded `brazilian' language definitions on input line 149.
+Package cleveref Info: loaded `brazilian' language definitions on input line 150.
+Package cleveref Info: loaded `brazilian' language definitions on input line 151.
+Package cleveref Info: loaded `brazilian' language definitions on input line 152.
 )
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `fatec-template.out' has not changed.
-(rerunfilecheck)             Checksum: 84BA4C278ABBF5EC91B8CD7DC675416B;576.
+(rerunfilecheck)             Checksum: 366456C721B09387EB01A63BC393B002;505.
 Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 \openout1 = `fatec-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34973 strings out of 468133
- 632183 string characters out of 5431197
- 1640807 words of memory out of 5000000
- 62943 multiletter control sequences out of 15000+600000
- 675944 words of font info for 144 fonts, out of 8000000 for 9000
+ 34983 strings out of 468133
+ 632411 string characters out of 5431197
+ 1643044 words of memory out of 5000000
+ 62945 multiletter control sequences out of 15000+600000
+ 679458 words of font info for 149 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,19n,131p,1761b,4572s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on fatec-template.pdf (9 pages, 406301 bytes).
+ 87i,19n,131p,1778b,4572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/Roky/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on fatec-template.pdf (9 pages, 494815 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 23592 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 25640 words of extra memory for PDF output out of 29859 (max. 10000000)
 
