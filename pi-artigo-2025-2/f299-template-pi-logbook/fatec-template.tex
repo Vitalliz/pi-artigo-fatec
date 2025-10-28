@@ -1,0 +1,43 @@
+\documentclass[
+    landscape,
+    a4paper,
+    12pt,
+    english,
+    brazilian,
+]{article}
+
+\usepackage{fatec-article}
+\usepackage{array} % Necessário para 'm{width}' para centralização vertical
+\usepackage{longtable} % Necessário para tabelas que ocupam várias páginas
+\usepackage{setspace}
+
+\begin{document}
+
+\section*{Diário de Bordo}
+
+% Usando o ambiente longtable para tabelas que se estendem por várias páginas
+\begin{longtable}{|m{4cm}|m{2.8cm}|m{2.8cm}|m{4.8cm}|m{8cm}|} % Usando 'm' para centralizar verticalmente
+    \hline
+    Nome da Atividade & Data de início & Data de término & Responsável pela atividade & Descrição da atividade realizada \\ \hline
+    \endfirsthead
+    % Cabeçalho que aparecerá no início de cada página
+    \hline
+    Nome da Atividade & Data de início & Data de término & Responsável pela atividade & Descrição da atividade realizada \\ \hline
+    \endhead
+    
+    % Aqui você adiciona as linhas da tabela
+    \centering Formulários e Autorização de Pesquisa de Campo & \centering 26/08/2025 & \centering 16/09/2025 & \centering Amanda, Valéria & Realizado pesquisa e formulação de perguntas para o questionário e alterações do corpo da autorização para a pesquisa acadêmico-científica do projeto integrador. \\ \hline
+    \centering Briefing & \centering 17/09/2025 & \centering 29/09/2025 & \centering Amanda, Lucas, Valéria & Todos os integrantes realizaram em partes a criação de personas, roteiro de briefing e slides de apresentação do Briefing do Projeto Integrador. \\ \hline
+    \centering Pesquisa de Campo & \centering 20/09/2025 & \centering 20/09/2025 & \centering Amanda, Lucas & Realizado visitas ao Sítio São Miguel (empresa Frutas Wosniak) e à Fazenda Eizo Rio Rainha situadas em Pariquera-Açu, sendo estes produtores da cultura estudada. Foi apresentado o conceito do projeto e feito a coleta das respostas do questionário. \\ \hline
+    \centering Prototipação no Figma & \centering 26/09/2025 & \centering & \centering Amanda & Atualizações nas telas na adição de tela de cadastro e inclusão de tutorial no protótipo da aplicação. \\ \hline
+    \centering Artigo e Artefatos & \centering 02/10/2025 & \centering & \centering Lucas, Valéria & Desenvolvimento da seção de Metodologias e atualização de Artefatos. \\ \hline
+    \centering Aplicação Mobile & \centering 16/10/2025 & \centering & \centering Amanda, Valéria & Criado repositório de projeto em versão mobile, desenvolvido em React.js. \\ \hline
+    \centering Slides de Apresentação & \centering 18/10/2025 & \centering & \centering Amanda & Feito criação de slides de apresentação com o template da CPS em Latex Beamer. \\ \hline
+    \centering Banner & \centering & \centering & \centering Amanda & Atualização do banner que será utilizado para a próxima feira tecnológica. \\ \hline
+    \centering Pitch & \centering & \centering & \centering Lucas & Criação de novo pitch com vídeos dos integrantes em inglês. \\ \hline
+
+    % Continue adicionando linhas conforme necessário
+    
+\end{longtable}
+
+\end{document}
