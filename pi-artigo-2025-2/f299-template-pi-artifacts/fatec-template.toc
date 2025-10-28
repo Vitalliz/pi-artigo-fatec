@@ -18,3 +18,8 @@
 \contentsline {subsection}{\numberline {4.3}\textbf {Fluxo de Comunicação}}{11}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}\textbf {Segurança e Estabilidade}}{12}{subsection.4.4}%
 \contentsline {section}{\numberline {5}Interface de Usuário de Alta Fidelidade (Figma)}{13}{section.5}%
+\contentsline {section}{\numberline {6}Interface da Aplicação}{13}{section.6}%
+\contentsline {section}{\numberline {7}Organização do Projeto com Scrum}{13}{section.7}%
+\contentsline {section}{\numberline {8}Diário de Bordo}{14}{section.8}%
+\contentsline {section}{\numberline {9}Pesquisa de Campo}{14}{section.9}%
+\contentsline {section}{\numberline {10}Análise Swot}{14}{section.10}%

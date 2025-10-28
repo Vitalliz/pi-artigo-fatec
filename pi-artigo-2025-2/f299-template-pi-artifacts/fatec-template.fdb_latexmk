@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber fatec-template"] 1761676364.89416 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1761676516.01515 0
-  "fatec-template.bcf" 1761676515 113655 15dae3cd1f42b900626071d0d281a50e "pdflatex"
+["biber fatec-template"] 1761682186.34349 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1761684438.95593 0
+  "fatec-template.bcf" 1761684438 113655 15dae3cd1f42b900626071d0d281a50e "pdflatex"
   (generated)
   "fatec-template.bbl"
   "fatec-template.blg"
   (rewritten before read)
-["pdflatex"] 1761676512.36346 "c:/Users/User/Desktop/pi-artigo-17/pi-artigo-2025-2/f299-template-pi-artifacts/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1761676516.01617 0
+["pdflatex"] 1761684435.49161 "c:/Users/User/Desktop/pi-artigo-17/pi-artigo-2025-2/f299-template-pi-artifacts/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1761684438.95679 2
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761661919 122378 c1dc82c6b85f2c9d33e9cc271df3666e ""
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1760036004 13286482 041c979a045a6d9f0a02c3c15764d74c ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -191,7 +191,9 @@
   "Images/DiagramaDeObjetos.jpg" 1761663731 233485 23c34f3753a4b1d16e8e126fafe9961d ""
   "Images/DiagramaInfraestruturaDeRedes.jpg" 1761670943 314697 cf96c05f52c13ea49d774627da29bcde ""
   "Images/DiagramaMER.jpg" 1761669155 141835 500733495524d81f2bcbaefc6e28f674 ""
+  "Images/Scrum.png" 1761678566 112913 e91a2754a9bb04028c0347549cbed9ca ""
   "Logos/fatec.jpg" 1761488550 52462 b72184f489d14cab2f4098401c2496e6 ""
+  "Topicos/Analise-Swot.tex" 1761684430 1890 a42bb8f112588d5edd0a3521466e4fc0 ""
   "Topicos/Canvas.tex" 1761676223 2795 cefa3b76369bd09259ffabcc1e33de48 ""
   "Topicos/Casos-de-uso.tex" 1761671256 2031 8055ff65c4b948f9074b96ecd8f1d766 ""
   "Topicos/Componentes-da-Rede.tex" 1761675323 1849 bdbae9a7ab5d1193ee9f0a12e8c37c5b ""
@@ -199,17 +201,20 @@
   "Topicos/Diagrama-Modelo-Lógico.tex" 1761672154 2179 49e312fcef1c97aaf494e34a582f2d15 ""
   "Topicos/Diagrama-de-classe.tex" 1761671260 2492 29f7a9f0da0ba33c68bc88b1384b1ac5 ""
   "Topicos/Diagrama-de-objetos.tex" 1761671263 1076 0edd53bfbb83010bc5749ef95cb30b56 ""
+  "Topicos/Diario-de-Bordo.tex" 1761678725 0 d41d8cd98f00b204e9800998ecf8427e ""
   "Topicos/Fluxo-de-comunicacao.tex" 1761675335 1547 7f88e1f55d20740baca8521edf75bbcd ""
+  "Topicos/Interface-Aplicacao.tex" 1761678953 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Topicos/Pesquisa-de-Campo.tex" 1761678813 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Topicos/Scrum.tex" 1761678625 1126 a9d9cbdcfd68c5effff03bab9b145b51 ""
   "Topicos/Seguranca-e-estabilidade.tex" 1761675517 957 3fb4a1ba615f078ad7c92c01b5408e61 ""
   "Topicos/Visao-geral-da-Rede.tex" 1761672772 545 d75638a101b5fed60f45b6678cedd97f ""
-  "c:/Users/User/Desktop/pi-artigo-17/pi-artigo-2025-2/f299-template-pi-artifacts/fatec-template.tex" 1761676511 6747 23725d1f7260ccaa27d081d27e68db66 ""
+  "c:/Users/User/Desktop/pi-artigo-17/pi-artigo-2025-2/f299-template-pi-artifacts/fatec-template.tex" 1761678936 7474 649e58b9aee132dd65088265af3544d3 ""
   "fatec-article.sty" 1761488919 40662 bf9c8d6e851cda1aa131bd67402f9dad ""
-  "fatec-template.aux" 1761676515 7021 549e72675e574380c35f964c20a1b35a "pdflatex"
-  "fatec-template.bbl" 1761676366 0 d41d8cd98f00b204e9800998ecf8427e "biber fatec-template"
-  "fatec-template.out" 1761676515 3165 9606b74836f9cb6bc70fbad4743ce24d "pdflatex"
-  "fatec-template.run.xml" 1761676515 2533 ddd91e20767af94d459033942f5b644d "pdflatex"
-  "fatec-template.tex" 1761676511 6747 23725d1f7260ccaa27d081d27e68db66 ""
-  "fatec-template.toc" 1761676515 1579 b95beb50c512dad088db1d9b8a765145 "pdflatex"
+  "fatec-template.aux" 1761684438 8682 732c8597d061b3cd53b0c939cf45c8f5 "pdflatex"
+  "fatec-template.bbl" 1761682188 0 d41d8cd98f00b204e9800998ecf8427e "biber fatec-template"
+  "fatec-template.out" 1761684438 3997 5fa430207beeeda4fc9b8bb8920dde70 "pdflatex"
+  "fatec-template.tex" 1761678936 7474 649e58b9aee132dd65088265af3544d3 ""
+  "fatec-template.toc" 1761684438 1970 f62c344ef50a4ff4ec821b7c77fb134e "pdflatex"
   (generated)
   "fatec-template.aux"
   "fatec-template.bcf"

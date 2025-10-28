@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  28 OCT 2025 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.9)  28 OCT 2025 17:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1073,15 +1073,13 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
- (fatec-template.aux
-Package babel Info: 'brazilian' activates 'portuges' shorthands.
-(babel)             Reported on input line 9.
-)
+
+No file fatec-template.aux.
 \openout1 = `fatec-template.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 76.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 76.
- (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
 LaTeX Font Info:    ... okay on input line 76.
@@ -1118,7 +1116,6 @@ File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
 LaTeX Font Info:    ... okay on input line 76.
 Package hyperref Info: Link coloring ON on input line 76.
- (fatec-template.out) (fatec-template.out)
 \@outlinefile=\write4
 \openout4 = `fatec-template.out'.
 
@@ -1141,6 +1138,8 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package babel Info: 'brazilian' activates 'portuges' shorthands.
+(babel)             Reported on input line 76.
 \c@mv@tabular=\count495
 \c@mv@boldtabular=\count496
 LaTeX Info: Command `\dddot' is already robust on input line 76.
@@ -1282,7 +1281,7 @@ Package cleveref Info: loaded `brazilian' language definitions on input line 76.
 Package cleveref Info: loaded `brazilian' language definitions on input line 76.
 Package cleveref Info: loaded `english' language definitions on input line 76.
 Package cleveref Info: loaded `brazilian' language definitions on input line 76.
-<Logos/fatec.jpg, id=63, 401.5pt x 401.5pt>
+<Logos/fatec.jpg, id=3, 401.5pt x 401.5pt>
 File: Logos/fatec.jpg Graphic file (type jpg)
 <use Logos/fatec.jpg>
 Package pdftex.def Info: Logos/fatec.jpg  used on input line 79.
@@ -1364,13 +1363,8 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 
 [1
 
-{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./Logos/fatec.jpg>] (fatec-template.toc
-Package cleveref Info: loaded `brazilian' language definitions on input line 1.
-Package cleveref Info: loaded `brazilian' language definitions on input line 2.
-Package cleveref Info: loaded `brazilian' language definitions on input line 3.
-Package cleveref Info: loaded `english' language definitions on input line 4.
-Package cleveref Info: loaded `brazilian' language definitions on input line 5.
-)
+{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./Logos/fatec.jpg>]
+No file fatec-template.toc.
 \tf@toc=\write5
 \openout5 = `fatec-template.toc'.
 
@@ -1387,7 +1381,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<Images/DiagramaCasosDeUso.jpg, id=92, 1284.8pt x 1017.8025pt>
+<Images/DiagramaCasosDeUso.jpg, id=19, 1284.8pt x 1017.8025pt>
 File: Images/DiagramaCasosDeUso.jpg Graphic file (type jpg)
 <use Images/DiagramaCasosDeUso.jpg>
 Package pdftex.def Info: Images/DiagramaCasosDeUso.jpg  used on input line 26.
@@ -1399,7 +1393,7 @@ Package pdftex.def Info: Images/DiagramaCasosDeUso.jpg  used on input line 26.
 {C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) (Topicos/Diagrama-de-classe.tex
 
 [4 <./Images/DiagramaCasosDeUso.jpg>]
-<Images/DiagramaDeClasses.jpg, id=103, 1284.8pt x 980.66376pt>
+<Images/DiagramaDeClasses.jpg, id=33, 1284.8pt x 980.66376pt>
 File: Images/DiagramaDeClasses.jpg Graphic file (type jpg)
 <use Images/DiagramaDeClasses.jpg>
 Package pdftex.def Info: Images/DiagramaDeClasses.jpg  used on input line 22.
@@ -1407,7 +1401,7 @@ Package pdftex.def Info: Images/DiagramaDeClasses.jpg  used on input line 22.
 ) (Topicos/Diagrama-de-objetos.tex
 
 [5 <./Images/DiagramaDeClasses.jpg>]
-<Images/DiagramaDeObjetos.jpg, id=109, 1284.8pt x 628.3475pt>
+<Images/DiagramaDeObjetos.jpg, id=40, 1284.8pt x 628.3475pt>
 File: Images/DiagramaDeObjetos.jpg Graphic file (type jpg)
 <use Images/DiagramaDeObjetos.jpg>
 Package pdftex.def Info: Images/DiagramaDeObjetos.jpg  used on input line 12.
@@ -1418,7 +1412,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 
 
 [6 <./Images/DiagramaDeObjetos.jpg>]
-<Images/DiagramaDER.jpg, id=117, 1284.8pt x 643.40375pt>
+<Images/DiagramaDER.jpg, id=50, 1284.8pt x 643.40375pt>
 File: Images/DiagramaDER.jpg Graphic file (type jpg)
 <use Images/DiagramaDER.jpg>
 Package pdftex.def Info: Images/DiagramaDER.jpg  used on input line 48.
@@ -1426,7 +1420,7 @@ Package pdftex.def Info: Images/DiagramaDER.jpg  used on input line 48.
 ) (Topicos/Diagrama-Modelo-Lógico.tex
 
 [7 <./Images/DiagramaDER.jpg>]
-<Images/DiagramaMER.jpg, id=124, 1284.8pt x 431.6125pt>
+<Images/DiagramaMER.jpg, id=58, 1284.8pt x 431.6125pt>
 File: Images/DiagramaMER.jpg Graphic file (type jpg)
 <use Images/DiagramaMER.jpg>
 Package pdftex.def Info: Images/DiagramaMER.jpg  used on input line 36.
@@ -1434,7 +1428,7 @@ Package pdftex.def Info: Images/DiagramaMER.jpg  used on input line 36.
 ) (Topicos/Canvas.tex
 
 [8 <./Images/DiagramaMER.jpg>]
-<Images/Canvas.jpeg, id=130, 936.49875pt x 1154.3125pt>
+<Images/Canvas.jpeg, id=65, 936.49875pt x 1154.3125pt>
 File: Images/Canvas.jpeg Graphic file (type jpg)
 <use Images/Canvas.jpeg>
 Package pdftex.def Info: Images/Canvas.jpeg  used on input line 42.
@@ -1446,16 +1440,37 @@ Package pdftex.def Info: Images/Canvas.jpeg  used on input line 42.
 [10 <./Images/Canvas.jpeg>] (Topicos/Componentes-da-Rede.tex) (Topicos/Fluxo-de-comunicacao.tex)
 
 [11] (Topicos/Seguranca-e-estabilidade.tex
-<Images/DiagramaInfraestruturaDeRedes.jpg, id=144, 1234.6125pt x 1284.8pt>
+<Images/DiagramaInfraestruturaDeRedes.jpg, id=83, 1234.6125pt x 1284.8pt>
 File: Images/DiagramaInfraestruturaDeRedes.jpg Graphic file (type jpg)
 <use Images/DiagramaInfraestruturaDeRedes.jpg>
 Package pdftex.def Info: Images/DiagramaInfraestruturaDeRedes.jpg  used on input line 16.
 (pdftex.def)             Requested size: 386.95897pt x 402.67528pt.
 )
 
-[12 <./Images/DiagramaInfraestruturaDeRedes.jpg>]
+[12 <./Images/DiagramaInfraestruturaDeRedes.jpg>] (Topicos/Interface-Aplicacao.tex) (Topicos/Scrum.tex
+<Images/Scrum.png, id=90, 648.92438pt x 551.05875pt>
+File: Images/Scrum.png Graphic file (type png)
+<use Images/Scrum.png>
+Package pdftex.def Info: Images/Scrum.png  used on input line 20.
+(pdftex.def)             Requested size: 386.95897pt x 328.60294pt.
+)
 
-[13] (fatec-template.aux
+[13 <./Images/Scrum.png>] (Topicos/Diario-de-Bordo.tex) (Topicos/Pesquisa-de-Campo.tex) (Topicos/Analise-Swot.tex
+
+Topicos/Analise-Swot.tex:5: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \begin{table}[h]
+                    
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+)
+
+[14] (fatec-template.aux
 Package cleveref Info: loaded `brazilian' language definitions on input line 9.
 Package cleveref Info: loaded `brazilian' language definitions on input line 10.
 Package cleveref Info: loaded `brazilian' language definitions on input line 11.
@@ -1466,24 +1481,42 @@ Package cleveref Info: loaded `brazilian' language definitions on input line 13.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `fatec-template.out' has not changed.
-(rerunfilecheck)             Checksum: 9606B74836F9CB6BC70FBAD4743CE24D;3165.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `fatec-template.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `fatec-template.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  5FA430207BEEEDA4FC9B8BB8920DDE70;3997.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                fatec-template
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 \openout1 = `fatec-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34769 strings out of 468130
- 631051 string characters out of 5431117
- 1625099 words of memory out of 5000000
- 62691 multiletter control sequences out of 15000+600000
- 683167 words of font info for 163 fonts, out of 8000000 for 9000
+ 34820 strings out of 468130
+ 632604 string characters out of 5431117
+ 1623329 words of memory out of 5000000
+ 62725 multiletter control sequences out of 15000+600000
+ 683283 words of font info for 164 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,13n,131p,1790b,4493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,14n,131p,1790b,4493s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on fatec-template.pdf (13 pages, 2020207 bytes).
+Output written on fatec-template.pdf (14 pages, 2084975 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 28321 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 28206 words of extra memory for PDF output out of 29859 (max. 10000000)
 
