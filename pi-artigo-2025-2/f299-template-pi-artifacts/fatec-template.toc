@@ -4,11 +4,17 @@
 \babel@toc {english}{}\relax 
 \babel@toc {brazilian}{}\relax 
 \setlength {\parskip }{\z@ plus\p@ }\listsfontsize 
-\contentsline {section}{Prototipação do aplicativo no Figma}{3}{section*.2}%
-\contentsline {section}{Oracle APEX}{7}{section*.9}%
-\contentsline {section}{Diagrama de caso de uso (DCU) Velho}{10}{section*.13}%
-\contentsline {section}{Escopo de Redes}{11}{section*.15}%
-\contentsline {section}{Modelagem relacional e lógica do banco de dados}{12}{section*.17}%
-\contentsline {section}{Modelo de negócios Canvas}{14}{section*.20}%
-\contentsline {section}{Diagrama de Caso de Uso Novo}{16}{section*.23}%
-\contentsline {section}{Logbook}{17}{section*.25}%
+\contentsline {section}{\numberline {1}\MakeUppercase []{Diagramas UML}}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}\textbf {Diagrama de Caso de Uso}}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}\textbf {Diagrama de Classe}}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}\textbf {Diagrama de Objetos}}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Diagramas de Banco de Dados}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}\textbf {Diagrama Entidade-Relacionamento (DER)}}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}\textbf {Diagrama Modelo Lógico (MER)}}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Modelo de Negócios Canvas}{8}{section.3}%
+\contentsline {section}{\numberline {4}DIAGRAMA E ESPECIFICAÇÕES DA INFRAESTRUTURA DE REDE}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}\textbf {Visão Geral da Rede}}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}\textbf {Componentes da Rede}}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}\textbf {Fluxo de Comunicação}}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}\textbf {Segurança e Estabilidade}}{12}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Interface de Usuário de Alta Fidelidade (Figma)}{13}{section.5}%

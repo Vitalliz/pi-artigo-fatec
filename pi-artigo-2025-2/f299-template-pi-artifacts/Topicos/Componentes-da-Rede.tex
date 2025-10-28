@@ -1,0 +1,26 @@
+\noindent\textbf{Nuvem (Servidor Externo:)}\par
+Hospeda os serviços centrais do sistema: \textit{API Node.js} (ponto de entrada das requisições), 
+\textit{Banco MySQL} (armazenamento de propriedades, diagnósticos, imagens e histórico) e 
+\textit{Processamento de Imagens (IA)} (análises e geração de resultados). A comunicação externa 
+ocorre via \textbf{HTTPS/TLS}, enquanto a comunicação interna entre serviços permanece em sub-redes 
+privadas com regras de segurança (grupos de segurança/firewall). Proporciona \textit{escala}, 
+\textit{alta disponibilidade} e \textit{monitoramento/logs} para auditoria e desempenho.
+
+\medskip
+\noindent\textbf{Roteador (Acesso do Cliente:)}\par
+Responsável por interligar a \textbf{rede local da propriedade} à internet (fibra/rádio/4G--5G). 
+Encaminha o tráfego \textbf{HTTPS} dos dispositivos dos usuários até a API na nuvem e recebe as respostas
+(diagnóstico e recomendações). Executa \textit{NAT}, pode fornecer \textit{DHCP} e aplicar \textit{QoS} 
+para priorizar upload de imagens. Opcionalmente estabelece \textit{VPN} para gestão remota segura e 
+implementa políticas básicas de firewall na borda do cliente.
+
+\medskip
+\noindent\textbf{Rede (LAN \& WAN:)}\par
+A \textbf{LAN da Propriedade} conecta os endpoints (PC do Proprietário e smartphone do Agricultor) 
+por cabo/wi-fi, podendo usar \textit{switch} para segmentação e ampliação de portas. A 
+\textbf{WAN (Internet/Nuvem)} é o meio público IP que transporta os dados entre cliente e serviços 
+em nuvem com \textbf{TLS} de ponta a ponta. Fluxo típico: \textit{Dispositivo} $\rightarrow$ 
+\textit{Roteador (LAN)} $\rightarrow$ \textit{Internet (WAN)} $\rightarrow$ 
+\textit{API Node.js (Nuvem)} $\rightarrow$ \textit{MySQL/IA (Nuvem)} $\rightarrow$ 
+\textit{Resposta ao usuário}.
+\medskip

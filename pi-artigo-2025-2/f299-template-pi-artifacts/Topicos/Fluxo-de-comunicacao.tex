@@ -1,0 +1,23 @@
+\noindent\textbf{Internamente (Rede)}
+\begin{itemize}
+    \setlength{\itemsep}{0.8em}   % espaço entre itens
+    \setlength{\topsep}{0.4em}    % espaço antes/depois da lista
+    \setlength{\parsep}{0pt}      % espaço entre parágrafos dentro do item
+    \setlength{\parskip}{0pt}
+    \item \textbf{Switch}: interliga os computadores dos setores (desenvolvimento, manutenção e recepção) na LAN, comutando o tráfego local.
+    \item \textbf{Roteador (NAT/Firewall)}: conecta a LAN à Internet, aplica NAT e regras de firewall, garantindo que os hosts internos acessem serviços externos com segurança.
+    \item \textbf{Saída para a Internet}: provê conectividade externa para o acesso ao site/app e para a comunicação com a API.
+\end{itemize}
+
+\medskip
+\noindent\textbf{Externamente (Cliente \(\leftrightarrow\) Sede via Internet)}
+\begin{itemize}
+    \setlength{\itemsep}{0.8em}
+    \setlength{\topsep}{0.4em}
+    \setlength{\parsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \item \textbf{Canal}: comunicação realizada via \textbf{HTTPS} sobre a Internet pública.
+    \item \textbf{Fluxo de alto nível}: o cliente envia imagens \(\rightarrow\) o tráfego chega à \textbf{API (Servidor Node.js)} \(\rightarrow\) a API orquestra processamento/armazenamento \(\rightarrow\) o diagnóstico é retornado ao cliente (site/app).
+    \item \textbf{Observações de rede}: o cliente \textbf{não acessa diretamente} o módulo de IA nem o banco; a LAN permanece isolada atrás do NAT do roteador.
+\end{itemize}
+\medskip

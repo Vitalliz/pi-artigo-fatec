@@ -1,24 +1,42 @@
-%%%% fatec-article.tex, 2024/03/10
-
 \documentclass[
-    a4paper,%% Tamanho de papel: a4paper, letterpaper (^), etc.
-    12pt,%% Tamanho de fonte: 10pt (^), 11pt, 12pt, etc.
-    english,%% Idioma secundário (penúltimo) (>)
-    brazilian,%% Idioma primário (último) (>)
+    a4paper,
+    12pt,
+    english,
+    brazilian
 ]{article}
 
+% --- Codificação/Fontes p/ pdflatex ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 
-% Template cabeçalho FATEC (mais colado na linha)
-\newcommand{\fatecCabecalho}[1][0cm]{%
-    \newcommand{\LogoWidth}{0.23\textwidth}%
-    \newcommand{\Gutter}{1em}%
+\PassOptionsToPackage{hidelinks,unicode}{hyperref}
+\PassOptionsToPackage{nameinlink,noabbrev}{cleveref}
 
+% --- Pacotes necessários ---
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{graphicx}   % para \includegraphics
+\usepackage[]{fatec-article}
+\usepackage{float}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{tocloft}
+
+
+% --- Cabeçalho FATEC com controles de espaçamento ---
+% Ajustes fáceis:
+\newcommand{\LogoWidth}{0.23\textwidth}   % largura do bloco da logo
+\newcommand{\LogoHeight}{4.5cm}           % altura da logo
+\newcommand{\HeaderGutter}{1em}           % espaço entre logo e textos
+\newcommand{\HeaderTightness}{-2.3\baselineskip} % <- aproxima a LINHA do texto (mais negativo = mais perto)
+
+\newcommand{\fatecCabecalho}{%
     \noindent
     \begin{minipage}[c]{\LogoWidth}
-        % se a logo tiver “respiro” em cima, corte um pouco:
-        \includegraphics[height=4.5cm]{Logos/fatec.jpg}%
-    \end{minipage}\hspace*{\Gutter}%
-    \begin{minipage}[c]{\dimexpr\textwidth-\LogoWidth-\Gutter\relax}
+        \includegraphics[height=\LogoHeight]{Logos/fatec.jpg}%
+    \end{minipage}\hspace*{\HeaderGutter}%
+    \begin{minipage}[c]{\dimexpr\textwidth-\LogoWidth-\HeaderGutter\relax}
         \raggedright\small
         Governo do Estado de São Paulo\\
         \textbf{Faculdade de Tecnologia do Estado de São Paulo}\\
@@ -26,21 +44,37 @@
         Desenvolvimento de Software Multiplataforma
     \end{minipage}
 
-    \vspace*{-2.5\baselineskip}
-    \noindent\rule{\textwidth}{0.4pt}
+    % Esta linha controla o quão perto a régua fica do texto:
+    \vspace*{\HeaderTightness}%
+    \noindent\rule{\textwidth}{0.5pt}
 }
 
-%% Pacotes utilizados
-\usepackage[]{fatec-article}
-\usepackage{float}
-\usepackage{array} % Necessário para 'm{width}' para centralização vertical
-\usepackage{longtable} % Necessário para tabelas que ocupam várias páginas
-\usepackage{setspace}
-\usepackage{multirow}
-\usepackage{tocloft}
+% --- CONFIG DO SUMÁRIO (estilo da imagem) ---
+\renewcommand{\contentsname}{Sumário}
+\setcounter{tocdepth}{2}                 % mostra até subseção
+\renewcommand{\cftsecaftersnum}{.}       % "1."
+\renewcommand{\cftsubsecaftersnum}{.}    % "1.1."
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}}
+\setlength{\cftsecnumwidth}{3em}
+\setlength{\cftsubsecnumwidth}{4em}
+% (não usamos \cftsecfont=\MakeUppercase aqui para evitar erro)
 
-%% Início do documento
+% --- Título e autores no preâmbulo ---
+\title{ARTEFATOS DO PROJETO DE SOFTWARE\\[0.7em]
+CLASSIFICAÇÃO DE MANGANÊS E COBRE NA FOLHA DA MEXERICA,\\
+ORIENTADO POR REDES NEURAIS}
+\author{%
+A. Freitas \texttt{\{ amanda.freitas14@fatec.sp.gov.br \}}\\
+L. Fagundes \texttt{\{ lucas.fagundes3@fatec.sp.gov.br \}}\\
+V. Freitas \texttt{\{ valeria.freitas@fatec.sp.gov.br \}}
+}
+
+
+
+% --- Início do Documento ---
 \begin{document}
+
 \vspace{-5cm}
 \fatecCabecalho
 \vspace{8cm}
@@ -56,273 +90,94 @@
 \end{center}
 
 
-\maketitle
-
-\break
-
+\clearpage
 \tableofcontents
-
-
-\break
-
-
-%exemplo da forma de organização das seções e subseções, você deverá adaptar o template para a realidade do seu projeto.
-\section*{Resultados}
-Após aplicar os métodos descritos, foram alcançados os seguintes resultados: a prototipação das telas para dispositivos móveis utilizando o Figma, a criação do site com o Oracle APEX, a elaboração do Diagrama de Caso de Uso (DCU), o Escopo de Redes, a modelagem relacional e lógica do banco de dados (MBD), e o desenvolvimento do Modelo de Negócios Canvas.
-    
-\subsection*{\textbf{Prototipação do aplicativo no Figma}}
-\addcontentsline{toc}{section}{Prototipação do aplicativo no Figma}
-A \Cref{fig:splash-screen} mostra a tela de splash screen do projeto, tendo a logo, a paleta de cores da identidade visual e a escolha do modo de entrada ou cadastro. Após logar ou se cadastrar você será levado à tela do inicio. 
-
-\begin{figure}[H]
-\centering
-\caption{Splash Screen}%
-\label{fig:splash-screen}
-\includegraphics[width=0.8\linewidth]{Logos/Splash-Screen.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-A tela do inicio \Cref{fig:tela-inicio} oferece a opção de escanear a folha com o celular ou fazer o upload de uma imagem para escaneamento. Acima dessas duas opções encontra-se um quadrado contendo um gráfico de pizza que mostra a porcentagem da ocorrência das incidências, sendo amarelo manganês, laranja-avermelhado cobre e cinza adversos, que ocorre quando não há incidência de cobre nem de manganês. Um menu no canto esquerdo permite acessar outras telas do aplicativo, como histórico, drone e configurações gerais.
-
-\begin{figure}[H]
-\centering
-\caption{Tela Início}%
-\label{fig:tela-inicio}
-\includegraphics[width=0.8\linewidth]{Logos/tela-inicio.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Ao apertar em escanear folha \Cref{fig:tela-escaneamento} será necessário apontar a câmera do celular para a folha escolhida e o aplicativo vai começar a escaneá-la e após terminar abrirá uma tela para você salvar a identificação da folha.
-
-
-\begin{figure}[H]
-\centering
-\caption{Tela Escaneamento}%
-\label{fig:tela-escaneamento}
-\includegraphics[width=0.8\linewidth]{Logos/Tela-Escaneamento.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Após concluir o processo de escaneamento, o usuário será direcionado para uma tela onde poderá identificar o talhão correspondente à área escaneada, bem como o pé da folha que foi escaneada. Um talhão é uma área delimitada destinada ao plantio agrícola. Além disso, a tela mostrará a probabilidade de ser determinada uma deficiência, como ilustrado na \Cref{fig:cadastro-diagnóstico}. A opção de identificar da uma forma de controle para o usuário ter as informações de qual o pé que foi escaneado e o local em que ele foi escaneado salvas, possibilitando um maior controle para verificar se está tendo um grande número de incidências em um local específico.
-
-\begin{figure}[H]
-\centering
-\caption{Cadastro Diagnóstico}%
-\label{fig:cadastro-diagnóstico}
-\includegraphics[width=0.8\linewidth]{Logos/Cadastro-diagnostico.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Também a a tela com as informações tiradas dos drones \Cref{fig:tela-drone}, que seria o Índice de  estado de vegetação (NDVI) que é criado pelo drone ao tirar uma foto do local escolhido e um gráfico de linhas mostrando o nível do NDVI de cada talhão ao longo de 12 meses. O NDVI visa medir a quantidade de energia refletida e absorvida pelas plantas, fornecendo informações sobre sua saúde com base nessa reflectância. Na planta a parte de energia que é absorvida é o espectro da luz visível que vai de 400 a 720 nm (nanômetros), a parte que não é absorvida é a do espectro infravermelho próximo a luz visível, 720 a 1100 nm. As plantas saudáveis absorvem boa parte da luz visível e refletem fortemente o infravermelho próximo a luz visível. Já uma planta que está desidatrada, sofrendo de alguma doença ou algo que afete a sua saúde, absorvera mais da luz infravermelha. Logo o NDVI verificará a saúde das plantas por meio da refletividade das plantas. E de acordo com esse conhecimento terá uma fórmula que utilizará dos espectros que a planta reflete e absorve, (NIR) como a refletividade do infravermelho próximo e (VIS) como a refletividade vermelha. A fórmula é NIR menos o VIS dividido por NIR mais o VIS \cite{ResultadoNDVIArtigo, ResultadoNDVISite}.  
-
-\[ NDVI =  \frac{NIR - VIS}{NIR + VIS} \]
-
-A partir dessa fórmula, é obtido o valor do NDVI, que varia de -1 a 1. Variações com pequenos valores, como por exemplo os valores negativos, são geralmente associados a corpos d'água, enquanto valores acima de zero, que estão próximos dos valores negativos, representam nuvens. Os valores acima de 0,4 indicam a saúde das plantas, sendo os valores entre 0,6 e 0,8 considerados como representativos de plantas saudáveis. Essas informações são apresentadas na legenda na tela do mapeamento do drone.
-
-\begin{figure}[H]
-\centering
-\caption{Tela Drone}%
-\label{fig:tela-drone}
-\includegraphics[width=0.8\linewidth]{Logos/tela-drone.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Para verificar os pés cadastrados no aplicativo, acesse a tela de histórico \Cref{fig:tela-relatorios}. Nessa tela, você pode ver quantos pés estão cadastrados em cada talhão, bem como quantos pés do talhão foram analisados até o momento. No lado direito do histórico, uma janela de registros exibe o número total de talhões e pés registrados, assim como o número de pés analisados e diagnosticados.
-
-\begin{figure}[H]
-\centering
-\caption{Tela Relatórios}%
-\label{fig:tela-relatorios}
-\includegraphics[width=0.8\linewidth]{Logos/tela-relatorios.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\subsection*{\textbf{Oracle APEX}}
-\addcontentsline{toc}{section}{Oracle APEX}
-
-Na aplicação desenvolvida no Oracle APEX, existem três telas principais. A primeira delas é a tela com o mapa, conforme ilustrado na \Cref{fig:APEX-mapa}. Esta tela exibe a localização exata de cada pé dentro dos talhões, fornecendo informações detalhadas sobre a incidência de condições, como deficiência de cobre, deficiência de manganês, ou nenhuma das duas, e identificando qual pé específico está sendo afetado.
-
-\begin{figure}[H]
-\centering
-\caption{APEX Mapa}%
-\label{fig:APEX-mapa}
-\includegraphics[width=0.8\linewidth]{Logos/mapa.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-A segunda tela da aplicação é a tela do mapa de calor, conforme ilustrado na \Cref{fig:APEX-mapa-de-calor}. Esta tela mostra a cor que identifica cada tipo de incidência e o nome correspondente. A concentração das cores aumenta conforme a proximidade das incidências. Por exemplo, se houver muitos casos de deficiência de manganês, eles estarão mais visíveis no mapa, permitindo a fácil identificação de grandes concentrações de deficiências nos locais.
-
-\begin{figure}[H]
-\centering
-\caption{APEX Mapa de calor}%
-\label{fig:APEX-mapa-de-calor}
-\includegraphics[width=0.8\linewidth]{Logos/mapadecalor.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-A última tela é a tela dos gráficos, conforme ilustrado na \Cref{fig:grafico}. Há dois gráficos: um gráfico de barras mostrando o número total de cada incidência e o número de pés que não apresentaram nenhuma das duas deficiências, categorizados como Adversos. O segundo gráfico é um gráfico de pizza, mostrando a porcentagem de cada incidência e a proporção de pés que não apresentam nenhuma das deficiências.
-
-\begin{figure}[H]
-\centering
-\caption{APEX Gráficos}%
-\label{fig:grafico}
-\includegraphics[width=0.8\linewidth]{Logos/grafico.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\subsection*{\textbf{Diagrama de caso de uso (DCU) Velho}}
-\addcontentsline{toc}{section}{Diagrama de caso de uso (DCU) Velho}
-
-O DCU do projeto, ou Diagrama de Caso de Uso, é um diagrama utilizado para explicar as relações entre os atores (utilizadores do sistema) e as funcionalidades disponibilizadas pelo projeto. Conforme ilustrado na \Cref{fig:dcu}, ele mostra que o proprietário deve cadastrar as mexeriqueiras e, se desejar, cadastrar os drones. O funcionário é responsável por escanear as folhas, podendo fazer isso tanto com a câmera quanto fazendo upload das imagens. O aplicativo fornecerá o diagnóstico baseado nas imagens. Além disso, o funcionário pode consultar o mapa NDVI gerado pelo drone, bem como consultar o histórico e visualizar estatísticas. As funções do drone incluem tirar fotos do local e enviar um mapa NDVI.
-
-
-
-\begin{figure}[H]
-\centering
-\caption{Diagrama de caso de uso (DCU)}%
-\label{fig:dcu}
-\includegraphics[width=0.8\linewidth]{Logos/dcu.jpeg}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\subsection*{\textbf{Escopo de Redes}}
-\addcontentsline{toc}{section}{Escopo de Redes}
-
-A representação das ligações de rede do projeto é mostrada no escopo de redes, conforme ilustrado na \Cref{fig:escopoderedes}. Esta figura demonstra onde os programas são desenvolvidos e mantidos, sua conexão com a internet e o servidor, e a conexão do usuário com a internet. Quando o usuário envia fotos, estas passam pela internet e são armazenadas no servidor, que guarda as informações no banco de dados.
-
-Os computadores estão todos conectados a um switch, que os conecta a um roteador. O roteador, por sua vez, os conecta à internet e, consequentemente, ao servidor. O roteador está localizado na área de manutenção.
-
-Há também uma recepção, equipada com uma mesa para atender possíveis clientes. Nesta mesa, há um notebook conectado à internet via Wi-Fi, por meio de um modem com Wi-Fi que está situado na recepção.
-
-\begin{figure}[H]
-\centering
-\caption{Escopo de Redes}%
-\label{fig:escopoderedes}
-\includegraphics[width=0.8\linewidth]{Logos/escopoderedes.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\subsection*{\textbf{Modelagem relacional e lógica do banco de dados}}
-\addcontentsline{toc}{section}{Modelagem relacional e lógica do banco de dados}
-
-
-A modelagem relacional do banco de dados \Cref{fig:mbdrelacional} do projeto NitrusLeaf tem como principal objetivo explicar a estrutura de dados utilizada para identificar deficiências nutricionais em folhas de mexeriqueira (Citrus reticulata). Este banco de dados é composto por várias entidades e seus respectivos relacionamentos, garantindo a integridade e a eficiência no armazenamento e consulta dos dados.
-
-A entidade \textit{Folha} contém os atributos Id Fruta, Coloração Folhas, Tamanho e Nervuras, além de poder possuir três tipos de deficiência: manganês, cobre ou nenhuma deficiência. A entidade \textit{Foto} é considerada uma entidade fraca, utilizada para ligar a entidade \textit{Drone} e \textit{Folha}. \textit{Foto} possui os atributos Id\_Foto, Fk Id\_Drone (chave estrangeira que faz referência o drone), e Fk\_Id\_Fruta (chave estrangeira que referencia a folha).
-
-A entidade \textit{Drone} tem os atributos Id\_Drone, Visibilidade, Qualidade e Capacidade. \textit{Drone} é responsável por gerar a entidade \textit{Imagem}, que possui os atributos Id\_Imagem, fk\_id\_Drone, Nitidez e Visibilidade. \textit{Imagem} é utilizada para identificar a coloração da folha através da entidade \textit{Coloração} e também gera a entidade \textit{Diagnóstico}. \textit{Diagnóstico} possui os atributos Id\_Diagnóstico, Fk\_Id\_Imagem (chave estrangeira que faz referência a imagem) e Qtd\_Historico. Em seguida, \textit{Diagnóstico} gera a entidade \textit{Histórico}, que contém os atributos Id\_Histórico, Data\_Emissão e Capacidade\_Armazem.
-
-A entidade \textit{Imagem x Produtor} serve para relacionar a imagem com o produtor, possuindo os atributos Id\_ImgXProd, Fk\_Id\_Imagem e Fk\_Id\_Produtor. A entidade \textit{Produtor} tem os atributos Id\_Produtor e Nome, e interage com as entidades \textit{Email}, \textit{Telefone} e \textit{Login}. \textit{Email} possui os atributos Id\_Email, Fk\_Id\_Produtor e Correio\_eletrônico. \textit{Telefone} contém os atributos Id\_Telefone, Fk\_Id\_Produtor e Número, permitindo que o produtor tenha múltiplos números de contato. Por fim, a entidade \textit{Login} possui os atributos Id\_Login, Usuário e Senha.
-
-\begin{figure}[H]
-    \centering
-    \caption{Modelo Relacional do Banco de Dados}%
-    \label{fig:mbdrelacional}
-    \includegraphics[width=0.8\linewidth]{Logos/mbdrelacional.png}
-    \SourceOrNote{Autoria Própria (2024)}
-    \end{figure}
-
-Esse modelo relacional detalha como o banco de dados é estruturado para garantir a gestão eficiente das informações no aplicativo NitrusLeaf. Ele permite a identificação precisa de deficiências nutricionais nas folhas de mexeriqueira, suportando as funcionalidades do aplicativo, desde a captura de fotos pelos drones até a geração de diagnósticos e armazenamento de históricos. A estrutura relacional assegura que as informações sejam bem organizadas e facilmente acessíveis, otimizando o processo de recuperação das plantas e ajudando os produtores a evitar a perda de frutos. Além do modelo relacional, também há o modelo lógico mostrado na \Cref{fig:mbdlogico}.
-
-\begin{figure}[H]
-\centering
-\caption{Modelo Lógico do Banco de Dados}%
-\label{fig:mbdlogico}
-\includegraphics[width=0.8\linewidth]{Logos/mbdlógico.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\subsection*{\textbf{Modelo de negócios Canvas}}
-\addcontentsline{toc}{section}{Modelo de negócios Canvas}
-
-O modelo de negócios Canvas do projeto NitrusLeaf \Cref{fig:canvas} tem como principal objetivo delinear os elementos cruciais para o sucesso do nosso empreendimento. Esse modelo abrange várias áreas essenciais, incluindo nossos parceiros, proposta de valor, relacionamento com o cliente, recursos e atividades chave, canais, estrutura de custos e fontes de renda.
-
-Parceiros Chave
-
-Nosso foco principal em parceiros chave são os locais e entidades envolvidas no setor agrícola, especialmente aqueles interessados em inovação tecnológica. Esses parceiros incluem cooperativas agrícolas, universidades, centros de pesquisa, empresas de tecnologia agrícola, secretarias de agricultura dos municípios do Vale do Ribeira e associações de fazendeiros. A colaboração com esses parceiros é fundamental para ampliar o alcance do projeto e assegurar suporte técnico e científico.
-
-Proposta de Valor
-
-A proposta de valor do NitrusLeaf gira em torno da capacidade de identificar deficiências nutricionais nas plantas, especificamente a falta de manganês e cobre nas folhas de mexerica, de maneira eficiente e em tempo real. Além disso, o projeto visa manter um padrão elevado de qualidade dos frutos, ajudando os agricultores a otimizar a saúde das plantas e a produtividade.
-
-Relacionamento com o Cliente
-
-O relacionamento com o cliente é focado em oferecer um suporte abrangente. Isso inclui suporte técnico para a utilização do aplicativo via WhatsApp e feedback do cliente pelo app, além de canais de comunicação para feedback e resolução de dúvidas. Nosso objetivo é garantir que os clientes se sintam apoiados e possam maximizar os benefícios do nosso sistema.
-
-Recursos Chave
-
-Os recursos chave para o desenvolvimento e operação do NitrusLeaf incluem infraestrutura tecnológica (servidores, drones, câmeras de alta resolução), conhecimento técnico em agronomia e TI, uma equipe de suporte dedicada, programadores, instaladores do sistema físico, funcionários para suporte online e host para hospedar o site. Esses recursos são essenciais para o funcionamento eficaz do sistema.
-
-Atividades Chave
-
-As atividades chave do projeto incluem o desenvolvimento contínuo do software, a calibração dos algoritmos de IA para identificar deficiências nutricionais, a manutenção dos drones e outros equipamentos, e a realização de testes de campo para validar os diagnósticos fornecidos pelo sistema.
-
-Canais
-
-Os canais através dos quais promovemos e oferecemos nossos serviços incluem nosso website, redes sociais, feiras agrícolas, eventos de tecnologia, newsletters, parcerias com distribuidores agrícolas e anúncios pelas secretarias de agricultura dos municípios do Vale do Ribeira.
-
-Estrutura de Custos
-
-A estrutura de custos engloba despesas com desenvolvimento e manutenção do software, compra e manutenção de equipamentos (drones e câmeras), marketing e promoção, salários da equipe, custos operacionais gerais como servidores e infraestrutura de TI, manutenção dos itens que realizam o monitoramento das mexericas, compra dos produtos necessários para o monitoramento, host para hospedar as informações, aluguel do sistema e itens necessários, e mão de obra para instalação e manutenção.
-
-Fontes de Renda
-
-A principal fonte de renda do NitrusLeaf provém da venda de assinaturas para o uso do aplicativo, serviços de análise de solo e plantas, consultoria técnica, parcerias com empresas e aluguel do sistema.
-
-Em resumo, o modelo de negócios Canvas do NitrusLeaf oferece uma visão abrangente de como estruturamos nosso projeto para atingir nossos objetivos e atender às necessidades dos nossos clientes. Nossa abordagem integrada garante que todos os aspectos do negócio estejam alinhados para promover a saúde e produtividade das plantações de nossos usuários.
-
-\begin{figure}[H]
-\centering
-\caption{CANVAS}%
-\label{fig:canvas}
-\includegraphics[width=0.8\linewidth]{Logos/canvas.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\centering
-\section*{Diagramas UML}
-    Nesta seção serão apresentados os diagramas da UML utilizados para a modelagem do sistema desenvolvido. Dentre os diagramas utilizados, pode-se citar: Diagrama de Caso de Uso, Diagrama de Classe e Diagrama de Objetos.
-    
-    \subsection*{Diagrama de Caso de Uso Atual}
-    \addcontentsline{toc}{section}{Diagrama de Caso de Uso Novo}
-
-    O DCU do projeto, ou Diagrama de Caso de Uso, é utilizado para representar as relações entre os atores (usuários do sistema) e as funcionalidades oferecidas pelo projeto. Conforme ilustrado na \Cref{fig:caso-uso}, o diagrama mostra que o proprietário é responsável por cadastrar as mexeriqueiras e os talhões, podendo também se quiser cadastrar drones, consultar gráficos e estatísticas da propriedade. Já o funcionário é encarregado de escanear as folhas, seja utilizando a câmera ou fazendo o upload de imagens. O aplicativo processará essas imagens e fornecerá um diagnóstico baseado nelas. Além disso, o funcionário pode consultar o mapa NDVI gerado pelos drones, acessar o histórico e visualizar estatísticas. Por sua vez, as funções do drone incluem capturar fotos do local e gerar um mapa NDVI.
-
-            \begin{figure}[h]
-\centering
-\caption{Diagrama de caso de uso}%
-\label{fig:caso-uso}
-\includegraphics[width=1.1\textwidth]{Logos/CasoUso.jpeg}
-\SourceOrNote{Maia (2024)}
-\end{figure}
-
-\section*{Logbook}
-    \addcontentsline{toc}{section}{Logbook}
-
-    % Usando o ambiente longtable para tabelas que se estendem por várias páginas
-\begin{longtable}{|m{2.8cm}|m{2.4cm}|m{2.4cm}|m{2.4cm}|m{5cm}|} % Usando 'm' para centralizar verticalmente
-    \hline
-    Nome da Atividade & Data de início & Data de término & Responsável pela atividade & Descrição da atividade realizada \\ \hline
-    \endfirsthead
-    % Cabeçalho que aparecerá no início de cada página
-    \hline
-    Nome da Atividade & Data de início & Data de término & Responsável pela atividade & Descrição da atividade realizada \\ \hline
-    \endhead
-    
-    % Aqui você adiciona as linhas da tabela
-    \centering Revisão do Artigo & \centering 08/10/2024 & \centering 17/11/2024 & \centering Luiz & Foram corrigidos erros de português, revisados os objetivos e reformulada a seção de estado da arte. Além disso, incluíram-se os resultados preliminares com as telas do site, o modelo físico do banco de dados e explicações sobre o diagrama de classes e objetos na seção de resultados. Por fim, algoritmos de recursividade foram implementados na tela de busca do site.\\ \hline
-    \centering Prototipação telas do site no Figma& \centering 05/10/2024 & \centering 17/11/2024 & \centering Amanda & Desenvolvimento das telas iniciais com base na prototipação do semestre anterior, das telas da versão mobile, com adição de landing page, reformulando o design anterior para uma versão desktop web. Criação de componentes afim de diminuir a quantidade de telas feitas, e deixar mais eficiente, melhora no design para facilitar a visualização da simulação.\\ \hline
-    \centering Desenvolvimeto da parte front-end do site & \centering 15/10/2024 & \centering 17/11/2024 & \centering Amanda e Valéria & Criação das telas web, ficando fiel à as telas prototipadas no figma, o desenvolvimento do design foi feito utilizando CSS e Bootstrap\\ \hline
-    \centering Desenvolvimento da parte back-end do site & \centering 15/10/2024 & \centering 17/11/2024 & \centering Todos do grupo participaram dessa parte & Foram feitas as funcionalidades do Prototipo Figma, sistemas internos de rota, integração com o banco de dados, utilizando as bibliotecas e funcionalidades do Node.js, sendo elas Express, Nodemon, Middleware, View Engine EJS, Sequelize(utilizado na integração do banco de dados), mysql2, utilizando a arquitetura MVC para deixar as pastas do código estruturadas. \\ \hline
-    \centering Banco de dados Físico& \centering 25/10/2024 & \centering 10/11/2024 & \centering Lucas & Foi feito o banco de dados que foi utilizado no site, o banco de dados está de acordo com todas as funcionalidades que o projeto terá.\\ \hline
-    \centering DER do Banco de dados& \centering 23/10/2024 & \centering 25/10/2024 & \centering Lucas & O DER do banco de dados foi refeito, agora com todos os dados corretos e alinhados ao projeto atual.\\ \hline
-    \centering Diagrama de Classe & \centering 25/09/2024 & \centering 17/11/2024 & \centering Luiz & Foi feito o diagrama de classe do projeto, baseado nas funções que o projeto terá.\\ \hline
-    \centering Diagrama de Objetos & \centering 25/09/2024 & \centering 17/11/2024 & \centering Luiz & Foi feito o diagrama de objetos do projeto, mostrando os objetos das classes importantes.\\ \hline
-    \centering Diagrama Caso de Uso & \centering 11/11/2024 & \centering 17/11/2024 & \centering Valéria & Foi refeito o diagrama de caso de uso, com todos os atores e suas respectivas ações corretas e alinhadas com o projeto atual.\\ \hline
-    \centering Banner & \centering 13/11/2024 & \centering 18/11/2024 & \centering Amanda & Feito o banner que será utilizado para a próxima feira tecnólogica.\\ \hline
-    % Continue adicionando linhas conforme necessário
-    
-\end{longtable}
-        
-
+\clearpage
+
+% ------------------------------------------------------------------
+% Seções
+% ------------------------------------------------------------------
+
+% --- Diagramas UML ---
+\section[\MakeUppercase{Diagramas UML}]{Diagramas UML}
+Nesta seção serão apresentados os diagramas da UML utilizados para a modelagem do sistema desenvolvido. Dentre
+os diagramas utilizados, pode-se citar: Diagrama de Caso de Uso, Diagrama de Classe e Diagrama de Objetos.
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Diagrama de Caso de Uso}}
+    \label{sect:Casos-de-uso}
+    \input{Topicos/Casos-de-uso}
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Diagrama de Classe}}
+    \label{sect:Diagrama-de-classe}
+    \input{Topicos/Diagrama-de-classe}
+
+% ---------------------------------------------------------- --------
+    \subsection{\textbf{Diagrama de Objetos}}
+    \label{sect:Diagrama-de-objetos}
+    \input{Topicos/Diagrama-de-objetos}
+
+% ------------------------------------------------------------------
+
+% --- Diagramas de Banco de Dados ---
+\section{Diagramas de Banco de Dados}{Diagramas de Banco de Dados}
+A seguir são apresentados os diagramas de banco de dados que ilustram a
+estrutura e os relacionamentos das tabelas utilizadas no sistema.
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Diagrama Entidade-Relacionamento (DER)}}
+    \label{sect:Diagrama-Entidade-Relacionamento}
+    \input{Topicos/Diagrama-Entidade-Relacionamento}
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Diagrama Modelo Lógico (MER)}}
+    \label{sect:Diagrama-Modelo-Lógico}
+    \input{Topicos/Diagrama-Modelo-Lógico}
+
+
+% --- Canvas ---
+\section{Modelo de Negócios Canvas}
+A seguir são apresentados os diagramas de banco de dados que ilustram a
+estrutura e os relacionamentos das tabelas utilizadas no sistema.
+
+\label{sect:Canvas}
+\input{Topicos/Canvas}
+
+
+% --- Diagramas de Redes ---
+\section{DIAGRAMA E ESPECIFICAÇÕES DA INFRAESTRUTURA DE REDE}
+Esta seção descreve a estrutura lógica e física da rede interna utilizada para o
+funcionamento do sistema de monitoramento e análise de folhas de mexerica,
+conforme representado no diagrama a seguir.
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Visão Geral da Rede}}
+    \label{sect:Visao-geral-da-Rede}
+    \input{Topicos/Visao-geral-da-Rede}
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Componentes da Rede}}
+    \label{sect:Componentes-da-Rede}
+    \input{Topicos/Componentes-da-Rede}
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Fluxo de Comunicação}}
+    \label{sect:Fluxo-de-comunicacao}
+    \input{Topicos/Fluxo-de-comunicacao}
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Segurança e Estabilidade}}
+    \label{sect:Seguranca-e-estabilidade}
+    \input{Topicos/Seguranca-e-estabilidade}
+
+% --- UI de Alta Fidelidade (Figma) ---
+\section{Interface de Usuário de Alta Fidelidade (Figma)}
+\medskip
+Esta seção apresenta as principais telas do sistema desenvolvidas para os usuários
+finais. O sistema foi projetado no Figma com foco na usabilidade, acessibilidade e praticidade no
+monitoramento e análise de deficiências nutricionais nas folhas de mexerica.
+
+
+\clearpage
 \end{document}
