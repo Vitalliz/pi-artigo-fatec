@@ -1,5 +1,3 @@
-Fala meu irmãozão!
-
 # Projeto Integrador Artigo 
 
 Organização do Projeto Integrador em ciclos semestral com manuscrito, artefatos e logbook.

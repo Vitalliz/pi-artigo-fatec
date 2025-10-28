@@ -15,7 +15,7 @@ A seguir, descrevem-se detalhadamente as etapas que compõem o processo metodol�
 \begin{enumerate}
 \item \textbf{Coleta de Requisitos e Planejamento do Sistema}
 
-Nesta etapa inicial, foram levantados os requisitos funcionais e não funcionais do sistema, definindo-se as principais funcionalidades e fluxos de interação. Para o planejamento da interface e prototipagem, utilizou-se o Figma, devido à sua facilidade de colaboração e à capacidade de criar protótipos interativos de baixa e alta fidelidade. Essa fase também incluiu a elaboração de diagramas UML para a representação da estrutura do sistema e análise SWOT para identificar forças, fraquezas, oportunidades e ameaças, garantindo uma visão ampla do projeto presente no apêndice A.
+Nesta etapa inicial, foram levantados os requisitos funcionais e não funcionais do sistema, definindo-se as principais funcionalidades e fluxos de interação. Para o planejamento da interface e prototipagem, utilizou-se o Figma, devido à sua facilidade de colaboração e à capacidade de criar protótipos interativos de baixa e alta fidelidade. Essa fase também incluiu a elaboração de diagramas UML para a representação da estrutura do sistema e análise SWOT para identificar forças, fraquezas, oportunidades e ameaças, garantindo uma visão ampla do projeto.
 
 \item \textbf{Captura e Pré-processamento das Imagens}
 
@@ -40,11 +40,4 @@ O treinamento do modelo de IA foi realizado a partir de um conjunto de imagens r
 \item \textbf{Ferramentas Utilizadas}
 
 Para a implementação do sistema, foram empregadas diferentes ferramentas tecnológicas. O front-end foi desenvolvido com React e Next.js, oferecendo desempenho otimizado e boa organização estrutural. O back-end foi construído em Node.js, responsável pela integração com o banco de dados e a comunicação com o modelo de IA. O armazenamento de dados foi realizado com MySQL, escolhido pela robustez e ampla compatibilidade. O módulo de visão computacional foi desenvolvido em Python, pela facilidade de integração com bibliotecas voltadas à IA, como TensorFlow e Keras.
-\item \textbf{Treinamento do Modelo e Controle de Qualidade das Imagens}
-
-Prevê-se a utilização de um conjunto de aproximadamente 1.500 imagens de folhas de mexerica, abrangendo amostras saudáveis e com deficiências de cobre e manganês. As imagens serão divididas em conjuntos de treinamento 70%, validação 20% e teste (10%), garantindo equilíbrio e representatividade entre as classes.
-
-O modelo de aprendizado profundo será baseado em uma arquitetura pré-treinada, como a VGG16 ou ResNet50, aproveitando técnicas de \textit{transfer learning} para otimizar o desempenho com um conjunto de dados reduzido.
-
-Será implementado um controle rigoroso de qualidade das imagens, envolvendo filtros automáticos para detecção de ruído, variações excessivas de iluminação e ângulos inadequados de captura. Espera-se, assim, assegurar a consistência visual do dataset e aprimorar a acurácia da classificação realizada pela rede neural convolucional.
 \end{enumerate}

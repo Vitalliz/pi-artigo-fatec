@@ -2465,39 +2465,32 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">fatec-article.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">FaveroFilho2022</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Fundecitrus2021</bcf:citekey>
-    <bcf:citekey order="2" intorder="2">Aregbe2024</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">Bruna2019</bcf:citekey>
-    <bcf:citekey order="3" intorder="2">Machado2022</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">Qin2018</bcf:citekey>
-    <bcf:citekey order="4" intorder="2">Christin2019</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Muthusamy2023</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">Muthusamy2023</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Ghorai2021</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">Ghorai2021</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Tran2019</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Tran2019</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Tran2019</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Tran2019</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">Muthusamy2023</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">Muthusamy2023</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">Ghorai2021</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">Ghorai2021</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Tran2019</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Tran2019</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">Tran2019</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">Tran2019</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">Aregbe2024</bcf:citekey>
-    <bcf:citekey order="22" intorder="2">Bruna2019</bcf:citekey>
-    <bcf:citekey order="23" intorder="3">FaveroFilho2022</bcf:citekey>
-    <bcf:citekey order="24" intorder="4">Christin2019</bcf:citekey>
-    <bcf:citekey order="25" intorder="5">Fundecitrus2021</bcf:citekey>
-    <bcf:citekey order="26" intorder="6">Ghorai2021</bcf:citekey>
-    <bcf:citekey order="27" intorder="7">Machado2022</bcf:citekey>
-    <bcf:citekey order="28" intorder="8">Muthusamy2023</bcf:citekey>
-    <bcf:citekey order="29" intorder="9">Qin2018</bcf:citekey>
-    <bcf:citekey order="30" intorder="10">Tran2019</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">Muthusamy2023</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Muthusamy2023</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Ghorai2021</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">Ghorai2021</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Tran2019</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">Tran2019</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Tran2019</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">Tran2019</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Muthusamy2023</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Muthusamy2023</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Ghorai2021</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Ghorai2021</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Tran2019</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">Tran2019</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">Tran2019</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">Tran2019</bcf:citekey>
+    <bcf:citekey order="17" intorder="1" nocite="1">Aregbe2024</bcf:citekey>
+    <bcf:citekey order="18" intorder="2" nocite="1">Bruna2019</bcf:citekey>
+    <bcf:citekey order="19" intorder="3" nocite="1">FaveroFilho2022</bcf:citekey>
+    <bcf:citekey order="20" intorder="4" nocite="1">Christin2019</bcf:citekey>
+    <bcf:citekey order="21" intorder="5" nocite="1">Fundecitrus2021</bcf:citekey>
+    <bcf:citekey order="22" intorder="6">Ghorai2021</bcf:citekey>
+    <bcf:citekey order="23" intorder="7" nocite="1">Machado2022</bcf:citekey>
+    <bcf:citekey order="24" intorder="8">Muthusamy2023</bcf:citekey>
+    <bcf:citekey order="25" intorder="9" nocite="1">Qin2018</bcf:citekey>
+    <bcf:citekey order="26" intorder="10">Tran2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
