@@ -1,11 +1,34 @@
 %%%% fatec-article.tex, 2024/03/10
 
 \documentclass[
-  a4paper,%% Tamanho de papel: a4paper, letterpaper (^), etc.
-  12pt,%% Tamanho de fonte: 10pt (^), 11pt, 12pt, etc.
-  english,%% Idioma secundário (penúltimo) (>)
-  brazilian,%% Idioma primário (último) (>)
+    a4paper,%% Tamanho de papel: a4paper, letterpaper (^), etc.
+    12pt,%% Tamanho de fonte: 10pt (^), 11pt, 12pt, etc.
+    english,%% Idioma secundário (penúltimo) (>)
+    brazilian,%% Idioma primário (último) (>)
 ]{article}
+
+
+% Template cabeçalho FATEC (mais colado na linha)
+\newcommand{\fatecCabecalho}[1][0cm]{%
+    \newcommand{\LogoWidth}{0.23\textwidth}%
+    \newcommand{\Gutter}{1em}%
+
+    \noindent
+    \begin{minipage}[c]{\LogoWidth}
+        % se a logo tiver “respiro” em cima, corte um pouco:
+        \includegraphics[height=4.5cm]{Logos/fatec.jpg}%
+    \end{minipage}\hspace*{\Gutter}%
+    \begin{minipage}[c]{\dimexpr\textwidth-\LogoWidth-\Gutter\relax}
+        \raggedright\small
+        Governo do Estado de São Paulo\\
+        \textbf{Faculdade de Tecnologia do Estado de São Paulo}\\
+        Centro Estadual de Educação Tecnológica Paula Souza\\
+        Desenvolvimento de Software Multiplataforma
+    \end{minipage}
+
+    \vspace*{-2.5\baselineskip}
+    \noindent\rule{\textwidth}{0.4pt}
+}
 
 %% Pacotes utilizados
 \usepackage[]{fatec-article}
@@ -14,18 +37,31 @@
 \usepackage{longtable} % Necessário para tabelas que ocupam várias páginas
 \usepackage{setspace}
 \usepackage{multirow}
+\usepackage{tocloft}
+
 %% Início do documento
 \begin{document}
+\vspace{-5cm}
+\fatecCabecalho
 \vspace{8cm}
 \begin{center}
-    \large \textbf{\title{ARTEFATOS DO PROJETO DE SOFTWARE}}
+    \large \textbf{\title{ARTEFATOS DO PROJETO DE SOFTWARE}}\\[1em]
+    \large \textbf{\title{CLASSIFICAÇÃO DE MANGANÊS E COBRE NA FOLHA DA MEXERICA, ORIENTADO POR REDES NEURAIS}}\\[1.2em]
+
+    \normalsize
+    Freitas. A \textbf{\{ amanda.freitas14@fatec.sp.gov.br \}}\\
+    Fagundes. L \textbf{\{ lucas.fagundes3@fatec.sp.gov.br \}}\\
+    Freitas. V \textbf{\{ valeria.freitas@fatec.sp.gov.br \}}
+
 \end{center}
+
 
 \maketitle
 
 \break
 
 \tableofcontents
+
 
 \break
 
