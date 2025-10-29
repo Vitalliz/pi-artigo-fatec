@@ -34,7 +34,9 @@
 \usepackage{adjustbox}
 \usepackage{booktabs}
 \usepackage{longtable} 
-    
+\usepackage{float}
+\usepackage{placeins}
+
 \geometry{top=1.5cm, bottom=1.5cm, left=1.2cm, right=1.2cm}
 
 % --- Cabeçalho FATEC com controles de espaçamento ---
@@ -47,7 +49,7 @@
 \newcommand{\fatecCabecalho}{%
     \noindent
     \begin{minipage}[c]{\LogoWidth}
-        \includegraphics[height=\LogoHeight]{Logos/fatec.jpg}%
+        \includegraphics[height=\LogoHeight]{Images/fatec.jpg}%
     \end{minipage}\hspace*{\HeaderGutter}%
     \begin{minipage}[c]{\dimexpr\textwidth-\LogoWidth-\HeaderGutter\relax}
         \raggedright\small
@@ -184,9 +186,9 @@ conforme representado no diagrama a seguir.
 
 % --- UI de Alta Fidelidade (Figma) ---
 \section{Interface de Usuário de Alta Fidelidade (Figma)}
-Esta seção apresenta as principais telas do sistema desenvolvidas para os usuários
-finais. O sistema foi projetado no Figma com foco na usabilidade, acessibilidade e praticidade no
-monitoramento e análise de deficiências nutricionais nas folhas de mexerica.
+Esta seção apresenta as principais telas do sistema para Web e Mobile, desenvolvidas para os usuários
+finais. O sistema foi projetado no Figma com foco na usabilidade, acessibilidade e 
+praticidade no monitoramento e análise de deficiências nutricionais nas folhas de mexerica.
 \medskip    
 
 % ------------------------------------------------------------------
