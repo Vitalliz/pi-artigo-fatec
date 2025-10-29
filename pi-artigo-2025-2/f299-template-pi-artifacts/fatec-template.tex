@@ -23,6 +23,19 @@
 \usepackage{multirow}
 \usepackage{tocloft}
 
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{adjustbox}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{caption}
+\usepackage{adjustbox}
+\usepackage{booktabs}
+\usepackage{longtable} 
+    
+\geometry{top=1.5cm, bottom=1.5cm, left=1.2cm, right=1.2cm}
 
 % --- Cabeçalho FATEC com controles de espaçamento ---
 % Ajustes fáceis:
@@ -69,8 +82,6 @@ A. Freitas \texttt{\{ amanda.freitas14@fatec.sp.gov.br \}}\\
 L. Fagundes \texttt{\{ lucas.fagundes3@fatec.sp.gov.br \}}\\
 V. Freitas \texttt{\{ valeria.freitas@fatec.sp.gov.br \}}
 }
-
-
 
 % --- Início do Documento ---
 \begin{document}
@@ -173,16 +184,27 @@ conforme representado no diagrama a seguir.
 
 % --- UI de Alta Fidelidade (Figma) ---
 \section{Interface de Usuário de Alta Fidelidade (Figma)}
-\medskip
 Esta seção apresenta as principais telas do sistema desenvolvidas para os usuários
 finais. O sistema foi projetado no Figma com foco na usabilidade, acessibilidade e praticidade no
 monitoramento e análise de deficiências nutricionais nas folhas de mexerica.
+\medskip    
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Interface do Usuário - Web}}
+    \label{sect:Interface-Web}
+    \input{Topicos/Interface-Web}
+
+% ------------------------------------------------------------------
+    \subsection{\textbf{Interface do Usuário - Mobile}}
+    \label{sect:Interface-Mobile}
+    \input{Topicos/Interface-Mobile}
 
 % --- Interface da Aplicação ---
 \section{Interface da Aplicação}
 \medskip
     \label{sect:Interface-Aplicacao}
     \input{Topicos/Interface-Aplicacao}
+    
 
 % --- ORGANIZAÇÃO DO PROJETO COM SCRUM ---
 \section{Organização do Projeto com Scrum}

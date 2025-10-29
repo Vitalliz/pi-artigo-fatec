@@ -12,14 +12,16 @@
 \contentsline {subsection}{\numberline {2.1}\textbf {Diagrama Entidade-Relacionamento (DER)}}{6}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}\textbf {Diagrama Modelo Lógico (MER)}}{7}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Modelo de Negócios Canvas}{8}{section.3}%
-\contentsline {section}{\numberline {4}DIAGRAMA E ESPECIFICAÇÕES DA INFRAESTRUTURA DE REDE}{10}{section.4}%
+\contentsline {section}{\numberline {4}DIAGRAMA E ESPECIFICAÇÕES DA INFRAESTRUTURA DE REDE}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}\textbf {Visão Geral da Rede}}{10}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}\textbf {Componentes da Rede}}{11}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}\textbf {Fluxo de Comunicação}}{11}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}\textbf {Segurança e Estabilidade}}{12}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Interface de Usuário de Alta Fidelidade (Figma)}{13}{section.5}%
-\contentsline {section}{\numberline {6}Interface da Aplicação}{13}{section.6}%
-\contentsline {section}{\numberline {7}Organização do Projeto com Scrum}{13}{section.7}%
-\contentsline {section}{\numberline {8}Diário de Bordo}{14}{section.8}%
-\contentsline {section}{\numberline {9}Pesquisa de Campo}{14}{section.9}%
-\contentsline {section}{\numberline {10}Análise Swot}{14}{section.10}%
+\contentsline {subsection}{\numberline {4.2}\textbf {Componentes da Rede}}{10}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}\textbf {Fluxo de Comunicação}}{10}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}\textbf {Segurança e Estabilidade}}{10}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Interface de Usuário de Alta Fidelidade (Figma)}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}\textbf {Interface do Usuário - Web}}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}\textbf {Interface do Usuário - Mobile}}{11}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Interface da Aplicação}{12}{section.6}%
+\contentsline {section}{\numberline {7}Organização do Projeto com Scrum}{12}{section.7}%
+\contentsline {section}{\numberline {8}Diário de Bordo}{12}{section.8}%
+\contentsline {section}{\numberline {9}Pesquisa de Campo}{17}{section.9}%
+\contentsline {section}{\numberline {10}Análise Swot}{19}{section.10}%
