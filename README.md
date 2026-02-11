@@ -16,6 +16,10 @@ pi-artigo-2025-2/
   f299-template-pi-artifacts/
   f299-template-pi-logbook/
   f299-template-pi-paper/
+pi-artigo-2026-1/
+  f299-template-pi-artifacts/
+  f299-template-pi-logbook/
+  f299-template-pi-paper/
 LICENSE
 README.md
 ```
