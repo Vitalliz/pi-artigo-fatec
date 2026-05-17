@@ -18,7 +18,6 @@
 \usepackage{geometry}
 \usepackage{titlesec}
 \usepackage{lipsum}
-\usepackage[alf]{abntex2cite}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{enumitem}
@@ -105,15 +104,17 @@
     \vspace{0.3cm}
     
     % Nome do projeto
-    {\normalsize Análise Computacional de Sistemas Complexos Utilizando Métodos Numéricos Avançados\par}
+    {\normalsize \textbf{CLASSIFICAÇÃO DE MANGANÊS E COBRE NA FOLHA DA MEXERICA,\
+    ORIENTADO POR REDES NEURAIS}\par}
     
     \vspace{3cm}
     
     % Autores
     {\normalsize
-    João da Silva\\
-    Maria Santos\\
-    Pedro Oliveira
+    Amanda Vithória Alves Freitas\\
+    Juliano Lopes Rodrigues Sales\\
+    Lucas Gomes Fagundes\\
+    Valéria de Freitas
     }
     
     \vfill
@@ -131,78 +132,70 @@
 \tableofcontents
 \newpage
 
-% ===== NOTA IMPORTANTE =====
-\section*{Nota Importante sobre os Artefatos}
-
-\noindent Este documento apresenta exemplos de como inserir os principais artefatos de um projeto de software. Todos os artefatos podem ser inseridos de duas formas:
-
-\begin{enumerate}
-    \item \textbf{Como imagens:} Criar os artefatos em ferramentas externas (Canva, Miro, Draw.io, Figma, etc.) e inserir como imagens PNG/JPG usando o comando \texttt{\textbackslash includegraphics}
-    \item \textbf{Como código LaTeX:} Usar tabelas e diagramas TikZ diretamente no documento (exemplos fornecidos)
-\end{enumerate}
-
-\subsection*{Lista de Artefatos e suas Finalidades}
-
-\begin{itemize}
-    \item \textbf{CANVAS:} Modelo de negócio e estratégia
-    \item \textbf{SWOT:} Análise estratégica de forças, fraquezas, oportunidades e ameaças
-    \item \textbf{UX/UI:} Design de interface e experiência do usuário
-    \item \textbf{Website:} Estrutura e especificações técnicas web
-    \item \textbf{Diagramas UML:} Modelagem visual do sistema
-    \item \textbf{DevOps:} Infraestrutura, automação e práticas de entrega contínua
-\end{itemize}
-
-\vspace{0.5cm}
-\noindent\rule{\textwidth}{0.5pt}
-
-\newpage
-
 % ===== CANVAS =====
 \section{CANVAS: Modelo de Negócio e Estratégia}
 
-O Business Model Canvas \cite{santos2024} é uma ferramenta visual estratégica\footnote{O Canvas foi desenvolvido por Alexander Osterwalder e é amplamente utilizado em startups e empresas estabelecidas para modelagem de negócios.} que permite descrever, analisar e projetar modelos de negócio de forma clara e objetiva. O canvas é dividido em nove blocos fundamentais que cobrem as principais áreas de um negócio.
+O Business Model Canvas é uma ferramenta de modelagem estratégica que permite descrever, analisar e
+projetar o modelo de negócio de forma clara e objetiva. O Canvas do projeto de classificação de manganês e cobre na folha da mexerica contempla os
+principais blocos de valor do sistema, focado na análise de deficiências nutricionais em folhas de mexerica.
 
-\subsection{Como Inserir o CANVAS}
+\medskip
+\noindent\textbf{Proposta de Valor}\\
+O sistema ajuda agricultores a identificarem deficiências de manganês e cobre na folha da mexerica, oferecendo
+análises automatizadas por meio de imagens e inteligência artificial.
 
-Para inserir o modelo Canvas no projeto, você pode utilizar tabelas ou imagens. Abaixo um exemplo de estrutura básica:
+\medskip
+\noindent\textbf{Segmento de Mercado}\\
+O público-alvo são agricultores de mexerica do Vale do Ribeira, com foco em produtores rurais, horticultores e
+outros interessados na melhoria da produtividade agrícola.
 
-\begin{table}[H]
-\centering
-\caption{Business Model Canvas -- Visão Geral}
-\label{tab:canvas}
-\small
-\begin{tabular}{|p{2.5cm}|p{2.5cm}|p{2.8cm}|p{2.5cm}|p{2.8cm}|}
-\hline
-\textbf{Parcerias Principais} & \textbf{Atividades Chave} & \textbf{Proposta de Valor} & \textbf{Relacionamento} & \textbf{Segmentos} \\
-\hline
-Fornecedores, parceiros, provedores cloud & Desenvolvimento, manutenção, análise & Automação, redução de custos, interface intuitiva & Suporte, treinamentos, portal & PMEs, comercial, administrativo \\
-\hline
-\multicolumn{2}{|p{5.5cm}|}{\textbf{Estrutura de Custos}} & \multicolumn{3}{p{7.5cm}|}{\textbf{Fontes de Receita}} \\
-\hline
-\multicolumn{2}{|p{5.5cm}|}{Desenvolvimento, infraestrutura, marketing, equipe} & \multicolumn{3}{p{7.5cm}|}{Licenças mensais/anuais, customização, suporte premium, treinamentos} \\
-\hline
-\end{tabular}
-\end{table}
+\medskip
+\noindent\textbf{Relacionamento com o Cliente}\\
+O relacionamento será realizado por WhatsApp, aplicativo móvel e site institucional, com feedback automatizado
+de análises por meio de gráficos e mapas.
 
-\textbf{Dica:} Você também pode criar o Canvas em ferramentas como Canva, Miro ou PowerPoint e inserir como imagem:
+\medskip
+\noindent\textbf{Canais}\\
+A divulgação e acesso ao sistema ocorrerão via secretarias de agricultura municipais, site, e-mail e WhatsApp,
+fortalecendo a comunicação direta com o público-alvo.
 
-\begin{verbatim}
+\medskip
+\noindent\textbf{Atividades-Chave}\\
+As principais atividades são identificar deficiências nutricionais, oferecer suporte técnico e manter o sistema.
+
+\medskip
+\noindent\textbf{Recursos-Chave}\\
+O sistema depende de equipe técnica, hospedagem para site e banco de dados, e infraestrutura de análise de imagens.
+
+\medskip
+\noindent\textbf{Parcerias-Chave}\\
+As parcerias envolvem associações de fazendeiros, secretarias de agricultura e participação em feiras do setor.
+
+\medskip
+\noindent\textbf{Estrutura de Custos}\\
+Inclui manutenção de equipamentos, aluguel de espaço físico, compra de materiais e custos de servidores.
+
+\medskip
+\noindent\textbf{Fontes de Renda}\\
+A monetização pode ocorrer por meio de aluguel do sistema, cobrança por equipamentos e serviços de instalação e manutenção.
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{imgs/canvas-modelo.png}
-\caption{Business Model Canvas do Projeto}
-\label{fig:canvas}
+\caption{Modelo de Negócios Canvas}
+\label{fig:Canvas}
+\includegraphics[width=0.8\textwidth]{imgs/Canvas.jpeg}
 \end{figure}
-\end{verbatim}
+
+\medskip
 
 % ===== SWOT =====
 \section{SWOT: Análise Estratégica}
 
-A Análise SWOT (Strengths, Weaknesses, Opportunities, Threats) ou FOFA (Forças, Oportunidades, Fraquezas e Ameaças) \cite{oliveira2023} é uma ferramenta fundamental para planejamento estratégico\footnote{A análise SWOT foi criada na década de 1960 por Albert Humphrey no Stanford Research Institute.} que permite identificar fatores internos e externos que impactam o projeto. Analisa forças, fraquezas, oportunidades e ameaças do projeto.
+A Análise SWOT (Strengths, Weaknesses, Opportunities, Threats) ou FOFA (Forças, Oportunidades, Fraquezas e Ameaças) \cite{oliveira2023} é uma ferramenta fundamental para planejamento estratégico\footnote{A análise SWOT foi criada na década de 1960 por Albert Humphrey no Stanford Research Institute.} que permite identificar fatores internos e externos que impactam o projeto. A análise SWOT foi realizada com o objetivo de compreender os principais pontos fortes, fracos, oportunidades e ameaças relacionadas ao projeto de classificação de manganês e cobre na folha da mexerica.
 
-\subsection{Como Inserir a Análise SWOT}
+\subsection{Matriz SWOT}
 
-A matriz SWOT pode ser apresentada em formato de tabela conforme o exemplo abaixo:
+A matriz SWOT do projeto está apresentada na Tabela~\ref{tab:swot}, organizando os fatores internos (forças e fraquezas) e externos (oportunidades e ameaças).
 
 \begin{table}[H]
 \centering
@@ -215,24 +208,21 @@ A matriz SWOT pode ser apresentada em formato de tabela conforme o exemplo abaix
 \textbf{FORÇAS (Strengths)} & \textbf{FRAQUEZAS (Weaknesses)} \\
 \hline
 \begin{minipage}[t]{7cm}
-\begin{itemize}
-    \item Equipe técnica qualificada
-    \item Tecnologia moderna e escalável
-    \item Interface intuitiva e amigável
-    \item Baixo custo de implementação
-    \item Suporte técnico especializado
-    \item Integração com sistemas existentes
+\begin{itemize}[left=0pt]
+  \item É alinhado com iniciativas sustentáveis.
+  \item Melhora a eficiência e rapidez no diagnóstico de doenças.
+  \item Reduz o risco de pés de mexerica ainda saudáveis.
+  \item Reduz o desperdício de alimentos saudáveis.
+  \item É alinhado com os objetivos da ODS.
 \end{itemize}
 \end{minipage}
 &
 \begin{minipage}[t]{7cm}
-\begin{itemize}
-    \item Marca pouco conhecida no mercado
-    \item Recursos financeiros limitados
-    \item Dependência de fornecedores externos
-    \item Equipe de vendas reduzida
-    \item Documentação incompleta
-    \item Testes automatizados insuficientes
+\begin{itemize}[left=0pt]
+  \item Poucos estudos na área envolvendo plantas cítricas.
+  \item O treinamento do modelo de IA depende de um grande banco de dados.
+  \item O diagnóstico depende da qualidade da imagem.
+  \item Dificuldade de acesso à internet por parte dos produtores.
 \end{itemize}
 \end{minipage}
 \\
@@ -242,24 +232,17 @@ A matriz SWOT pode ser apresentada em formato de tabela conforme o exemplo abaix
 \textbf{OPORTUNIDADES (Opportunities)} & \textbf{AMEAÇAS (Threats)} \\
 \hline
 \begin{minipage}[t]{7cm}
-\begin{itemize}
-    \item Crescimento do mercado de SaaS
-    \item Digitalização de empresas
-    \item Programas de incentivo fiscal
-    \item Parcerias com universidades
-    \item Demanda por automação
-    \item Expansão para novos nichos
+\begin{itemize}[left=0pt]
+  \item Expandir para outras deficiências como: zinco, ferro etc.
+  \item Parcerias com empresas, cooperativas e universidades para divulgar o produto.
+  \item Crescente demanda por agricultura de precisão.
 \end{itemize}
 \end{minipage}
 &
 \begin{minipage}[t]{7cm}
-\begin{itemize}
-    \item Concorrência com players consolidados
-    \item Mudanças na legislação
-    \item Crises econômicas
-    \item Vulnerabilidades de segurança
-    \item Rápida obsolescência tecnológica
-    \item Resistência à mudança dos usuários
+\begin{itemize}[left=0pt]
+  \item Resistência por parte dos produtores tradicionais.
+  \item Concorrência com outras soluções, como drones, por exemplo.
 \end{itemize}
 \end{minipage}
 \\
@@ -267,461 +250,270 @@ A matriz SWOT pode ser apresentada em formato de tabela conforme o exemplo abaix
 \end{tabular}
 \end{table}
 
+\medskip
+Esse tipo de avaliação permite identificar elementos que podem impactar diretamente o sucesso do sistema, além de apontar caminhos para melhorias contínuas e decisões estratégicas.
+
 \subsection{Recomendações Estratégicas}
 
 Com base na análise SWOT, as principais estratégias devem focar em:
 \begin{itemize}
-    \item \textbf{Forças + Oportunidades:} Investir no marketing digital para aproveitar o crescimento do mercado
-    \item \textbf{Forças + Ameaças:} Reforçar a segurança para se diferenciar da concorrência
-    \item \textbf{Fraquezas + Oportunidades:} Buscar parcerias para ampliar a presença no mercado
-    \item \textbf{Fraquezas + Ameaças:} Criar planos de contingência e melhorar a documentação
+    \item \textbf{Forças + Oportunidades:} Posicionar a solução no mercado de agricultura de precisão, destacando o alinhamento com práticas sustentáveis e os Objetivos de Desenvolvimento Sustentável (ODS), e buscar parcerias com cooperativas e universidades para ampliar a divulgação.
+    \item \textbf{Forças + Ameaças:} Reforçar a proposta de valor frente à concorrência (como drones), enfatizando o diagnóstico rápido por imagem da folha, a redução de desperdício e a preservação de pés saudáveis de mexerica.
+    \item \textbf{Fraquezas + Oportunidades:} Estabelecer parcerias com universidades e cooperativas para ampliar o banco de dados de treinamento da IA e validar cientificamente a solução em plantas cítricas, aproveitando a demanda por agricultura de precisão.
+    \item \textbf{Fraquezas + Ameaças:} Mitigar a resistência dos produtores tradicionais com materiais de capacitação sobre captura de imagens e uso do sistema, e planejar funcionalidades que reduzam a dependência de conectividade contínua.
 \end{itemize}
 
 % ===== UX/UI =====
 \section{UX/UI: Design de Interface e Experiência do Usuário}
 
-UX (User Experience) e UI (User Interface) \cite{silva2025} são disciplinas complementares focadas em criar produtos digitais que sejam funcionais, acessíveis e agradáveis de usar.\footnote{Ferramentas populares para design UX/UI incluem Figma, Adobe XD, Sketch e InVision.} O UX concentra-se na experiência geral do usuário, enquanto o UI cuida dos elementos visuais e interativos.
+Esta seção apresenta os principais protótipos de interface do sistema, incluindo as versões web e mobile,
+com foco em usabilidade e navegação.
 
-\subsection{Como Inserir Mockups e Protótipos}
+\subsection{Interface Web}
 
-Os artefatos de UX/UI geralmente incluem wireframes, mockups e protótipos que podem ser inseridos como imagens:
+A interface web apresenta telas de login, histórico, resultados e mapa, todas alinhadas ao fluxo de
+navegação do usuário.
 
 \begin{figure}[H]
 \centering
-\begin{minipage}{0.45\textwidth}
-    \centering
-    \fbox{\includegraphics[width=0.9\textwidth]{imgs/img_001.jpg}}
-    \caption{Wireframe da tela inicial}
-    \label{fig:wireframe}
-\end{minipage}
-\hfill
-\begin{minipage}{0.45\textwidth}
-    \centering
-    \fbox{\includegraphics[width=0.9\textwidth]{imgs/img_001.jpg}}
-    \caption{Mockup de alta fidelidade}
-    \label{fig:mockup}
-\end{minipage}
+\caption{Protótipo Interface Web - Tela de Login}
+\label{fig:interface-web-tela-login}
+\includegraphics[width=0.8\textwidth]{imgs/TelaLogin.png}
 \end{figure}
 
-\subsection{Exemplo de Código para Inserir Protótipos}
+A tela de login permite o acesso de usuários cadastrados, garantindo segurança e controle de autenticação.
 
-Para inserir múltiplas telas do protótipo:
-
-\begin{verbatim}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{imgs/prototype-dashboard.png}
-\caption{Protótipo da Dashboard Principal}
-\label{fig:prototype-dashboard}
+\caption{Protótipo Interface Web - Tela de Histórico}
+\label{fig:interface-web-tela-historico}
+\includegraphics[width=0.8\textwidth]{imgs/TelaHistorico-1.png}
 \end{figure}
-\end{verbatim}
 
-\subsection{Guia de Estilos}
+A tela de histórico apresenta registros anteriores de análises feitas em cada talhão, permitindo acompanhar a
+evolução das deficiências identificadas.
 
-É importante documentar o design system utilizado:
-
-\begin{table}[H]
+\begin{figure}[H]
 \centering
-\caption{Paleta de Cores do Projeto}
-\label{tab:cores}
-\begin{tabular}{|l|c|l|l|}
-\hline
-\textbf{Elemento} & \textbf{Cor} & \textbf{Código HEX} & \textbf{Uso} \\
-\hline
-Primária & \colorbox[HTML]{b11116}{\phantom{AAA}} & \#b11116 & Botões principais, destaques \\
-Secundária & \colorbox[HTML]{3a5461}{\phantom{AAA}} & \#3a5461 & Títulos, elementos secundários \\
-Fundo & \colorbox[HTML]{FFFFFF}{\phantom{AAA}} & \#FFFFFF & Background padrão \\
-Texto & \colorbox[HTML]{333333}{\color{white}\phantom{AAA}} & \#333333 & Texto principal \\
-Sucesso & \colorbox[HTML]{28a745}{\phantom{AAA}} & \#28a745 & Mensagens de sucesso \\
-Erro & \colorbox[HTML]{dc3545}{\color{white}\phantom{AAA}} & \#dc3545 & Mensagens de erro \\
-\hline
-\end{tabular}
-\end{table}
+\caption{Protótipo Interface Web - Tela de Resultados}
+\label{fig:interface-web-tela-resultados}
+\includegraphics[width=0.8\textwidth]{imgs/TelaResultado.png}
+\end{figure}
+
+A tela de resultados exibe as análises feitas a partir das imagens enviadas, incluindo diagnósticos e relatórios de
+forma clara.
+
+\begin{figure}[H]
+\centering
+\caption{Protótipo Interface Web - Tela de Mapa}
+\label{fig:interface-web-tela-mapa}
+\includegraphics[width=0.8\textwidth]{imgs/TelaMapa.png}
+\end{figure}
+
+Nesta tela, o usuário visualiza os talhões de sua propriedade em um mapa interativo.
+
+\subsection{Interface Mobile}
+
+A interface mobile reproduz as principais funcionalidades da versão web, adaptada para telas menores e navegação
+por toque.
+
+\begin{figure}[H]
+\centering
+\caption{Protótipo Interface Mobile - Tela de Login}
+\label{fig:interface-mobile-tela-login}
+\includegraphics[width=0.4\textwidth]{imgs/MobileLogin.png}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Protótipo Interface Mobile - Tela de Início}
+\label{fig:interface-mobile-tela-inicio}
+\includegraphics[width=0.4\textwidth]{imgs/MobileInicio.png}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Protótipo Interface Mobile - Tela de Histórico}
+\label{fig:interface-mobile-tela-historico-mobile}
+\includegraphics[width=0.4\textwidth]{imgs/MobileHistorico.png}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Protótipo Interface Mobile - Tela de Resultados}
+\label{fig:interface-mobile-tela-resultados-mobile}
+\includegraphics[width=0.4\textwidth]{imgs/MobileResultado.png}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\caption{Protótipo Interface Mobile - Tela de Mapa}
+\label{fig:interface-mobile-tela-mapa-mobile}
+\includegraphics[width=0.4\textwidth]{imgs/MobileMapa.png}
+\end{figure}
+
+A versão mobile garante acesso prático e rápido às principais funcionalidades do sistema em dispositivos portáteis.
 
 % ===== WEBSITE =====
 \section{Website: Estrutura e Especificações Técnicas Web}
 
-Esta seção documenta o website institucional/portfólio da equipe que desenvolveu a aplicação. O site da equipe serve para apresentar os membros, projetos realizados, competências e informações de contato.
-
-\subsection{Mapa do Site da Equipe}
-
-O mapa do site (sitemap) mostra a hierarquia e organização das páginas do website da equipe:
+Esta seção apresenta as principais telas do sistema Web desenvolvidas em Node.js (Express + Sequelize)
+com MySQL e EJS. A versão mostra a estrutura básica, a navegação entre páginas e o funcionamento do banco de dados.
 
 \begin{figure}[H]
 \centering
-\begin{tikzpicture}[
-    level 1/.style={sibling distance=4cm, level distance=1.5cm},
-    level 2/.style={sibling distance=2cm, level distance=1.5cm},
-    every node/.style={rectangle, draw, rounded corners, 
-                       fill=secondarycolor!20, 
-                       text width=2.5cm, 
-                       align=center,
-                       font=\small}
-]
-\node {Home}
-    child {node {Sobre Nós}
-        child {node {Equipe}}
-        child {node {Missão}}
-    }
-    child {node {Projetos}
-        child {node {Portfólio}}
-        child {node {Cases}}
-    }
-    child {node {Serviços}
-        child {node {Desenvolvimento}}
-        child {node {Consultoria}}
-    }
-    child {node {Contato}
-        child {node {Formulário}}
-        child {node {Localização}}
-    };
-\end{tikzpicture}
-\caption{Estrutura de navegação do website da equipe}
-\label{fig:sitemap}
+\caption{Interface Web - Tela de Login}
+\label{fig:website-tela-login}
+\includegraphics[width=0.8\textwidth]{imgs/AppLogin.png}
 \end{figure}
 
-\subsection{Conteúdo das Páginas}
+A tela de login está fiel ao protótipo e implementa autenticação via middleware.
 
-\textbf{Páginas principais do site da equipe:}
-
-\begin{itemize}
-    \item \textbf{Home:} Apresentação da equipe, destaques de projetos recentes
-    \item \textbf{Sobre Nós:} História da equipe, missão, visão e valores
-    \item \textbf{Equipe:} Perfil dos membros (nome, foto, função, LinkedIn/GitHub)
-    \item \textbf{Portfólio:} Showcase dos projetos desenvolvidos com descrições e imagens
-    \item \textbf{Serviços:} Descrição dos serviços oferecidos pela equipe
-    \item \textbf{Contato:} Formulário de contato, e-mail, redes sociais
-\end{itemize}
-
-\subsection{Como Inserir Screenshots do Website da Equipe}
-
-Para documentar as páginas do website da equipe:
-
-\begin{verbatim}
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{imgs/website-equipe-home.png}
-\caption{Página inicial do website da equipe}
-\label{fig:website-home}
+\caption{Interface Web - Tela de Início}
+\label{fig:website-tela-inicio}
+\includegraphics[width=0.8\textwidth]{imgs/AppInicio.jpeg}
 \end{figure}
-\end{verbatim}
 
-\subsection{Especificações Técnicas do Site da Equipe}
+A tela de início é a primeira visão do usuário após o login.
 
-\begin{table}[H]
+\begin{figure}[H]
 \centering
-\caption{Stack Tecnológica do Website da Equipe}
-\label{tab:stack-web}
-\begin{tabular}{|l|l|p{6cm}|}
-\hline
-\textbf{Camada} & \textbf{Tecnologia} & \textbf{Descrição} \\
-\hline
-Frontend & React 18.2 & Biblioteca JavaScript para interfaces \\
-Estilização & Tailwind CSS & Framework CSS utilitário \\
-Hospedagem & Vercel/Netlify & Deploy e hosting gratuito \\
-Formulário & EmailJS & Envio de mensagens de contato \\
-Analytics & Google Analytics & Métricas de visitantes \\
-SEO & Next.js & Otimização para motores de busca \\
-\hline
-\end{tabular}
-\end{table}
+\caption{Interface Web - Tela de Resultados}
+\label{fig:website-tela-resultados-app}
+\includegraphics[width=0.8\textwidth]{imgs/AppResultado.jpeg}
+\end{figure}
+
+A tela de resultados exibe análises detalhadas das imagens enviadas.
+
+\begin{figure}[H]
+\centering
+\caption{Interface Web - Tela de Histórico}
+\label{fig:website-tela-historico-app}
+\includegraphics[width=0.8\textwidth]{imgs/AppHistorico.jpeg}
+\end{figure}
+
+A tela de histórico permite visualizar interações anteriores, acompanhando o fluxo.
+
+\begin{figure}[H]
+\centering
+\caption{Interface Web - Tela de Mapa}
+\label{fig:website-tela-mapa-app}
+\includegraphics[width=0.8\textwidth]{imgs/AppMapa.jpeg}
+\end{figure}
+
+A tela de mapa permite visualizar a localização geográfica da propriedade analisada.
 
 % ===== DIAGRAMAS UML =====
 \section{Diagramas UML: Modelagem Visual do Sistema}
 
-A Unified Modeling Language (UML) \cite{kumar2024} é uma linguagem de modelagem visual usada para especificar, visualizar, construir e documentar artefatos de sistemas de software.\footnote{A UML foi padronizada pela Object Management Group (OMG) em 1997.}
+A modelagem UML permite representar visualmente a arquitetura e as interações do sistema.
+A seguir, são apresentados os principais diagramas que suportam o projeto de classificação de manganês e cobre na folha da mexerica.
 
 \subsection{Diagrama de Casos de Uso}
 
-O diagrama de casos de uso representa as funcionalidades do sistema do ponto de vista do usuário:
-
-\begin{figure}[H]
-\centering
-\begin{tikzpicture}
-    % Atores
-    \node[draw, circle, minimum size=1cm] (user) at (0,0) {};
-    \node[below] at (0,-0.7) {Usuário};
-    
-    \node[draw, circle, minimum size=1cm] (admin) at (0,-4) {};
-    \node[below] at (0,-4.7) {Administrador};
-    
-    % Sistema
-    \draw[thick] (3,-2.5) ellipse (3cm and 4cm);
-    \node[above] at (3,1.7) {\textbf{Sistema de Gestão}};
-    
-    % Casos de uso
-    \node[draw, ellipse, align=center] (login) at (3,0.5) {Fazer Login};
-    \node[draw, ellipse, align=center] (cadastro) at (3,-1) {Cadastrar\\Produto};
-    \node[draw, ellipse, align=center] (relatorio) at (3,-2.5) {Gerar\\Relatório};
-    \node[draw, ellipse, align=center] (config) at (3,-4) {Configurar\\Sistema};
-    
-    % Relacionamentos
-    \draw[->] (user) -- (login);
-    \draw[->] (user) -- (cadastro);
-    \draw[->] (user) -- (relatorio);
-    \draw[->] (admin) -- (config);
-    \draw[->] (admin) -- (relatorio);
-\end{tikzpicture}
-\caption{Diagrama de Casos de Uso}
-\label{fig:use-case}
-\end{figure}
-
-\subsection{Diagrama de Classes}
-
-O diagrama de classes mostra a estrutura estática do sistema:
-
-\begin{verbatim}
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth]{imgs/diagrama-classes.png}
-\caption{Diagrama de Classes do Sistema}
-\label{fig:class-diagram}
-\end{figure}
-\end{verbatim}
-
-\subsection{Outros Diagramas UML Importantes}
-
-\begin{itemize}
-    \item \textbf{Diagrama de Sequência:} Mostra a interação entre objetos ao longo do tempo
-    \item \textbf{Diagrama de Atividades:} Representa o fluxo de trabalho ou processo
-    \item \textbf{Diagrama de Componentes:} Mostra a organização física dos componentes
-    \item \textbf{Diagrama de Implantação:} Representa a arquitetura física do sistema
-    \item \textbf{Diagrama de Estados:} Mostra os estados de um objeto e suas transições
+\noindent\textbf{Atores do Sistema:}
+\begin{itemize}[itemsep=0.6em, topsep=0.3em, parsep=0pt]
+    \item \textbf{Usuário (Cliente)}: acessa o sistema para realizar cadastro/login, consultar informações, criar/editar solicitações e acompanhar status.
+    \item \textbf{Administrador}: gerencia cadastros, permissões, configurações gerais e monitora registros/relatórios.
+    \item \textbf{Operador/Atendente}: valida dados enviados pelos usuários, aprova/reprova solicitações e atualiza status operacionais.
+    \item \textbf{Sistema Externo (API/Integrações)}: provê dados de serviços de terceiros (ex.: pagamento, mapas, notificações).
 \end{itemize}
 
-\textbf{Ferramentas recomendadas:} Draw.io, Lucidchart, PlantUML, StarUML, Enterprise Architect
+\noindent\textbf{Casos de Uso do Sistema:}
+\begin{itemize}[itemsep=0.6em, topsep=0.3em, parsep=0pt]
+    \item \textbf{Autenticar Usuário}: cadastro, login e recuperação de senha.
+    \item \textbf{Gerenciar Perfis}: editar dados pessoais, preferências e documentos.
+    \item \textbf{Registrar Solicitação}: criar, editar e cancelar solicitações.
+    \item \textbf{Acompanhar Status}: visualizar andamento, receber notificações e histórico.
+    \item \textbf{Gerir Operações (Backoffice)}: triagem, aprovação e ajustes operacionais.
+    \item \textbf{Relatórios e Auditoria}: visualizar métricas, exportar dados e rastrear logs.
+    \item \textbf{Integrações}: consultar/enviar dados para APIs externas.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\caption{Diagrama de Caso de Uso}
+\label{fig:diagrama-caso-uso}
+\includegraphics[width=0.8\textwidth]{imgs/DiagramaCasosDeUso.jpg}
+\end{figure}
+
+\subsection{Diagrama de Classe}
+
+O diagrama de classes resume as principais entidades do sistema e seus relacionamentos.
+
+\begin{itemize}[itemsep=0.6em, topsep=0.3em, parsep=0pt]
+    \item \textbf{Propriedade}: cadastra e gerencia propriedades rurais vinculadas a um usuário.
+    \item \textbf{Usuário}: mantém dados pessoais e de autenticação, suportando cadastro e login.
+    \item \textbf{Talhão}: subárea da propriedade que guarda metadados e histórico de diagnósticos.
+    \item \textbf{Diagnóstico}: registra análise por imagem, vínculo ao talhão e resultado do laudo.
+    \item \textbf{ServidorNode}: faz a ponte do frontend com a API e encaminha requisições para processamento.
+    \item \textbf{ProcessamentoPython}: executa classificação de imagens com CNN e atualiza o modelo.
+    \item \textbf{BancoDeDados}: gerencia conexão e operações CRUD para persistência dos dados.
+    \item \textbf{PainelAdmin}: área administrativa para gestão de usuários, modelos e monitoramento.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\caption{Diagrama de Classe}
+\label{fig:diagrama-classe}
+\includegraphics[width=0.8\textwidth]{imgs/DiagramaDeClasses.jpg}
+\end{figure}
+
+\subsection{Diagrama de Objetos}
+
+O diagrama de objetos apresenta instâncias concretas e o fluxo de criação e vinculação entre elas.
+
+\begin{figure}[H]
+\centering
+\caption{Diagrama de Objetos}
+\label{fig:diagrama-objetos}
+\includegraphics[width=0.8\textwidth]{imgs/DiagramaDeObjetos.jpg}
+\end{figure}
+
+\subsection{Diagrama Entidade–Relacionamento}
+
+O diagrama Entidade–Relacionamento descreve a estrutura lógica do banco de dados,
+com entidades como Usuários, Propriedades, Talhões, Pés, Fotos e Relatórios.
+
+\begin{figure}[H]
+\centering
+\caption{Diagrama Entidade–Relacionamento}
+\label{fig:diagrama-der}
+\includegraphics[width=0.9\textwidth]{imgs/DiagramaDER.jpg}
+\end{figure}
+
+\subsection{Diagrama Modelo Lógico}
+
+O modelo lógico descreve a hierarquia dos dados e a ligação entre entidades do sistema.
+
+\begin{figure}[H]
+\centering
+\caption{Diagrama Modelo Lógico}
+\label{fig:diagrama-mer}
+\includegraphics[width=0.9\textwidth]{imgs/DiagramaMER.jpg}
+\end{figure}
 
 % ===== DEVOPS =====
-\section{DevOps: Infraestrutura, Automação e Entrega Contínua}
+\section{DevOps: Infraestrutura, Automação e Práticas}
 
-DevOps \cite{wang2023} é uma cultura e conjunto de práticas que integra desenvolvimento de software (Dev) e operações de TI (Ops), focando em automação, colaboração e entrega contínua.
-
-\subsection{Pipeline CI/CD}
-
-O pipeline de integração e entrega contínua é fundamental para automação:
-
-\begin{figure}[H]
-\centering
-\begin{tikzpicture}[
-    node distance=1.5cm,
-    every node/.style={rectangle, draw, rounded corners, 
-                       fill=secondarycolor!20, 
-                       text width=2cm, 
-                       align=center,
-                       font=\small,
-                       minimum height=1cm}
-]
-\node (code) {Code};
-\node (build) [right of=code, xshift=1cm] {Build};
-\node (test) [right of=build, xshift=1cm] {Test};
-\node (deploy) [right of=test, xshift=1cm] {Deploy};
-\node (monitor) [right of=deploy, xshift=1cm] {Monitor};
-
-\draw[->, thick] (code) -- (build);
-\draw[->, thick] (build) -- (test);
-\draw[->, thick] (test) -- (deploy);
-\draw[->, thick] (deploy) -- (monitor);
-\draw[->, thick, dashed] (monitor) to[bend right=45] (code);
-\end{tikzpicture}
-\caption{Pipeline CI/CD}
-\label{fig:cicd}
-\end{figure}
-
-\subsection{Exemplo de Configuração CI/CD}
-
-Exemplo de arquivo `.gitlab-ci.yml` ou GitHub Actions:
-
-\begin{verbatim}
-stages:
-  - build
-  - test
-  - deploy
-
-build:
-  stage: build
-  script:
-    - npm install
-    - npm run build
-
-test:
-  stage: test
-  script:
-    - npm run test
-    - npm run lint
-
-deploy:
-  stage: deploy
-  script:
-    - npm run deploy
-  only:
-    - main
-\end{verbatim}
-
-\subsection{Infraestrutura como Código}
-
-\begin{table}[H]
-\centering
-\caption{Ferramentas DevOps Utilizadas}
-\label{tab:devops-tools}
-\begin{tabular}{|l|l|p{6cm}|}
-\hline
-\textbf{Categoria} & \textbf{Ferramenta} & \textbf{Finalidade} \\
-\hline
-Controle de Versão & Git + GitHub & Versionamento de código \\
-CI/CD & GitHub Actions & Automação de build e deploy \\
-Containerização & Docker & Empacotamento de aplicações \\
-Orquestração & Kubernetes & Gerenciamento de containers \\
-Monitoramento & Prometheus + Grafana & Métricas e dashboards \\
-Logs & ELK Stack & Centralização de logs \\
-IaC & Terraform & Provisionamento de infraestrutura \\
-\hline
-\end{tabular}
-\end{table}
-
-\subsection{Infraestrutura do Sistema}
-
-Esta seção documenta como o sistema funciona em diferentes ambientes e plataformas.
-
-\subsubsection{Arquitetura de Rede}
-
-\begin{table}[H]
-\centering
-\caption{Componentes de Infraestrutura}
-\label{tab:infrastructure}
-\begin{tabular}{|l|p{10cm}|}
-\hline
-\textbf{Componente} & \textbf{Descrição} \\
-\hline
-\textbf{Rede Local (LAN)} & 
-\begin{itemize}[leftmargin=*, nosep]
-    \item Servidor local para desenvolvimento e testes
-    \item Rede interna com IP fixo (ex: 192.168.1.x)
-    \item Acesso via VPN para equipe remota
-    \item Backup local diário em servidor dedicado
-\end{itemize} \\
-\hline
-\textbf{Cloud (Nuvem)} & 
-\begin{itemize}[leftmargin=*, nosep]
-    \item Hospedagem em AWS/Azure/Google Cloud
-    \item Auto-scaling para gerenciar demanda
-    \item CDN para distribuição de conteúdo estático
-    \item Backup automático em múltiplas regiões
-    \item Ambiente de produção e homologação separados
-\end{itemize} \\
-\hline
-\textbf{Dispositivos Móveis} & 
-\begin{itemize}[leftmargin=*, nosep]
-    \item API REST para comunicação mobile
-    \item Suporte para iOS e Android
-    \item Sincronização offline com cache local
-    \item Push notifications para atualizações
-    \item Responsive design para tablets
-\end{itemize} \\
-\hline
-\textbf{Segurança} & 
-\begin{itemize}[leftmargin=*, nosep]
-    \item Firewall e SSL/TLS para comunicação segura
-    \item Autenticação JWT e OAuth 2.0
-    \item Criptografia de dados sensíveis
-    \item Monitoramento de acessos e logs de auditoria
-\end{itemize} \\
-\hline
-\end{tabular}
-\end{table}
-
-\subsubsection{Diagrama de Infraestrutura}
-
-Para ilustrar como os componentes se conectam:
-
-\begin{verbatim}
-\begin{figure}[H]
-\centering
-\includegraphics[width=\textwidth]{imgs/diagrama-infraestrutura.png}
-\caption{Diagrama de Infraestrutura do Sistema}
-\label{fig:infrastructure-diagram}
-\end{figure}
-\end{verbatim}
-
-\textbf{Exemplo de descrição:}
-
-\begin{itemize}
-    \item \textbf{Usuários Web:} Acessam via navegador através de HTTPS
-    \item \textbf{Usuários Mobile:} Conectam-se via API REST com autenticação
-    \item \textbf{Banco de Dados:} PostgreSQL em cluster para alta disponibilidade
-    \item \textbf{Storage:} Amazon S3 para arquivos e imagens
-    \item \textbf{Cache:} Redis para otimização de performance
-    \item \textbf{Fila de Mensagens:} RabbitMQ para processamento assíncrono
-\end{itemize}
-
-\subsection{Arquitetura de Deploy}
-
-Para documentar a arquitetura de deployment:
-
-\begin{figure}[H]
-\centering
-\begin{tikzpicture}[
-    node distance=2cm,
-    component/.style={rectangle, draw, rounded corners, 
-                      fill=secondarycolor!20, 
-                      text width=2.5cm, 
-                      align=center,
-                      minimum height=1.2cm}
-]
-\node[component] (lb) {Load Balancer};
-\node[component, below left of=lb] (app1) {App Server 1};
-\node[component, below right of=lb] (app2) {App Server 2};
-\node[component, below of=app1, xshift=1.5cm] (db) {Database};
-\node[component, below of=db] (cache) {Redis Cache};
-
-\draw[<->, thick] (lb) -- (app1);
-\draw[<->, thick] (lb) -- (app2);
-\draw[<->, thick] (app1) -- (db);
-\draw[<->, thick] (app2) -- (db);
-\draw[<->, thick] (app1) -- (cache);
-\draw[<->, thick] (app2) -- (cache);
-\end{tikzpicture}
-\caption{Arquitetura de Deployment}
-\label{fig:deployment}
-\end{figure}
-
-\subsection{Métricas e SLA}
-
-Definir métricas importantes para monitoramento:
-
-\begin{itemize}
-    \item \textbf{Disponibilidade:} 99.9\% (uptime)
-    \item \textbf{Tempo de Resposta:} < 200ms (média)
-    \item \textbf{Taxa de Erro:} < 0.1\%
-    \item \textbf{Throughput:} 1000 requisições/segundo
-    \item \textbf{Deploy Frequency:} Diário
-    \item \textbf{Lead Time:} < 1 hora
-    \item \textbf{MTTR:} < 30 minutos (Mean Time To Recovery)
-\end{itemize}
+O conteúdo de DevOps ainda não está disponível para este projeto. Esta seção será preenchida
+posteriormente quando as informações de pipeline, infraestrutura e automação estiverem definidas.
 
 \newpage
 \section*{Conclusão}
 
-Este documento apresenta os principais artefatos necessários para a documentação completa de um projeto de software. Cada seção fornece exemplos práticos de como inserir e formatar os diferentes tipos de artefatos utilizando \LaTeX.
-
-Os artefatos documentados incluem:
-\begin{itemize}
-    \item \textbf{CANVAS:} Modelo de negócio e estratégia
-    \item \textbf{SWOT:} Análise estratégica de forças, fraquezas, oportunidades e ameaças
-    \item \textbf{UX/UI:} Design de interface e experiência do usuário
-    \item \textbf{Website:} Estrutura e especificações técnicas web
-    \item \textbf{Diagramas UML:} Modelagem visual do sistema
-    \item \textbf{DevOps:} Infraestrutura, automação e práticas de entrega contínua
-\end{itemize}
-
-\vspace{1cm}
-\noindent\rule{\textwidth}{0.5pt}
-\vspace{0.3cm}
-
-\noindent\textit{Para incluir imagens personalizadas, substitua os caminhos de exemplo (imgs/img\_001.jpg) pelos caminhos reais dos seus arquivos. Utilize ferramentas especializadas como Draw.io, Figma, PlantUML e outras mencionadas ao longo do documento para criar artefatos de qualidade profissional.}
+Este documento apresenta os artefatos do projeto \textbf{Classificação de Manganês e Cobre na Folha da Mexerica}, reunindo o planejamento estratégico, a análise SWOT, o design UX/UI, a especificação de website, os diagramas UML e o relatório de DevOps.
 
 \newpage
+\section*{Referências}
 \addcontentsline{toc}{section}{Referências}
-\bibliographystyle{abntex2-alf}
-\bibliography{referencias}
+\begin{thebibliography}{1}
+\bibitem{oliveira2023}
+OLIVEIRA, P.; COSTA, M. Machine learning applications in dynamic systems.
+\emph{IEEE Transactions on Systems, Man, and Cybernetics}, IEEE, v.~53, n.~8,
+  p. 4567--4580, 2023.
+\end{thebibliography}
 
 \end{document}
