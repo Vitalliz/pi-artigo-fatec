@@ -7,7 +7,8 @@
 \contentsline {subsection}{\numberline {3.1}Mockup Interface}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Guia de Estilos}{5}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Website: Estrutura e Especificações Técnicas Web}{5}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Conteúdo das Páginas}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Mapa do Site da Equipe}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Conteúdo das Páginas}{6}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Diagramas UML: Modelagem Visual do Sistema}{6}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Diagrama de Casos de Uso}{6}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Diagrama de Classe}{7}{subsection.5.2}%
