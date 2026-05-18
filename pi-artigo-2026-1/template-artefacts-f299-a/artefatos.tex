@@ -276,20 +276,58 @@ com foco em usabilidade e navegação.
 A interface web apresenta telas de login, histórico, resultados e mapa, todas alinhadas ao fluxo de
 navegação do usuário.
 
+% TESTEEEEEEEEEEE TIRAR DEPOIS
 \begin{figure}[H]
 \centering
-\caption{Protótipo Interface Web - Tela de Login}
-\label{fig:interface-web-tela-login}
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\textwidth]{imgs/img_001.jpg}}
+    \caption{Wireframe da tela inicial}
+    \label{fig:wireframe}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+    \centering
+    \fbox{\includegraphics[width=0.9\textwidth]{imgs/Mockup Alta Fidelidade.png}}
+    \caption{Mockup de alta fidelidade}
+    \label{fig:mockup}
+\end{minipage}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{imgs/TelaHistorico-1.png}
+\caption{Protótipo da Dashboard Principal}
+\label{fig:prototype-dashboard}
+\end{figure}
+
+% TESTEEEEEEEEEEE TIRAR DEPOIS
+
+\begin{figure}[H]
+\centering
 \includegraphics[width=0.8\textwidth]{imgs/TelaLogin.png}
+\caption{Protótipo da Tela de Login}
+\label{fig:prototype-dashboard}
 \end{figure}
 
 A tela de login permite o acesso de usuários cadastrados, garantindo segurança e controle de autenticação.
 
 \begin{figure}[H]
 \centering
-\caption{Protótipo Interface Web - Tela de Histórico}
-\label{fig:interface-web-tela-historico}
+\includegraphics[width=0.8\textwidth]{imgs/TelaInicio.png}
+\caption{Protótipo da Dashboard Principal}
+\label{fig:prototype-dashboard}
+\end{figure}
+
+Esta tela de início centraliza o monitoramento da propriedade ao exibir o progresso
+da cobertura das análises, gráficos de evolução e distribuição de deficiências 
+nutricionais, e um atalho para o escaneamento de imagens de folhas.
+
+\begin{figure}[H]
+\centering
 \includegraphics[width=0.8\textwidth]{imgs/TelaHistorico-1.png}
+\caption{Protótipo da Tela de Histórico}
+\label{fig:interface-web-tela-historico}
 \end{figure}
 
 A tela de histórico apresenta registros anteriores de análises feitas em cada talhão, permitindo acompanhar a
@@ -297,9 +335,9 @@ evolução das deficiências identificadas.
 
 \begin{figure}[H]
 \centering
-\caption{Protótipo Interface Web - Tela de Resultados}
-\label{fig:interface-web-tela-resultados}
 \includegraphics[width=0.8\textwidth]{imgs/TelaResultado.png}
+\caption{Protótipo da Tela de Resultados}
+\label{fig:interface-web-tela-resultados}
 \end{figure}
 
 A tela de resultados exibe as análises feitas a partir das imagens enviadas, incluindo diagnósticos e relatórios de
@@ -307,9 +345,9 @@ forma clara.
 
 \begin{figure}[H]
 \centering
-\caption{Protótipo Interface Web - Tela de Mapa}
+\includegraphics[width=0.8\textwidth]{imgs/TelaHistorico-1.png}
+\caption{Protótipo da Tela de Mapa}
 \label{fig:interface-web-tela-mapa}
-\includegraphics[width=0.8\textwidth]{imgs/TelaMapa.png}
 \end{figure}
 
 Nesta tela, o usuário visualiza os talhões de sua propriedade em um mapa interativo.
@@ -321,91 +359,105 @@ por toque.
 
 \begin{figure}[H]
 \centering
-\caption{Protótipo Interface Mobile - Tela de Login}
+\includegraphics[width=0.5\textwidth]{imgs/MobileLogin.png}
+\caption{Protótipo da Tela de Login}
 \label{fig:interface-mobile-tela-login}
-\includegraphics[width=0.4\textwidth]{imgs/MobileLogin.png}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\caption{Protótipo Interface Mobile - Tela de Início}
-\label{fig:interface-mobile-tela-inicio}
-\includegraphics[width=0.4\textwidth]{imgs/MobileInicio.png}
+\includegraphics[width=0.5\textwidth]{imgs/MobileInicio.png}
+\caption{Protótipo da Dashboard Principal}
+\label{fig:prototype-dashboard}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\caption{Protótipo Interface Mobile - Tela de Histórico}
-\label{fig:interface-mobile-tela-historico-mobile}
-\includegraphics[width=0.4\textwidth]{imgs/MobileHistorico.png}
+\includegraphics[width=0.5\textwidth]{imgs/MobileHistorico.png}
+\caption{Protótipo da Tela de Histórico}
+\label{fig:interface-mobile-tela-historico}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\caption{Protótipo Interface Mobile - Tela de Resultados}
-\label{fig:interface-mobile-tela-resultados-mobile}
-\includegraphics[width=0.4\textwidth]{imgs/MobileResultado.png}
+\includegraphics[width=0.5\textwidth]{imgs/MobileResultado.png}
+\caption{Protótipo da Tela de Resultados}
+\label{fig:interface-mobile-tela-resultados}
 \end{figure}
 
 \begin{figure}[H]
 \centering
-\caption{Protótipo Interface Mobile - Tela de Mapa}
-\label{fig:interface-mobile-tela-mapa-mobile}
-\includegraphics[width=0.4\textwidth]{imgs/MobileMapa.png}
+\includegraphics[width=0.5\textwidth]{imgs/MobileMapa.png}
+\caption{Protótipo da Tela de Mapa}
+\label{fig:interface-mobile-tela-mapa}
 \end{figure}
 
 A versão mobile garante acesso prático e rápido às principais funcionalidades do sistema em dispositivos portáteis.
 
+\subsection{Guia de Estilos}
+
+Paleta de cores principais do Design System do projeto:
+
+\begin{table}[H]
+\centering
+\caption{Paleta de Cores do Projeto}
+\label{tab:cores}
+\begin{tabular}{|l|c|l|l|}
+\hline
+\textbf{Elemento} & \textbf{Cor} & \textbf{Código HEX} & \textbf{Uso} \\
+\hline
+Primária & \colorbox[HTML]{58B741}{\phantom{AAA}} & \#58B741 & Botões principais \\
+Secundária & \colorbox[HTML]{FF9E00}{\phantom{AAA}} & \#FF9E00 & Elementos secundários, destaques \\
+Fundo & \colorbox[HTML]{FAF1E5}{\phantom{AAA}} & \#FAF1E5 & Background padrão \\
+Texto & \colorbox[HTML]{000000}{\color{white}\phantom{AAA}} & \#000000 & Texto principal \\
+Sucesso & \colorbox[HTML]{34C759}{\phantom{AAA}} & \#34C759 & Mensagens de sucesso \\
+Erro & \colorbox[HTML]{E91F23}{\color{white}\phantom{AAA}} & \#E91F23 & Mensagens de erro \\
+\hline
+\end{tabular}
+\end{table}
+
 % ===== WEBSITE =====
 \section{Website: Estrutura e Especificações Técnicas Web}
 
-Esta seção apresenta as principais telas do sistema Web desenvolvidas em Node.js (Express + Sequelize)
-com MySQL e EJS. A versão mostra a estrutura básica, a navegação entre páginas e o funcionamento do banco de dados.
+O mapa do site (sitemap) mostra a hierarquia e organização das páginas do website da equipe:
 
 \begin{figure}[H]
 \centering
-\caption{Interface Web - Tela de Login}
-\label{fig:website-tela-login}
-\includegraphics[width=0.8\textwidth]{imgs/AppLogin.png}
+\begin{tikzpicture}[
+    level 1/.style={sibling distance=4cm, level distance=1.5cm},
+    level 2/.style={sibling distance=2cm, level distance=1.5cm},
+    every node/.style={rectangle, draw, rounded corners, 
+                       fill=secondarycolor!20, 
+                       text width=2.5cm, 
+                       align=center,
+                       font=\small}
+]
+\node {Home}
+    child {node {Sobre}
+        child {node {Participações}}
+    }
+    child {node {Projetos}
+        child {node {Projeto em Destaque}}
+        child {node {Links}}
+    }
+    child {node {Equipe}
+        child {node {Contato}}
+    };
+\end{tikzpicture}
+\caption{Estrutura de navegação do website da equipe}
+\label{fig:sitemap}
 \end{figure}
 
-A tela de login está fiel ao protótipo e implementa autenticação via middleware.
+\subsection{Conteúdo das Páginas}
 
-\begin{figure}[H]
-\centering
-\caption{Interface Web - Tela de Início}
-\label{fig:website-tela-inicio}
-\includegraphics[width=0.8\textwidth]{imgs/AppInicio.jpeg}
-\end{figure}
+\textbf{Páginas principais do site da equipe:}
 
-A tela de início é a primeira visão do usuário após o login.
-
-\begin{figure}[H]
-\centering
-\caption{Interface Web - Tela de Resultados}
-\label{fig:website-tela-resultados-app}
-\includegraphics[width=0.8\textwidth]{imgs/AppResultado.jpeg}
-\end{figure}
-
-A tela de resultados exibe análises detalhadas das imagens enviadas.
-
-\begin{figure}[H]
-\centering
-\caption{Interface Web - Tela de Histórico}
-\label{fig:website-tela-historico-app}
-\includegraphics[width=0.8\textwidth]{imgs/AppHistorico.jpeg}
-\end{figure}
-
-A tela de histórico permite visualizar interações anteriores, acompanhando o fluxo.
-
-\begin{figure}[H]
-\centering
-\caption{Interface Web - Tela de Mapa}
-\label{fig:website-tela-mapa-app}
-\includegraphics[width=0.8\textwidth]{imgs/AppMapa.jpeg}
-\end{figure}
-
-A tela de mapa permite visualizar a localização geográfica da propriedade analisada.
+\begin{itemize}
+    \item \textbf{Home:} Apresentação da marca Vitalliz
+    \item \textbf{Sobre:} História da equipe, missão, visão e valores
+    \item \textbf{Projeto em Destaque:} Showcase do projeto desenvolvido com descrições e imagens
+    \item \textbf{Equipe:} Perfil dos membros (nome, foto, função, LinkedIn/GitHub)
+\end{itemize}
 
 % ===== DIAGRAMAS UML =====
 \section{Diagramas UML: Modelagem Visual do Sistema}
