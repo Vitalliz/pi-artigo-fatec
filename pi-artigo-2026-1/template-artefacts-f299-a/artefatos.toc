@@ -4,26 +4,25 @@
 \contentsline {subsection}{\numberline {2.1}Matriz SWOT}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Recomendações Estratégicas}{4}{subsection.2.2}%
 \contentsline {section}{\numberline {3}UX/UI: Design de Interface e Experiência do Usuário}{4}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Interface Web}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Interface Mobile}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Guia de Estilos}{13}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Website: Estrutura e Especificações Técnicas Web}{14}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Conteúdo das Páginas}{14}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Diagramas UML: Modelagem Visual do Sistema}{14}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Diagrama de Casos de Uso}{14}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Diagrama de Classe}{15}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Diagrama de Objetos}{16}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Diagrama Entidade–Relacionamento}{16}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Diagrama Modelo Lógico}{17}{subsection.5.5}%
-\contentsline {section}{\numberline {6}DevOps: Infraestrutura, Automação e Entrega Contínua}{17}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Pipeline CI/CD}{17}{subsection.6.1}%
-\contentsline {subsubsection}{Correspondência entre etapas e jobs}{18}{subsubsection*.23}%
-\contentsline {subsection}{\numberline {6.2}Exemplo de Configuração CI/CD}{18}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Infraestrutura como Código}{19}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Infraestrutura do Sistema}{19}{subsection.6.4}%
-\contentsline {subsubsection}{Componentes por ambiente}{19}{subsubsection*.26}%
-\contentsline {subsubsection}{Fluxo de dados}{20}{subsubsection*.28}%
-\contentsline {subsection}{\numberline {6.5}Arquitetura de Deploy}{20}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Métricas e SLA}{20}{subsection.6.6}%
-\contentsline {section}{Conclusão}{21}{section*.30}%
-\contentsline {section}{Referências}{22}{section*.31}%
+\contentsline {subsection}{\numberline {3.1}Mockup Interface}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Guia de Estilos}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Website: Estrutura e Especificações Técnicas Web}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Conteúdo das Páginas}{6}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Diagramas UML: Modelagem Visual do Sistema}{6}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Diagrama de Casos de Uso}{6}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Diagrama de Classe}{7}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Diagrama de Objetos}{8}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Diagrama Entidade–Relacionamento}{8}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Diagrama Modelo Lógico}{9}{subsection.5.5}%
+\contentsline {section}{\numberline {6}DevOps: Infraestrutura, Automação e Entrega Contínua}{9}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Pipeline CI/CD}{9}{subsection.6.1}%
+\contentsline {subsubsection}{Correspondência entre etapas e jobs}{10}{subsubsection*.12}%
+\contentsline {subsection}{\numberline {6.2}Exemplo de Configuração CI/CD}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Infraestrutura como Código}{11}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Infraestrutura do Sistema}{11}{subsection.6.4}%
+\contentsline {subsubsection}{Componentes por ambiente}{11}{subsubsection*.15}%
+\contentsline {subsubsection}{Fluxo de dados}{12}{subsubsection*.17}%
+\contentsline {subsection}{\numberline {6.5}Arquitetura de Deploy}{12}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Métricas e SLA}{12}{subsection.6.6}%
+\contentsline {section}{Conclusão}{13}{section*.19}%
+\contentsline {section}{Referências}{14}{section*.20}%
