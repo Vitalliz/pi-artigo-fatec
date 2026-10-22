@@ -296,12 +296,23 @@ Paleta de cores principais do Design System do projeto:
 \hline
 \textbf{Elemento} & \textbf{Cor} & \textbf{Código HEX} & \textbf{Uso} \\
 \hline
-Primária & \colorbox[HTML]{58B741}{\phantom{AAA}} & \#58B741 & Botões principais \\
-Secundária & \colorbox[HTML]{FF9E00}{\phantom{AAA}} & \#FF9E00 & Elementos secundários, destaques \\
-Fundo & \colorbox[HTML]{FAF1E5}{\phantom{AAA}} & \#FAF1E5 & Background padrão \\
-Texto & \colorbox[HTML]{000000}{\color{white}\phantom{AAA}} & \#000000 & Texto principal \\
-Sucesso & \colorbox[HTML]{34C759}{\phantom{AAA}} & \#34C759 & Mensagens de sucesso \\
-Erro & \colorbox[HTML]{E91F23}{\color{white}\phantom{AAA}} & \#E91F23 & Mensagens de erro \\
+Gradiente Destaque & \colorbox[HTML]{EF9F37}{\phantom{AAA}} & \#E88239 e \#FFB534 & Elementos gráficos \\
+Laranja Primário & \colorbox[HTML]{FF9E00}{\phantom{AAA}} & \#FF9E00 & Destaque da identidade visual \\
+Verde Primário & \colorbox[HTML]{58B741}{\phantom{AAA}} & \#58B741 & Ações principais de conversão \\
+Verde Pressed-Hover & \colorbox[HTML]{8AC86E}{\phantom{AAA}} & \#8AC86E & Estado pressionado ou de foco \\
+Manganês & \colorbox[HTML]{E9BB00}{\phantom{AAA}} & \#E9BB00 & Deficiência de manganês \\
+Cobre & \colorbox[HTML]{F87B47}{\phantom{AAA}} & \#F87B47 & Deficiência de cobre \\
+Azul Informação & \colorbox[HTML]{3498DB}{\phantom{AAA}} & \#3498DB & Tooltips, avisos neutros e dicas \\
+Verde Sucesso & \colorbox[HTML]{2ECC71}{\phantom{AAA}} & \#2ECC71 & Mensagens e ícones de sucesso \\
+Vermelho Erro & \colorbox[HTML]{E74C3C}{\phantom{AAA}} & \#E74C3C & Alertas, validação e ações destrutivas \\
+Bege-claro & \colorbox[HTML]{FEF7EE}{\phantom{AAA}} & \#FEF7EE & Plano de fundo \\
+Bege-claro-2 & \colorbox[HTML]{FFE6C5}{\phantom{AAA}} & \#FFE6C5 & Plano de fundo \\
+Branco Puro & \fcolorbox{black!30}{white}{\phantom{AAA}} & \#FFFFFF & Cards e fundos de inputs \\
+Cinza Escuro & \colorbox[HTML]{2A2A2A}{\phantom{AAA}} & \#2A2A2A & Textos de leitura e títulos \\
+Cinza Médio & \colorbox[HTML]{7F8C8D}{\phantom{AAA}} & \#7F8C8D & Labels e placeholders \\
+Cinza Claro & \colorbox[HTML]{DADADA}{\phantom{AAA}} & \#DADADA & Bordas de inputs desativados \\
+Cinza Superfície & \colorbox[HTML]{F5F5F5}{\phantom{AAA}} & \#F5F5F5 & Bordas e linhas divisórias \\
+Cinza Fundo & \colorbox[HTML]{FAFAFA}{\phantom{AAA}} & \#FAFAFA & Fundo das telas do app \\
 \hline
 \end{tabular}
 \end{table}
@@ -311,30 +322,27 @@ Erro & \colorbox[HTML]{E91F23}{\color{white}\phantom{AAA}} & \#E91F23 & Mensagen
 
 \subsection{Mapa do Site da Equipe}
 
-O mapa do site (sitemap) mostra a hierarquia e organização das páginas do website da equipe:
+O website da Vitalliz é uma \textit{landing page} de página única, organizada em seções acessadas pelo menu de navegação fixo no topo (Início, Projeto, Sobre, Equipe e Contato):
 
 \begin{figure}[H]
 \centering
 \begin{tikzpicture}[
-    level 1/.style={sibling distance=4cm, level distance=1.5cm},
-    level 2/.style={sibling distance=2cm, level distance=1.5cm},
-    every node/.style={rectangle, draw, rounded corners, 
-                       fill=secondarycolor!20, 
-                       text width=2.5cm, 
+    level 1/.style={sibling distance=2.9cm, level distance=1.8cm},
+    level 2/.style={sibling distance=2.9cm, level distance=1.8cm},
+    every node/.style={rectangle, draw, rounded corners,
+                       fill=secondarycolor!20,
+                       text width=2.3cm,
                        align=center,
-                       font=\small}
+                       font=\footnotesize}
 ]
-\node {Home}
-    child {node {Sobre}
-        child {node {Participações}}
+\node {Home (Hero)}
+    child {node {Contexto: Desafio na Citricultura}}
+    child {node {Projeto NitrusLeaf}
+        child {node {Como Desenvolvemos (6 etapas)}}
     }
-    child {node {Projetos}
-        child {node {Projeto Destaque}}
-        child {node {Links}}
-    }
-    child {node {Equipe}
-        child {node {Contato}}
-    };
+    child {node {Sobre Nós}}
+    child {node {Nossa Equipe}}
+    child {node {Fale com a Gente (Contato)}};
 \end{tikzpicture}
 \caption{Estrutura de navegação do website da equipe}
 \label{fig:sitemap}
@@ -342,13 +350,16 @@ O mapa do site (sitemap) mostra a hierarquia e organização das páginas do web
 
 \subsection{Conteúdo das Páginas}
 
-\textbf{Páginas principais do site da equipe:}
+\textbf{Seções do site da equipe:}
 
 \begin{itemize}
-    \item \textbf{Home:} Apresentação da marca Vitalliz
-    \item \textbf{Sobre:} História da equipe, missão, visão e valores
-    \item \textbf{Projeto em Destaque:} Showcase do projeto desenvolvido com descrições e imagens
-    \item \textbf{Equipe:} Perfil dos membros (nome, foto, função, LinkedIn/GitHub)
+    \item \textbf{Home (Hero):} Apresentação da marca Vitalliz com o slogan ``Tecnologia que transforma desafios reais em soluções'' e botões (Conheça o NitrusLeaf e Entre em contato).
+    \item \textbf{Contexto:} ``Um desafio na citricultura do Vale do Ribeira'': descreve a dificuldade de identificar deficiências nutricionais em folhas de citros e apresenta os desafios identificados em três cards.
+    \item \textbf{Projeto NitrusLeaf:} Classificação inteligente de folhas de tangerina por inteligência artificial, com mockup do aplicativo e botões de acesso ao repositório e ao protótipo.
+    \item \textbf{Como Desenvolvemos:} Linha do tempo em seis etapas: (1) pesquisa e definição do problema, (2) coleta de dados, (3) pré-processamento e aumento de dados, (4) treinamento do modelo, (5) validação, com acurácia de 95,97\%, e (6) aplicativo mobile.
+    \item \textbf{Sobre Nós:} Apresentação da equipe, do vínculo com o projeto e dos objetivos (tecnologia, inovação e impacto).
+    \item \textbf{Nossa Equipe:} Perfil dos quatro membros (foto, nome, função e links de LinkedIn/GitHub).
+    \item \textbf{Fale com a Gente:} Formulário de contato (nome, e-mail, assunto e mensagem) e rodapé com links de navegação.
 \end{itemize}
 
 % ===== DIAGRAMAS UML =====
