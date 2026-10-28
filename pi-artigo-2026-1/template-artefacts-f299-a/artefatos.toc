@@ -9,21 +9,22 @@
 \contentsline {section}{\numberline {4}Website: Estrutura e Especificações Técnicas Web}{5}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Mapa do Site da Equipe}{6}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Conteúdo das Páginas}{6}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Diagramas UML: Modelagem Visual do Sistema}{6}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Diagrama de Casos de Uso}{6}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Diagrama de Classe}{7}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Diagrama de Objetos}{8}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Diagrama Entidade–Relacionamento}{9}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Diagrama Modelo Lógico}{9}{subsection.5.5}%
-\contentsline {section}{\numberline {6}DevOps: Infraestrutura, Automação e Entrega Contínua}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Pipeline CI/CD}{10}{subsection.6.1}%
-\contentsline {subsubsection}{Correspondência entre etapas e jobs}{10}{subsubsection*.12}%
-\contentsline {subsection}{\numberline {6.2}Exemplo de Configuração CI/CD}{11}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Infraestrutura como Código}{11}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Infraestrutura do Sistema}{12}{subsection.6.4}%
-\contentsline {subsubsection}{Componentes por ambiente}{12}{subsubsection*.15}%
-\contentsline {subsubsection}{Fluxo de dados}{12}{subsubsection*.17}%
-\contentsline {subsection}{\numberline {6.5}Arquitetura de Deploy}{12}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Métricas e SLA}{13}{subsection.6.6}%
-\contentsline {section}{Conclusão}{14}{section*.19}%
-\contentsline {section}{Referências}{15}{section*.20}%
+\contentsline {subsection}{\numberline {4.3}Especificações Técnicas do Site da Equipe}{7}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Diagramas UML: Modelagem Visual do Sistema}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Diagrama de Casos de Uso}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Diagrama de Classe}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Diagrama de Objetos}{9}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Diagrama Entidade–Relacionamento}{10}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Diagrama Modelo Lógico}{10}{subsection.5.5}%
+\contentsline {section}{\numberline {6}DevOps: Infraestrutura, Automação e Entrega Contínua}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Pipeline CI/CD}{11}{subsection.6.1}%
+\contentsline {subsubsection}{Correspondência entre etapas e jobs}{11}{subsubsection*.14}%
+\contentsline {subsection}{\numberline {6.2}Exemplo de Configuração CI/CD}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Infraestrutura como Código}{12}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Infraestrutura do Sistema}{13}{subsection.6.4}%
+\contentsline {subsubsection}{Componentes por ambiente}{13}{subsubsection*.17}%
+\contentsline {subsubsection}{Fluxo de dados}{13}{subsubsection*.19}%
+\contentsline {subsection}{\numberline {6.5}Arquitetura de Deploy}{13}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Métricas e SLA}{14}{subsection.6.6}%
+\contentsline {section}{Conclusão}{15}{section*.21}%
+\contentsline {section}{Referências}{16}{section*.22}%

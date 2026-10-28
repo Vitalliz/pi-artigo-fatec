@@ -338,6 +338,7 @@ O website da Vitalliz é uma \textit{landing page} de página única, organizada
 \node {Home (Hero)}
     child {node {Contexto: Desafio na Citricultura}}
     child {node {Projeto NitrusLeaf}
+        child {node {Pitch}}
         child {node {Como Desenvolvemos (6 etapas)}}
     }
     child {node {Sobre Nós}}
@@ -356,11 +357,42 @@ O website da Vitalliz é uma \textit{landing page} de página única, organizada
     \item \textbf{Home (Hero):} Apresentação da marca Vitalliz com o slogan ``Tecnologia que transforma desafios reais em soluções'' e botões (Conheça o NitrusLeaf e Entre em contato).
     \item \textbf{Contexto:} ``Um desafio na citricultura do Vale do Ribeira'': descreve a dificuldade de identificar deficiências nutricionais em folhas de citros e apresenta os desafios identificados em três cards.
     \item \textbf{Projeto NitrusLeaf:} Classificação inteligente de folhas de tangerina por inteligência artificial, com mockup do aplicativo e botões de acesso ao repositório e ao protótipo.
+    \item \textbf{Pitch:} Pitch do projeto Nitrusleaf hospedado no Youtube
     \item \textbf{Como Desenvolvemos:} Linha do tempo em seis etapas: (1) pesquisa e definição do problema, (2) coleta de dados, (3) pré-processamento e aumento de dados, (4) treinamento do modelo, (5) validação, com acurácia de 95,97\%, e (6) aplicativo mobile.
     \item \textbf{Sobre Nós:} Apresentação da equipe, do vínculo com o projeto e dos objetivos (tecnologia, inovação e impacto).
     \item \textbf{Nossa Equipe:} Perfil dos quatro membros (foto, nome, função e links de LinkedIn/GitHub).
     \item \textbf{Fale com a Gente:} Formulário de contato (nome, e-mail, assunto e mensagem) e rodapé com links de navegação.
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{imgs/Vitalliz-landingPage-Home.png}
+\caption{Página inicial do website da equipe}
+\label{fig:website-home}
+\end{figure}
+
+\subsection{Especificações Técnicas do Site da Equipe}
+
+O site foi desenvolvido com React 19 e TypeScript, utilizando Vite no desenvolvimento e na geração da versão de produção. A landing page está hospedada na Vercel; \href{https://vitalliz-group.vercel.app/}{acesse o deploy}.
+
+\begin{table}[H]
+\centering
+\caption{Stack Tecnológica do Website da Equipe}
+\label{tab:stack-web}
+\begin{tabular}{|p{2.8cm}|p{4.8cm}|p{7cm}|}
+\hline
+\textbf{Camada} & \textbf{Tecnologia} & \textbf{Descrição} \\
+\hline
+Interface & React 19 e TypeScript & Construção da interface com tipagem estática \\
+Build & Vite & Servidor de desenvolvimento local e geração da versão de produção \\
+Estilização & CSS e CSS Modules & Estilos globais e estilos encapsulados por componente \\
+Idiomas & i18next e react-i18next & Suporte a conteúdo em português e inglês \\
+Ícones e componentes & Lucide React, React Icons e CoreUI & Bibliotecas de ícones e componentes visuais \\
+Formulário & EmailJS & Integração para envio de e-mails \\
+Hospedagem & Vercel & Deploy da landing page: \href{https://vitalliz-group.vercel.app/}{acesse o site} \\
+\hline
+\end{tabular}
+\end{table}
 
 % ===== DIAGRAMAS UML =====
 \section{Diagramas UML: Modelagem Visual do Sistema}

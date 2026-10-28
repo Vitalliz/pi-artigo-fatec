@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1792699177.45535 "c:/Users/User/Desktop/pi-artigo-fatec/pi-artigo-2026-1/template-artefacts-f299-a/artefatos.tex" "artefatos.pdf" "artefatos" 1792699181.25053 0
+["pdflatex"] 1793231577.66695 "c:/Users/User/Desktop/pi-artigo-fatec/pi-artigo-2026-1/template-artefacts-f299-a/artefatos.tex" "artefatos.pdf" "artefatos" 1793231582.15591 0
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779405084 381063 880797a212b84af1d12820d2237620da ""
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1760036004 13286482 041c979a045a6d9f0a02c3c15764d74c ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -202,11 +202,11 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1749468414 15698 f5f20b24886bb50156054c53e19b13fd ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "artefatos.aux" 1792699180 8426 e53e059fd0c2c5637347d28eee2bb1be "pdflatex"
-  "artefatos.out" 1792699180 4747 16fe7e639c719790b883820696d30463 "pdflatex"
-  "artefatos.tex" 1792698991 31299 b07b0c87648de392605855234a52ce5d ""
-  "artefatos.toc" 1792699180 2484 e147f79931a6e0603e0d5b1aceb20b18 "pdflatex"
-  "c:/Users/User/Desktop/pi-artigo-fatec/pi-artigo-2026-1/template-artefacts-f299-a/artefatos.tex" 1792698991 31299 b07b0c87648de392605855234a52ce5d ""
+  "artefatos.aux" 1793231581 9131 8e8cb4fe47c831e0bafdf55e582c2749 "pdflatex"
+  "artefatos.out" 1793231581 5034 2aeb8a0a8c96e5498e1d5fec205b5d54 "pdflatex"
+  "artefatos.tex" 1793231496 32795 6c4f0fd95514d6cc736cb40c796286f3 ""
+  "artefatos.toc" 1793231581 2596 82917fb8d0ebdae6c5d6b3d4b717c345 "pdflatex"
+  "c:/Users/User/Desktop/pi-artigo-fatec/pi-artigo-2026-1/template-artefacts-f299-a/artefatos.tex" 1793231496 32795 6c4f0fd95514d6cc736cb40c796286f3 ""
   "imgs/Canvas.jpeg" 1792697457 119219 48fc9676f45ae029cd9721ff96cc7989 ""
   "imgs/DiagramaCasosDeUso.jpg" 1792697457 337482 f6a7e1c3ec9b21473324e629c18f3964 ""
   "imgs/DiagramaDER.jpg" 1792697457 355640 46ce4178e9bf99ccd304c0a1122f8cab ""
@@ -214,6 +214,7 @@
   "imgs/DiagramaDeObjetos.jpg" 1792697457 233485 23c34f3753a4b1d16e8e126fafe9961d ""
   "imgs/DiagramaMER.jpg" 1792697457 141835 500733495524d81f2bcbaefc6e28f674 ""
   "imgs/Mockup Alta Fidelidade.png" 1792699172 2520412 de423179078b105eb33204de6813c0cf ""
+  "imgs/Vitalliz-landingPage-Home.png" 1793231576 1225049 b961855be8a4b4d8a3641cee31a4761c ""
   "imgs/base/cps-logo.png" 1792697457 2862 0d44aa0a5e9d83c87deaed8e377653d3 ""
   "imgs/base/fatec-rgt.png" 1792697457 9297 dff6e0deb04d7ecc5a3f8fc9288282c2 ""
   "imgs/base/governo-sp-secretaria-logo.png" 1792697457 53030 6a135a3f3d64a5d79c80849a638d8e81 ""
